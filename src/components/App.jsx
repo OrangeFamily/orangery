@@ -6,7 +6,7 @@ import BurgerMass from './comp/Menu/Citchen/Burgers/DataBurg';
 import AdditivesMass from './comp/Menu/Citchen/Аdditives/DataAdd';
 import { Additives } from './comp/Menu/Citchen/Аdditives/Аdditives';
 
-import s from './App.module.css'
+import s from './App.module.css';
 
 import { Modal } from './Modal/Modal';
 
@@ -27,10 +27,16 @@ export const App = () => {
 
   return (
     <>
-    <div className={s.section}>
-      <Additives data={dataAdd} onModal={dataModal}/>
-      <Burgers data={dataBurg} onModal={dataModal} className={s.item} />
-    </div>
+    <section className={s.main}>
+      <div className={s.section}>
+        <ul>
+          <Additives data={dataAdd} onModal={dataModal} />
+        </ul>
+        <ul>
+          <Burgers data={dataBurg} onModal={dataModal} />
+        </ul>
+      </div>
+    </section>
       
 
       {showModal && (

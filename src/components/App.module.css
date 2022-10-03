@@ -1,4 +1,17 @@
+.main{
+    margin: auto;
+    width: 1200px;
+    display: flex;
+   
+    justify-content: center;
+    background-color: aquamarine;
+}
 .section{
     display: flex;
 }
 
+li{
+    list-style: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+}

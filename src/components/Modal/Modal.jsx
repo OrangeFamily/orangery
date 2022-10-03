@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import './style.css';
+import s from './Modal.module.css'
 
 export const Modal = ({ objectModal, toggleModal }) => {
   useEffect(() => {
@@ -17,8 +17,8 @@ export const Modal = ({ objectModal, toggleModal }) => {
   };
 
   return (
-    <div className="backdrop" onClick={handleCloseBackdrop}>
-      <div className="modal">
+    <div className={s.backdrop} onClick={handleCloseBackdrop}>
+      <div className={s.modal}>
         <div>{objectModal.title}</div>
         <div>{objectModal.price}</div>
         <div>{objectModal.text}</div>
