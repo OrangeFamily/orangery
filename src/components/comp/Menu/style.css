@@ -1,0 +1,26 @@
+.coct{
+    width: 300px;
+    height: 300px;
+}
+.title{
+    text-align: center;
+    margin-top: 50px;
+}
+.wBtn{
+    display: flex;
+    flex-direction:column;
+    width: 300px;
+    height: 300px;
+}
+.btn{
+    margin: 10px;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    margin: auto;
+}
