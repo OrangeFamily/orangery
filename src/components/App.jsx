@@ -1,18 +1,34 @@
+import React from "react";
+import { useState } from "react";
+import AdditivesMass from "./comp/Menu/Citchen/Аdditives/Additives";
+import { Additives } from "./comp/Menu/Citchen/Аdditives/Аdditives";
+// import s from './App.module.css'
 
-import { Menu } from './comp';
-import { ModalProvider } from './context';
-import '../style.css'
+import { Modal } from "./Modal/Modal";
 
 export const App = () => {
-  return (
+
+  const [showModal, setShowModal] = useState(false);
+  const [objectModal, setObjectModal] = useState({});
+
+  const dataModal = (title, price, text, src) => {
+  
+    toggleModal();
+    setObjectModal({ title, price, text, src });
+  };
+  const toggleModal = () => {
  
-    <>
-      <ModalProvider>
-        <div className='main'>
-          <Menu />
-        </div>
-        
-      </ModalProvider>
-    </>
-  );
-};
+    setShowModal(showModal => !showModal);
+  };
+
+  const dataAdd = AdditivesMass
+ 
+    return (
+      <>
+   
+      
+      <Additives data={dataAdd} onModal={dataModal}/>
+      {showModal && <Modal objectModal={objectModal} toggleModal={toggleModal}/>}
+      </>
+    )
+  }
