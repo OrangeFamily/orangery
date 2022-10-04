@@ -2,9 +2,9 @@
     margin: auto;
     width: 1200px;
     /* display: flex; */
-   padding: 40px;
+   padding:60px;
     background-color: aquamarine;
-    height: 700px;
+  
 }
 .main h1{
    text-align: center; 
@@ -33,4 +33,5 @@ li{
 
 .title{
     cursor: pointer;
+    
 }
