@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { useState } from 'react';
 import { Burgers } from './comp/Menu/Citchen/Burgers/Burgers';
 import BurgerMass from './comp/Menu/Citchen/Burgers/DataBurg';
@@ -7,6 +8,7 @@ import AdditivesMass from './comp/Menu/Citchen/Аdditives/DataAdd';
 import { Additives } from './comp/Menu/Citchen/Аdditives/Аdditives';
 
 import s from './App.module.css';
+import "./style.css"
 
 import { Modal } from './Modal/Modal';
 import { Cold } from './comp/Menu/Citchen/Cold/Cold';
@@ -17,11 +19,12 @@ import { First } from './comp/Menu/Citchen/First/First';
 import FirstMass from './comp/Menu/Citchen/First/DataFirst';
 import { Garnish } from './comp/Menu/Citchen/Garnish/Garnish';
 import GarnishMass from './comp/Menu/Citchen/Garnish/DataGarnish';
+// import { Button } from './Btn/Btn';
 
 export const App = () => {
   const [showModal, setShowModal] = useState(false);
   const [objectModal, setObjectModal] = useState({});
-
+  const[btnState, setBtnState]=useState(false)
   const dataModal = (title, price, text, src) => {
     toggleModal();
     setObjectModal({ title, price, text, src });
@@ -29,6 +32,11 @@ export const App = () => {
   const toggleModal = () => {
     setShowModal(showModal => !showModal);
   };
+
+ const handleClick=()=>{
+    setBtnState(btnState=>!btnState)
+}
+let toggleClassCheck=btnState ? "den":""
 
   const dataAdd = AdditivesMass;
   const dataBurg = BurgerMass;
@@ -40,8 +48,13 @@ export const App = () => {
   return (
     <>
       <section className={s.main}>
-        <h1>Кухня</h1>
-        <div className={s.section}>
+        {/* <Button title="Кухня"/> */}
+        <h1 
+        onClick={handleClick}
+        className={s.title}
+        >Кухня</h1>
+         <div className={`hid${toggleClassCheck}`}>
+          <div className={s.section}>
           <div className={s.item}>
             <h3>Добавки</h3>
             <ul className={s.list}>
@@ -83,6 +96,8 @@ export const App = () => {
             </ul>
           </div>
         </div>
+         </div>
+        
       </section>
 
       {showModal && (
