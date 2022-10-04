@@ -1,21 +1,32 @@
-.backdrop{
-    position: fixed;
-    
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 255, 255, 0.49);
+.backdrop {
+  position: fixed;
 
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 255, 255, 0.49);
 }
-.modal{
-    background-color: aliceblue;
-    width: 800px;
-    height: 600px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 10px;
-    padding: 40px;
+.modal {
+  background-color: aliceblue;
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.modal img {
+  width: 250px;
+}
+.modal h2,h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
 }

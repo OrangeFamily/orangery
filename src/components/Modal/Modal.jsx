@@ -19,8 +19,8 @@ export const Modal = ({ objectModal, toggleModal }) => {
   return (
     <div className={s.backdrop} onClick={handleCloseBackdrop}>
       <div className={s.modal}>
-        <div>{objectModal.title}</div>
-        <div>{objectModal.price}</div>
+        <h2>{objectModal.title}</h2>
+        <h3>{objectModal.price}</h3>
         <div>{objectModal.text}</div>
         <img src={objectModal.src} alt={objectModal.title} />
       </div>

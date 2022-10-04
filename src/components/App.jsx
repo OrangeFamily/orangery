@@ -9,6 +9,14 @@ import { Additives } from './comp/Menu/Citchen/Аdditives/Аdditives';
 import s from './App.module.css';
 
 import { Modal } from './Modal/Modal';
+import { Cold } from './comp/Menu/Citchen/Cold/Cold';
+import ColdMass from './comp/Menu/Citchen/Cold/DataCold';
+import DesertsMass from './comp/Menu/Citchen/Deserts/DataDeserts';
+import { Deserts } from './comp/Menu/Citchen/Deserts/Deserts';
+import { First } from './comp/Menu/Citchen/First/First';
+import FirstMass from './comp/Menu/Citchen/First/DataFirst';
+import { Garnish } from './comp/Menu/Citchen/Garnish/Garnish';
+import GarnishMass from './comp/Menu/Citchen/Garnish/DataGarnish';
 
 export const App = () => {
   const [showModal, setShowModal] = useState(false);
@@ -24,20 +32,58 @@ export const App = () => {
 
   const dataAdd = AdditivesMass;
   const dataBurg = BurgerMass;
+  const dataCold = ColdMass;
+  const dataDeserts = DesertsMass;
+  const dataFirst = FirstMass;
+  const dataGarnish = GarnishMass;
 
   return (
     <>
-    <section className={s.main}>
-      <div className={s.section}>
-        <ul>
-          <Additives data={dataAdd} onModal={dataModal} />
-        </ul>
-        <ul>
-          <Burgers data={dataBurg} onModal={dataModal} />
-        </ul>
-      </div>
-    </section>
-      
+      <section className={s.main}>
+        <h1>Кухня</h1>
+        <div className={s.section}>
+          <div className={s.item}>
+            <h3>Добавки</h3>
+            <ul className={s.list}>
+              <Additives data={dataAdd} onModal={dataModal} />
+            </ul>
+          </div>
+          <div className={s.item}>
+            <h3>Бургери</h3>
+            <ul className={s.list}>
+              <Burgers data={dataBurg} onModal={dataModal} />
+            </ul>
+          </div>
+        </div>
+        <div className={s.section}>
+          <div className={s.item}>
+            <h3>Холодні закуски</h3>
+            <ul className={s.list}>
+              <Cold data={dataCold} onModal={dataModal} />
+            </ul>
+          </div>
+          <div className={s.item}>
+            <h3>Десерти</h3>
+            <ul className={s.list}>
+              <Deserts data={dataDeserts} onModal={dataModal} />
+            </ul>
+          </div>
+        </div>
+        <div className={s.section}>
+          <div className={s.item}>
+            <h3>Перші страви</h3>
+            <ul className={s.list}>
+              <First data={dataFirst} onModal={dataModal} />
+            </ul>
+          </div>
+          <div className={s.item}>
+            <h3>Гарніри</h3>
+            <ul className={s.list}>
+              <Garnish data={dataGarnish} onModal={dataModal} />
+            </ul>
+          </div>
+        </div>
+      </section>
 
       {showModal && (
         <Modal objectModal={objectModal} toggleModal={toggleModal} />
