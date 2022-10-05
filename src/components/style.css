@@ -9,14 +9,14 @@
 }
 
 .test {
-     transform: translateY(-100%); 
+     transform: translateY(-95%); 
      transition: transform, display 250ms cubic-bezier(0.4, 0, 0.2, 1); 
      animation: itemDown 500ms 0s linear; 
    
     background-color: aquamarine;
   }
   .coct {
-    transform: translateY(-100%); 
+    transform: translateY(-95%); 
     transition: transform, display 250ms cubic-bezier(0.4, 0, 0.2, 1); 
      animation: itemDown 500ms 0s linear; 
    
@@ -35,7 +35,7 @@
 @keyframes itemUp {
   0% {
     display: none;
-    transform: translateY(-100%);
+    transform: translateY(-90%);
   }
 
   100% {
@@ -51,7 +51,7 @@
 
   100% {
     display: none;
-    transform: translateY(-100%);
+    transform: translateY(-90%);
   }
 }
 
