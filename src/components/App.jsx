@@ -7,7 +7,6 @@ import BurgerMass from './comp/Menu/Citchen/Burgers/DataBurg';
 import AdditivesMass from './comp/Menu/Citchen/Аdditives/DataAdd';
 import { Additives } from './comp/Menu/Citchen/Аdditives/Аdditives';
 
-import s from './App.module.css';
 import './style.css';
 
 import { Modal } from './Modal/Modal';
@@ -25,6 +24,7 @@ export const App = () => {
   const [objectModal, setObjectModal] = useState({});
   const [kithenState, setKitchenState] = useState(false);
   const [barState, setBarState] = useState(false);
+  const [coctState, setCoctState] = useState(false);
   const dataModal = (title, price, text, src) => {
     toggleModal();
     setObjectModal({ title, price, text, src });
@@ -36,12 +36,19 @@ export const App = () => {
   const handleClickKitchen = () => {
     setKitchenState(kithenState => !kithenState);
   };
-  let toggleKitchen = kithenState ? 'den' : '';
+  let toggleKitchen = kithenState ? 'hide' : '';
+  let toggleKitchenOff = kithenState ? 'hideOff' : '';
 
   const handleClickBar = () => {
     setBarState(barState => !barState);
   };
-  let toggleBar = barState ? 'hidden' : '';
+  let toggleBar = barState ? 'hideBar' : '';
+  let toggleBarOff = barState ? 'hideBarOff' : '';
+
+  const handleClickCoct = () => {
+    setCoctState(coctState => !coctState);
+  };
+  let toggleCoct = coctState ? 'hideCoct' : '';
 
   const dataAdd = AdditivesMass;
   const dataBurg = BurgerMass;
@@ -52,155 +59,39 @@ export const App = () => {
 
   return (
     <>
-      <section className={s.main}>
-        <h1 onClick={handleClickKitchen} className={s.title}>
-          Кухня
-        </h1>
+      <section className="main">
+        <h1 onClick={handleClickKitchen}>Кухня</h1>
+        <div className="overlay">
+          <div className={`menu ${toggleKitchen}`}>
+            <Cold data={dataCold} onModal={dataModal} />
+            <Additives data={dataAdd} onModal={dataModal} />
+            <Burgers data={dataBurg} onModal={dataModal} />
+            <Deserts data={dataDeserts} onModal={dataModal} />
+            <First data={dataFirst} onModal={dataModal} />
+            <Garnish data={dataGarnish} onModal={dataModal} />
 
-        <div className="heed">
-          <div className={`test ${toggleKitchen}`}>
-            <div className={s.section}>
-              <div className={s.item}>
-                <h3>Добавки</h3>
-                <ul className={s.list}>
-                  <Additives data={dataAdd} onModal={dataModal} />
-                </ul>
-              </div>
-              <div className={s.item}>
-                <h3>Бургери</h3>
-                <ul className={s.list}>
-                  <Burgers data={dataBurg} onModal={dataModal} />
-                </ul>
+          </div>
+
+          <div className={`for ${toggleKitchenOff}`}>
+            <h1 onClick={handleClickBar}>Бар</h1>
+            <div className="overlay">
+              <div className={`menu ${toggleBar}`}>
+                <Cold data={dataCold} onModal={dataModal} />
+                <Additives data={dataAdd} onModal={dataModal} />
+                <Burgers data={dataBurg} onModal={dataModal} />
+                <Deserts data={dataDeserts} onModal={dataModal} />
               </div>
             </div>
-            <div className={s.section}>
-              <div className={s.item}>
-                <h3>Холодні закуски</h3>
-                <ul className={s.list}>
+          </div>
+          <div className={`for ${toggleKitchenOff}`}>
+            <div className={`for ${toggleBarOff}`}>
+              <h1 onClick={handleClickCoct}>Коктейлі</h1>
+              <div className="overlay">
+                <div className={`menu ${toggleCoct}`}>
                   <Cold data={dataCold} onModal={dataModal} />
-                </ul>
-              </div>
-              <div className={s.item}>
-                <h3>Десерти</h3>
-                <ul className={s.list}>
+                  <Additives data={dataAdd} onModal={dataModal} />
+                  <Burgers data={dataBurg} onModal={dataModal} />
                   <Deserts data={dataDeserts} onModal={dataModal} />
-                </ul>
-              </div>
-            </div>
-            <div className={s.section}>
-              <div className={s.item}>
-                <h3>Перші страви</h3>
-                <ul className={s.list}>
-                  <First data={dataFirst} onModal={dataModal} />
-                </ul>
-              </div>
-              <div className={s.item}>
-                <h3>Гарніри</h3>
-                <ul className={s.list}>
-                  <Garnish data={dataGarnish} onModal={dataModal} />
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div className={`test ${toggleKitchen}`}>
-            <h1 onClick={handleClickBar} className={s.title}>
-              Bar
-            </h1>
-            <div className={s.heed}>
-              <div className={s.section}>
-                <div className={s.item}>
-                  <h3>Добавки</h3>
-                  <ul className={s.list}>
-                    <Additives data={dataAdd} onModal={dataModal} />
-                  </ul>
-                </div>
-                <div className={s.item}>
-                  <h3>Бургери</h3>
-                  <ul className={s.list}>
-                    <Burgers data={dataBurg} onModal={dataModal} />
-                  </ul>
-                </div>
-              </div>
-              <div className={s.section}>
-                <div className={s.item}>
-                  <h3>Холодні закуски</h3>
-                  <ul className={s.list}>
-                    <Cold data={dataCold} onModal={dataModal} />
-                  </ul>
-                </div>
-                <div className={s.item}>
-                  <h3>Десерти</h3>
-                  <ul className={s.list}>
-                    <Deserts data={dataDeserts} onModal={dataModal} />
-                  </ul>
-                </div>
-              </div>
-              <div className={s.section}>
-                <div className={s.item}>
-                  <h3>Перші страви</h3>
-                  <ul className={s.list}>
-                    <First data={dataFirst} onModal={dataModal} />
-                  </ul>
-                </div>
-                <div className={s.item}>
-                  <h3>Гарніри</h3>
-                  <ul className={s.list}>
-                    <Garnish data={dataGarnish} onModal={dataModal} />
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className={`test ${toggleKitchen}`}>
-            <div className={`coct ${toggleBar}`}>
-              <h1
-                // onClick={handleClickBar}
-                className={s.title}
-              >
-                Coctails
-              </h1>
-              <div className={s.heed}>
-                <div className={s.section}>
-                  <div className={s.item}>
-                    <h3>Добавки</h3>
-                    <ul className={s.list}>
-                      <Additives data={dataAdd} onModal={dataModal} />
-                    </ul>
-                  </div>
-                  <div className={s.item}>
-                    <h3>Бургери</h3>
-                    <ul className={s.list}>
-                      <Burgers data={dataBurg} onModal={dataModal} />
-                    </ul>
-                  </div>
-                </div>
-                <div className={s.section}>
-                  <div className={s.item}>
-                    <h3>Холодні закуски</h3>
-                    <ul className={s.list}>
-                      <Cold data={dataCold} onModal={dataModal} />
-                    </ul>
-                  </div>
-                  <div className={s.item}>
-                    <h3>Десерти</h3>
-                    <ul className={s.list}>
-                      <Deserts data={dataDeserts} onModal={dataModal} />
-                    </ul>
-                  </div>
-                </div>
-                <div className={s.section}>
-                  <div className={s.item}>
-                    <h3>Перші страви</h3>
-                    <ul className={s.list}>
-                      <First data={dataFirst} onModal={dataModal} />
-                    </ul>
-                  </div>
-                  <div className={s.item}>
-                    <h3>Гарніри</h3>
-                    <ul className={s.list}>
-                      <Garnish data={dataGarnish} onModal={dataModal} />
-                    </ul>
-                  </div>
                 </div>
               </div>
             </div>

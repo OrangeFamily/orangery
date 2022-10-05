@@ -1,58 +1,82 @@
-.hid {
-  transition: transform, display 600ms cubic-bezier(0.4, 0, 0.2, 1);
+.main {
+  margin: auto;
+  width: 1200px;
+  padding: 60px;
+  background-color: aquamarine;
+}
+.main h1 {
+  text-align: center;
+
+  cursor: pointer;
+}
+.section {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.overlay {
+  position: relative;
+  overflow: hidden;
+}
+.for{
+  transform: translateY(0);
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  animation: itemUP 500ms 0s linear;
+}
+
+.menu,.for {
+  transform: translateY(0);
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
   animation: itemDown 500ms 0s linear;
 }
-.heed{
-    
-    position: relative;
-    overflow: hidden;
-}
 
-.test {
-     transform: translateY(-95%); 
-     transition: transform, display 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-     animation: itemDown 500ms 0s linear; 
-   
-    background-color: aquamarine;
-  }
-  .coct {
-    transform: translateY(-95%); 
-    transition: transform, display 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-     animation: itemDown 500ms 0s linear; 
-   
-    background-color: aquamarine;
-  }
-
-.den,
-.hidden {
-  transform: translateY(0);
-
-  background-color: aquamarine;
-  transition: transform, display 600ms cubic-bezier(0.4, 0, 0.2, 1);
+.hide, .hideBar, .hideCoct {
+  transform: translateY(-100%);
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
   animation: itemUp 500ms 0s linear;
 }
 
 @keyframes itemUp {
   0% {
-    display: none;
-    transform: translateY(-90%);
+    transform: translateY(0);
   }
 
   100% {
-    display: block;
-    transform: translateY(0);
+    transform: translateY(-100%);
   }
 }
 @keyframes itemDown {
   0% {
-    display: block;
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.hideBarOff {
+  transform: translateY(-90%);
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  animation: itemUpOff 500ms 0s linear;
+}
+.hideOff {
+  transform: translateY(-100%);
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  animation: itemUpOff 500ms 0s linear;
+}
+@keyframes itemUpOff {
+  0% {
     transform: translateY(0);
   }
 
   100% {
-    display: none;
     transform: translateY(-90%);
   }
 }
-
-
