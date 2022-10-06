@@ -1,5 +1,5 @@
 // import s from './Burgers.module.css'
-export const Burgers = ({data, onModal}) => {
+ export const Burgers = ({data, onModal}) => {
 
     return data.map(e=>(
      
@@ -8,3 +8,5 @@ export const Burgers = ({data, onModal}) => {
       
     ));
     };
+
+ 

@@ -4,11 +4,6 @@
   padding: 60px;
   background-color: aquamarine;
 }
-.main h1 {
-  text-align: center;
-
-  cursor: pointer;
-}
 .section {
   display: flex;
   justify-content: center;
@@ -20,63 +15,14 @@ li {
   margin-bottom: 15px;
 }
 
-.overlay {
-  position: relative;
-  overflow: hidden;
-}
-.for{
-  transform: translateY(0);
-  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
-  animation: itemUP 500ms 0s linear;
+
+
+.title{
+  font-size: 40px;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  background-color: aquamarine;
 }
 
-.menu,.for {
-  transform: translateY(0);
-  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
-  animation: itemDown 500ms 0s linear;
-}
 
-.hide, .hideBar, .hideCoct {
-  transform: translateY(-100%);
-  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
-  animation: itemUp 500ms 0s linear;
-}
-
-@keyframes itemUp {
-  0% {
-    transform: translateY(0);
-  }
-
-  100% {
-    transform: translateY(-100%);
-  }
-}
-@keyframes itemDown {
-  0% {
-    transform: translateY(-100%);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
-
-.hideBarOff {
-  transform: translateY(-90%);
-  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
-  animation: itemUpOff 500ms 0s linear;
-}
-.hideOff {
-  transform: translateY(-100%);
-  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
-  animation: itemUpOff 500ms 0s linear;
-}
-@keyframes itemUpOff {
-  0% {
-    transform: translateY(0);
-  }
-
-  100% {
-    transform: translateY(-90%);
-  }
-}

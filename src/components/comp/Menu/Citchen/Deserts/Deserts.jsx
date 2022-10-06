@@ -1,4 +1,4 @@
-export const Deserts = ({data, onModal}) => {
+ const Deserts = ({data, onModal}) => {
 
     return data.map(e=>(
      
@@ -7,3 +7,4 @@ export const Deserts = ({data, onModal}) => {
       
     ));
     };
+    export default Deserts

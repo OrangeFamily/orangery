@@ -7,3 +7,4 @@ export const Cold = ({data, onModal}) => {
       
     ));
     };
+ 

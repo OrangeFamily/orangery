@@ -1,4 +1,4 @@
-export const Additives = ({data, onModal}) => {
+ export const Additives = ({data, onModal}) => {
 
     return data.map(e=>(
       
@@ -7,3 +7,4 @@ export const Additives = ({data, onModal}) => {
       
     ));
     };
+
