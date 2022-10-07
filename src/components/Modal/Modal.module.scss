@@ -1,0 +1,54 @@
+.backdrop {
+  position: fixed;
+
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.626);
+  transition: opacity 500ms linear, visibility 500ms linear;
+  overflow-y: scroll;
+}
+.modal {
+  background-color: aliceblue;
+  width: 600px;
+  height: 800px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  /* transform: scale(.2); */
+  /* opacity: 1; */
+  /* transition: all 1s linear; */
+  /* visibility: hidden; */
+  align-items: center;
+  animation: scaleOn 500ms linear;
+  @media (min-width: 320px) and (max-width: 480px) {
+    width: 245px;
+    height: 350px;
+  }
+}
+
+.modal img {
+  width: 250px;
+}
+.modal h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+@keyframes scaleOn {
+  0% {
+    opacity: 0;
+    scale: 0.2;
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
+}

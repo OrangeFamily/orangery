@@ -1,8 +1,14 @@
 .main {
   margin: auto;
-  width: 1200px;
+  width: 1366px;
   padding: 60px;
-  background-color: aquamarine;
+  background-color: orange;
+  @media (min-width: 320px) and (max-width: 480px) {
+    max-width: 245px;
+  }
+  @media screen and (max-width:767px){
+    width: 767px;
+  }
 }
 .section {
   display: flex;
@@ -22,7 +28,7 @@ li {
   justify-content: center;
   cursor: pointer;
   border: none;
-  background-color: aquamarine;
+  background-color: orange;
 }
 
 

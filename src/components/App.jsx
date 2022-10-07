@@ -13,7 +13,7 @@ import ColdMass from './comp/Menu/Citchen/Cold/DataCold';
 import AdditivesMass from './comp/Menu/Citchen/Аdditives/DataAdd';
 import { Additives } from './comp/Menu/Citchen/Аdditives/Аdditives';
 import { Modal } from './Modal/Modal';
-import './style.css';
+import s from './App.module.scss'
 
 export const App = () => {
   const [showModal, setShowModal] = useState(false);
@@ -29,14 +29,14 @@ export const App = () => {
     setShowModal(showModal => !showModal);
   };
   return (
-    <section className="main">
+    <section className={s.main}>
       <Accordion allowMultiple>
         <AccordionItem>
           <h1>
-            <AccordionButton className="title">Кухня</AccordionButton>
+            <AccordionButton className={s.title}>Кухня</AccordionButton>
           </h1>
           <AccordionPanel>
-            <div className="section">
+            <div className={s.section}>
               <ul>
                 <Additives data={dataAdd} onModal={dataModal} />
               </ul>
@@ -50,16 +50,32 @@ export const App = () => {
         <AccordionItem>
           <>
             <h1>
-              <AccordionButton className="title">Бар</AccordionButton>
+              <AccordionButton className={s.title}>Бар</AccordionButton>
             </h1>
             <AccordionPanel>
-              <div className="section">
+              <div className={s.section}>
                 <ul>
                   <Cold data={dataCold} onModal={dataModal} />
                 </ul>
               </div>
             </AccordionPanel>
           </>
+          
+        </AccordionItem>
+        <AccordionItem>
+          <>
+            <h1>
+              <AccordionButton className={s.title}>Коктейлі</AccordionButton>
+            </h1>
+            <AccordionPanel>
+              <div className={s.section}>
+                <ul>
+                  <Cold data={dataCold} onModal={dataModal} />
+                </ul>
+              </div>
+            </AccordionPanel>
+          </>
+          
         </AccordionItem>
         {showModal && (
           <Modal objectModal={objectModal} toggleModal={toggleModal} />
