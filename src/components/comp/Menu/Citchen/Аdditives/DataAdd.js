@@ -4,7 +4,7 @@ const AdditivesMass=[
         title:"Моцарела 50г",
         price:"15 грн",
         src: require('./images/123123.png'),
-        text:"что то там",
+        text:"ну сір такой вкусній",
     },
     {
         id:2,
