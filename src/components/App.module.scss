@@ -1,7 +1,13 @@
+@font-face {
+  font-family: centuryGotic;
+  src: url('../fonts/century-gotic.ttf');
+}
 body{
+  font-family: centuryGotic;
   background-color: rgba(0, 0, 0, 0.582);
 }
 .main {
+  
   margin: auto;
   width: 1366px;
   // padding: 60px;
@@ -31,6 +37,7 @@ li {
 
 
 .title{
+  font-family: centuryGotic;
   font-size: 40px;
   justify-content: center;
   cursor: pointer;
@@ -42,6 +49,7 @@ li {
   }
 }
 .titleItem{
+  font-family: centuryGotic;
   font-size: 30px;
   justify-content: center;
   cursor: pointer;
