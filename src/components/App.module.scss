@@ -6,8 +6,19 @@ body{
   font-family: centuryGotic;
   background-color: rgba(0, 0, 0, 0.582);
 }
+.head{
+  position: relative;
+  margin: auto;
+  width: 1366px;
+ 
+ 
+  @media (min-width: 320px) and (max-width: 480px) {
+    width: 360px;
+    
+  }
+}
 .main {
-  
+  // position: relative;
   margin: auto;
   width: 1366px;
   // padding: 60px;
@@ -22,6 +33,29 @@ body{
     padding: 20px;
   }
   
+}
+.header{
+  
+  height: 50px;
+  background-color: rgb(234, 221, 221);
+  // position: absolute;
+  // position: fixed;
+  z-index: 100;
+}
+.link{
+  display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.1);
+       
+}
+.icon{
+  height: 30px;
+        width: 30px;
+        fill: #0f0e0d;
 }
 .logo{
 

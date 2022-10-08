@@ -39,7 +39,19 @@ export const App = () => {
     setShowModal(showModal => !showModal);
   };
   return (
+    <>
+    
+  
     <section className={s.main}>
+      
+      <header className={s.header}>
+        <a href="https://instagram.com/orange.bar_club?igshid=YmMyMTA2M2Y="
+        target="_blank"
+        rel="noreferrer"
+        className={s.link}
+        >
+          <img src={require("./img/inst.png")} alt="" className={s.icon}/></a>
+      </header>
       <img src={require('./img/orangeLogo.png')} alt="" className={s.logo}/>
       <Accordion allowMultiple>
         <AccordionItem>
@@ -107,5 +119,6 @@ export const App = () => {
         )}
       </Accordion>
     </section>
+    </>
   );
 };
