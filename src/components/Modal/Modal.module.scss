@@ -17,7 +17,7 @@
   background-image: url(./img/fon2.jpg);
   background-size: contain;
   width: 600px;
-  height: 800px;
+  height: 900px;
   margin: auto;
   margin-top: 100px;
   border-radius: 10px;
@@ -33,7 +33,7 @@
   animation: scaleOn 500ms linear;
   @media (min-width: 320px) and (max-width: 480px) {
     width: 245px;
-    height: 350px;
+    height: 400px;
   }
 }
 
