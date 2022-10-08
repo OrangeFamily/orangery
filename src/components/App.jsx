@@ -6,12 +6,12 @@ import {
 } from '@chakra-ui/react';
 
 import { useState } from 'react';
-import { Burgers } from './comp/Menu/Citchen/Burgers/Burgers';
-import BurgerMass from './comp/Menu/Citchen/Burgers/DataBurg';
+// import { Burgers } from './comp/Menu/Citchen/Burgers/Burgers';
+// import BurgerMass from './comp/Menu/Citchen/Burgers/DataBurg';
 import { Cold } from './comp/Menu/Citchen/Cold/Cold';
 import ColdMass from './comp/Menu/Citchen/Cold/DataCold';
-import AdditivesMass from './comp/Menu/Citchen/Аdditives/DataAdd';
-import { Additives } from './comp/Menu/Citchen/Аdditives/Аdditives';
+// import AdditivesMass from './comp/Menu/Citchen/Аdditives/DataAdd';
+// import { Additives } from './comp/Menu/Citchen/Аdditives/Аdditives';
 import { Modal } from './Modal/Modal';
 import s from './App.module.scss';
 import { MeatAss } from './comp/Menu/Citchen/MeatAss/MeatAss';
@@ -24,9 +24,9 @@ export const App = () => {
   const [objectModal, setObjectModal] = useState({});
 
 
-  const dataAdd = AdditivesMass;
+  // const dataAdd = AdditivesMass;
   const dataCold = ColdMass;
-  const dataBurg = BurgerMass;
+  // const dataBurg = BurgerMass;
   const dataMeatAss = MeatAssMass;
   const dataSalads = SaladsMass;
 
