@@ -1,5 +1,5 @@
-import s from './MeatAss.module.scss';
-export const MeatAss = ({ data, onModal }) => {
+import s from './Frut.module.scss';
+export const Frut = ({ data, onModal }) => {
   return data.map(e => (
     <div
       key={e.id}

@@ -10,6 +10,9 @@
     border-bottom: 1px solid #fff;
     padding: 15px 0;
     margin: 10px 0;
+    @media (min-width: 320px) and (max-width: 480px) {
+        width: 360px;
+      }
 }
 .itemMain{
     display: flex;

@@ -1,4 +1,4 @@
-const ColdMass=[
+const FrutMass=[
     {
         id:1,
         title:"Лимон 100г",
@@ -43,4 +43,4 @@ const ColdMass=[
     },
 ]
 
-export default ColdMass;
+export default FrutMass;
