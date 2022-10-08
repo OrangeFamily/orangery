@@ -52,9 +52,9 @@ export const App = () => {
                   <AccordionButton className={s.titleItem}>Холодні закуски</AccordionButton>
                 </h2>
                 <AccordionPanel>
-                  <ul>
+                  
                     <Cold data={dataCold} onModal={dataModal} />
-                  </ul>
+                  
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem>
@@ -62,9 +62,9 @@ export const App = () => {
                   <AccordionButton className={s.titleItem}>М'ясне та сирне асорті</AccordionButton>
                 </h2>
                 <AccordionPanel>
-                  <ul>
+                  
                     <MeatAss data={dataMeatAss} onModal={dataModal} />
-                  </ul>
+                  
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem>

@@ -1,14 +1,21 @@
+body{
+  background-color: rgba(0, 0, 0, 0.582);
+}
 .main {
   margin: auto;
   width: 1366px;
-  padding: 60px;
-  background-color: orange;
+  // padding: 60px;
+  // background-color: orange;
+  background-image: url(./img/fon1.jpg);
+  background-size: contain;
+  // background-repeat: no-repeat;
+ 
+ 
   @media (min-width: 320px) and (max-width: 480px) {
-    max-width: 245px;
+    max-width: 360px;
+    padding: 20px;
   }
-  @media screen and (max-width:767px){
-    width: 767px;
-  }
+  
 }
 .section {
   display: flex;
@@ -28,14 +35,22 @@ li {
   justify-content: center;
   cursor: pointer;
   border: none;
-  background-color: orange;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  @media (min-width: 320px) and (max-width: 480px) {
+    font-size: 30px;
+  }
 }
 .titleItem{
   font-size: 30px;
   justify-content: center;
   cursor: pointer;
   border: none;
-  background-color: orange;
+  color: white;
+  background-color: rgba(255, 166, 0, 0);
+  @media (min-width: 320px) and (max-width: 480px) {
+    font-size: 15px;
+  }
 }
 
 
