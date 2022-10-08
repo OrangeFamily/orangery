@@ -23,6 +23,13 @@ body{
   }
   
 }
+.logo{
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    max-width: 360px;
+    
+  } 
+}
 .section {
   display: flex;
   justify-content: center;

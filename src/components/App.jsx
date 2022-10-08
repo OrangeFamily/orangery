@@ -40,6 +40,7 @@ export const App = () => {
   };
   return (
     <section className={s.main}>
+      <img src={require('./img/orangeLogo.png')} alt="" className={s.logo}/>
       <Accordion allowMultiple>
         <AccordionItem>
           <h1>
