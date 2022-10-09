@@ -39,7 +39,8 @@
     color: white;
     margin: 0 10px 0 0 ;
     @media (min-width: 320px) and (max-width: 480px) {
-        font-size: 13px
+        font-size: 13px;
+        width: 200px;
       }
 }
 .price{
