@@ -11,17 +11,27 @@
     border-bottom: 1px solid #fff;
     padding: 15px 0;
     margin: 10px 0;
+    width: 1029px;
+    @media (min-width: 320px) and (max-width: 480px) {
+        width: 360px;
+      }
 }
 .itemMain{
     display: flex;
+    width: 950px;
+    @media (min-width: 320px) and (max-width: 480px) {
+        width: 275px;
+      }
 }
 .text{
     color: white;
     padding: 5px;
     margin: 0;
+    width: 850px;
     @media (min-width: 320px) and (max-width: 480px) {
         font-size: 10px;
         padding-right: 60px;
+        width: 215px;
       }
 }
 
@@ -35,12 +45,13 @@
 .price{
     color: white;
     display: flex;
-    width: 55px;
+    width: 85px;
     text-align: center;
     margin: 0 0 0 auto;
+    
     @media (min-width: 320px) and (max-width: 480px) {
         font-size: 13px;
-        
+        width: 55px;
       }
 }
 p{
