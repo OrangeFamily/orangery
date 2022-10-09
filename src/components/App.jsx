@@ -19,6 +19,16 @@ import { Burgers } from './comp/Menu/Citchen/Burgers/Burgers';
 import BurgerMass from './comp/Menu/Citchen/Burgers/DataBurg';
 import HotMass from './comp/Menu/Citchen/Hot/DataHot';
 import { Hot } from './comp/Menu/Citchen/Hot/Hot';
+import { NarCoct } from './comp/Menu/Bar/NarCoct/NarCoct';
+import NarCoctMass from './comp/Menu/Bar/NarCoct/DataNarCoct';
+import AperetivMass from './comp/Menu/Bar/Aperetiv/DataAperetiv';
+import { Aperetiv } from './comp/Menu/Bar/Aperetiv/Aperetiv';
+import RomMass from './comp/Menu/Bar/Rom/DataRom';
+import { Rom } from './comp/Menu/Bar/Rom/Rom';
+import TekilaMass from './comp/Menu/Bar/Tekila/DataTekila';
+import { Tekila } from './comp/Menu/Bar/Tekila/Tekila';
+import WiskeyMass from './comp/Menu/Bar/Wiskey/DataWiskey';
+import { Wiskey } from './comp/Menu/Bar/Wiskey/Wiskey';
 
 export const App = () => {
   const [showModal, setShowModal] = useState(false);
@@ -30,6 +40,12 @@ export const App = () => {
   const dataMeatAss = MeatAssMass;
   const dataSalads = SaladsMass;
   const dataHot = HotMass;
+
+  const dataNarCoct= NarCoctMass;
+  const dataAperetiv=AperetivMass;
+  const dataRom=RomMass;
+  const dataTekila=TekilaMass;
+  const dataWiskey=WiskeyMass;
 
   const dataModal = (title, price, text, src) => {
     toggleModal();
@@ -141,51 +157,51 @@ export const App = () => {
                 <AccordionItem>
                   <h2>
                     <AccordionButton className={s.titleItem}>
-                      Фруктова нарізка
+                      Народні коктейлі
                     </AccordionButton>
                   </h2>
                   <AccordionPanel>
-                    <Frut data={dataFrut} onModal={dataModal} />
+                    <NarCoct data={dataNarCoct} onModal={dataModal} />
                   </AccordionPanel>
                 </AccordionItem>
                 <AccordionItem>
                   <h2>
                     <AccordionButton className={s.titleItem}>
-                      М'ясне та сирне асорті
+                      Настоянки & Аперитиви
                     </AccordionButton>
                   </h2>
                   <AccordionPanel>
-                    <MeatAss data={dataMeatAss} onModal={dataModal} />
+                    <Aperetiv data={dataAperetiv} onModal={dataModal} />
                   </AccordionPanel>
                 </AccordionItem>
                 <AccordionItem>
                   <h2>
                     <AccordionButton className={s.titleItem}>
-                      Салати
+                      Ром
                     </AccordionButton>
                   </h2>
                   <AccordionPanel>
-                    <Salads data={dataSalads} onModal={dataModal} />
+                    <Rom data={dataRom} onModal={dataModal} />
                   </AccordionPanel>
                 </AccordionItem>
                 <AccordionItem>
                   <h2>
                     <AccordionButton className={s.titleItem}>
-                      Бургери
+                      Текіла №1 в світі
                     </AccordionButton>
                   </h2>
                   <AccordionPanel>
-                    <Burgers data={dataBurgers} onModal={dataModal} />
+                    <Tekila data={dataTekila} onModal={dataModal} />
                   </AccordionPanel>
                 </AccordionItem>
                 <AccordionItem>
                   <h2>
                     <AccordionButton className={s.titleItem}>
-                      Гарячі закуски
+                      Віскі & Теннессі
                     </AccordionButton>
                   </h2>
                   <AccordionPanel>
-                    <Hot data={dataHot} onModal={dataModal} />
+                    <Wiskey data={dataWiskey} onModal={dataModal} />
                   </AccordionPanel>
                 </AccordionItem>
               </Accordion>
