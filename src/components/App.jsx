@@ -55,7 +55,7 @@ export const App = () => {
             href="tel:+380939179177"
             className={s.tel} 
           >
-            +38 093 91 79 177
+           <p className={s.telSize}>+38 093 91 79 177</p> 
           </a>
           <a
             href="https://instagram.com/orange.bar_club?igshid=YmMyMTA2M2Y="
