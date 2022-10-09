@@ -27,11 +27,11 @@ body {
   background-image: url(./img/fon1.jpg);
   background-size: contain;
   // background-repeat: no-repeat;
-
+  padding-bottom: 400px;
   @media (min-width: 320px) and (max-width: 480px) {
     max-width: 360px;
     padding: 20px;
-    height: 500px;
+    padding-bottom: 300px;
   }
 }
 .header {
@@ -49,6 +49,7 @@ top: 0;
   @media (min-width: 320px) and (max-width: 480px) {
     max-width: 400px;
     height: 50px;
+    
   }
 }
 .upper{
@@ -68,6 +69,7 @@ top: 0;
   @media (min-width: 320px) and (max-width: 480px) {
     max-width: 400px;
     padding-top: 50px;
+    
   }
 }
 .link {
