@@ -136,7 +136,60 @@ export const App = () => {
               <h1>
                 <AccordionButton className={s.title}>Бар</AccordionButton>
               </h1>
-              <AccordionPanel></AccordionPanel>
+              <AccordionPanel>
+              <Accordion allowMultiple>
+                <AccordionItem>
+                  <h2>
+                    <AccordionButton className={s.titleItem}>
+                      Фруктова нарізка
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel>
+                    <Frut data={dataFrut} onModal={dataModal} />
+                  </AccordionPanel>
+                </AccordionItem>
+                <AccordionItem>
+                  <h2>
+                    <AccordionButton className={s.titleItem}>
+                      М'ясне та сирне асорті
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel>
+                    <MeatAss data={dataMeatAss} onModal={dataModal} />
+                  </AccordionPanel>
+                </AccordionItem>
+                <AccordionItem>
+                  <h2>
+                    <AccordionButton className={s.titleItem}>
+                      Салати
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel>
+                    <Salads data={dataSalads} onModal={dataModal} />
+                  </AccordionPanel>
+                </AccordionItem>
+                <AccordionItem>
+                  <h2>
+                    <AccordionButton className={s.titleItem}>
+                      Бургери
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel>
+                    <Burgers data={dataBurgers} onModal={dataModal} />
+                  </AccordionPanel>
+                </AccordionItem>
+                <AccordionItem>
+                  <h2>
+                    <AccordionButton className={s.titleItem}>
+                      Гарячі закуски
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel>
+                    <Hot data={dataHot} onModal={dataModal} />
+                  </AccordionPanel>
+                </AccordionItem>
+              </Accordion>
+              </AccordionPanel>
             </>
           </AccordionItem>
           <AccordionItem>
@@ -144,7 +197,60 @@ export const App = () => {
               <h1>
                 <AccordionButton className={s.title}>Коктейлі</AccordionButton>
               </h1>
-              <AccordionPanel></AccordionPanel>
+              <AccordionPanel>
+              <Accordion allowMultiple>
+                <AccordionItem>
+                  <h2>
+                    <AccordionButton className={s.titleItem}>
+                      Фруктова нарізка
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel>
+                    <Frut data={dataFrut} onModal={dataModal} />
+                  </AccordionPanel>
+                </AccordionItem>
+                <AccordionItem>
+                  <h2>
+                    <AccordionButton className={s.titleItem}>
+                      М'ясне та сирне асорті
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel>
+                    <MeatAss data={dataMeatAss} onModal={dataModal} />
+                  </AccordionPanel>
+                </AccordionItem>
+                <AccordionItem>
+                  <h2>
+                    <AccordionButton className={s.titleItem}>
+                      Салати
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel>
+                    <Salads data={dataSalads} onModal={dataModal} />
+                  </AccordionPanel>
+                </AccordionItem>
+                <AccordionItem>
+                  <h2>
+                    <AccordionButton className={s.titleItem}>
+                      Бургери
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel>
+                    <Burgers data={dataBurgers} onModal={dataModal} />
+                  </AccordionPanel>
+                </AccordionItem>
+                <AccordionItem>
+                  <h2>
+                    <AccordionButton className={s.titleItem}>
+                      Гарячі закуски
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel>
+                    <Hot data={dataHot} onModal={dataModal} />
+                  </AccordionPanel>
+                </AccordionItem>
+              </Accordion>
+              </AccordionPanel>
             </>
           </AccordionItem>
           {showModal && (
