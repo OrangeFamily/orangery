@@ -41,6 +41,22 @@ export const App = () => {
   return (
     <><div className={s.upper}>
       <header className={s.header}>
+      <a
+            href="https://misteram.com.ua/chernigov/orangebar"
+            target="_blank"
+            rel="noreferrer"
+            
+          >
+            <img src={require('./img/am.png')} alt="" 
+            className={s.iconAm} 
+            />
+          </a>
+          <a
+            href="tel:+380939179177"
+            className={s.tel} 
+          >
+            +38 093 91 79 177
+          </a>
           <a
             href="https://instagram.com/orange.bar_club?igshid=YmMyMTA2M2Y="
             target="_blank"
@@ -49,6 +65,7 @@ export const App = () => {
           >
             <img src={require('./img/inst.png')} alt="" className={s.icon} />
           </a>
+          
         </header>
       <section className={s.main}>
         
