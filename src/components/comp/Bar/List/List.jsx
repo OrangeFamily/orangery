@@ -1,5 +1,5 @@
-import s from './Rom.module.scss'
- export const Rom = ({data, onModal}) => {
+import s from './List.module.scss'
+ export const List = ({data, onModal}) => {
 
     return data.map(e=>(
      

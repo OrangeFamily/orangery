@@ -19,16 +19,22 @@ import { Burgers } from './comp/Menu/Citchen/Burgers/Burgers';
 import BurgerMass from './comp/Menu/Citchen/Burgers/DataBurg';
 import HotMass from './comp/Menu/Citchen/Hot/DataHot';
 import { Hot } from './comp/Menu/Citchen/Hot/Hot';
-import { NarCoct } from './comp/Menu/Bar/NarCoct/NarCoct';
-import NarCoctMass from './comp/Menu/Bar/NarCoct/DataNarCoct';
-import AperetivMass from './comp/Menu/Bar/Aperetiv/DataAperetiv';
-import { Aperetiv } from './comp/Menu/Bar/Aperetiv/Aperetiv';
-import RomMass from './comp/Menu/Bar/Rom/DataRom';
-import { Rom } from './comp/Menu/Bar/Rom/Rom';
-import TekilaMass from './comp/Menu/Bar/Tekila/DataTekila';
-import { Tekila } from './comp/Menu/Bar/Tekila/Tekila';
-import WiskeyMass from './comp/Menu/Bar/Wiskey/DataWiskey';
-import { Wiskey } from './comp/Menu/Bar/Wiskey/Wiskey';
+
+
+import { List } from './comp/Bar/List/List';
+import AperetivMass from './comp/Bar/Data/DataAperetiv';
+import NarCoctMass from './comp/Bar/Data/DataNarCoct';
+import RomMass from './comp/Bar/Data/DataRom';
+import TekilaMass from './comp/Bar/Data/DataTekila';
+import WiskeyMass from './comp/Bar/Data/DataWiskey';
+import CognakMass from './comp/Bar/Data/DataCognak';
+import LiqurMass from './comp/Bar/Data/DataLiqur';
+import ShotMass from './comp/Bar/Data/DataShot';
+import VodkaMass from './comp/Bar/Data/DataVodka';
+import GinMass from './comp/Bar/Data/DataGin';
+
+
+
 
 export const App = () => {
   const [showModal, setShowModal] = useState(false);
@@ -45,6 +51,11 @@ export const App = () => {
   const dataRom = RomMass;
   const dataTekila = TekilaMass;
   const dataWiskey = WiskeyMass;
+  const dataCognak=CognakMass;
+  const dataLiqur=LiqurMass;
+  const dataShot=ShotMass;
+  const dataVodka=VodkaMass;
+  const dataGin=GinMass;
 
   const dataModal = (title, price, text, src) => {
     toggleModal();
@@ -157,7 +168,7 @@ export const App = () => {
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
-                        <NarCoct data={dataNarCoct} onModal={dataModal} />
+                        <List data={dataNarCoct} onModal={dataModal} />
                       </AccordionPanel>
                     </AccordionItem>
                     <AccordionItem>
@@ -167,7 +178,7 @@ export const App = () => {
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
-                        <Aperetiv data={dataAperetiv} onModal={dataModal} />
+                        <List data={dataAperetiv} onModal={dataModal} />
                       </AccordionPanel>
                     </AccordionItem>
                     <AccordionItem>
@@ -177,7 +188,7 @@ export const App = () => {
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
-                        <Rom data={dataRom} onModal={dataModal} />
+                        <List data={dataRom} onModal={dataModal} />
                       </AccordionPanel>
                     </AccordionItem>
                     <AccordionItem>
@@ -187,7 +198,7 @@ export const App = () => {
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
-                        <Tekila data={dataTekila} onModal={dataModal} />
+                        <List data={dataTekila} onModal={dataModal} />
                       </AccordionPanel>
                     </AccordionItem>
                     <AccordionItem>
@@ -197,7 +208,57 @@ export const App = () => {
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
-                        <Wiskey data={dataWiskey} onModal={dataModal} />
+                        <List data={dataWiskey} onModal={dataModal} />
+                      </AccordionPanel>
+                    </AccordionItem>
+                    <AccordionItem>
+                      <h2>
+                        <AccordionButton className={s.titleItem}>
+                          Коньяки & Бренді
+                        </AccordionButton>
+                      </h2>
+                      <AccordionPanel>
+                        <List data={dataCognak} onModal={dataModal} />
+                      </AccordionPanel>
+                    </AccordionItem>
+                    <AccordionItem>
+                      <h2>
+                        <AccordionButton className={s.titleItem}>
+                          Лікери
+                        </AccordionButton>
+                      </h2>
+                      <AccordionPanel>
+                        <List data={dataLiqur} onModal={dataModal} />
+                      </AccordionPanel>
+                    </AccordionItem>
+                    <AccordionItem>
+                      <h2>
+                        <AccordionButton className={s.titleItem}>
+                          Крижаний шот
+                        </AccordionButton>
+                      </h2>
+                      <AccordionPanel>
+                        <List data={dataShot} onModal={dataModal} />
+                      </AccordionPanel>
+                    </AccordionItem>
+                    <AccordionItem>
+                      <h2>
+                        <AccordionButton className={s.titleItem}>
+                          Горілка
+                        </AccordionButton>
+                      </h2>
+                      <AccordionPanel>
+                        <List data={dataVodka} onModal={dataModal} />
+                      </AccordionPanel>
+                    </AccordionItem>
+                    <AccordionItem>
+                      <h2>
+                        <AccordionButton className={s.titleItem}>
+                          Джин
+                        </AccordionButton>
+                      </h2>
+                      <AccordionPanel>
+                        <List data={dataGin} onModal={dataModal} />
                       </AccordionPanel>
                     </AccordionItem>
                   </Accordion>
