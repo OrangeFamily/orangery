@@ -1,17 +1,31 @@
 const BurgerMass=[
     {
         id:1,
-        title:"Бургер класичний 250г",
+        title:"Свинино-яловичий бургер 250г",
         price:"105 грн",
-        src: require('../img/123123.png'),
-        text:"булка, котлета свинино-яловича, сир чеддар, помідор, огірок маринований, лист салату, соус часниковий, соус бургерний",
+        src: require('../img/Burgers/pork-burg.png'),
+        text:"",
     },
     {
         id:2,
-        title:"Дабл бургер 320г",
+        title:"Курячий Дабл бургер 320г",
         price:"135 грн",
-        src:require('../img/123123.png'),
-        text:"булка, 2 котлети свинино-яловичі, 2 сири чеддар, помідор, огірок маринований, лист салату, соус часниковий, соус бургерний",
+        src:require('../img/Burgers/dubl-chik.png'),
+        text:"",
+    },
+    {
+        id:3,
+        title:"бургер із тигровою креветкою 250г",
+        price:"105 грн",
+        src: require('../img/Burgers/tiger.png'),
+        text:"",
+    },
+    {
+        id:4,
+        title:"сирний бургер 320г",
+        price:"135 грн",
+        src:require('../img/Burgers/chees.png'),
+        text:"",
     },
     
 ]
