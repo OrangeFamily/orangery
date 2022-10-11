@@ -1,11 +1,12 @@
 @font-face {
   font-family: centuryGotic;
   src: url('../fonts/century-gotic.ttf');
+  
 }
-// @font-face {
-//   font-family: Neuropol;
-//   src: url('../fonts/neuropol-mwdium.ttf');
-// }
+@font-face {
+  font-family: Neuropol;
+  src: url('../fonts/neuropol-mwdium.ttf');
+}
 body {
   font-family: centuryGotic;
   background-color: rgba(0, 0, 0, 0.582);
