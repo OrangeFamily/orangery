@@ -105,7 +105,8 @@ export const App = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={require('./img/am.png')} alt="" className={s.iconAm} />
+            {/* <img src={require('./img/am.png')} alt="" className={s.iconAm} /> */}
+            <button className={s.iconAm}>ДОСТАВКА</button>
           </a>
           <a href="tel:+380939179177" className={s.tel}>
             <p className={s.telSize}>+38 093 91 79 177</p>
