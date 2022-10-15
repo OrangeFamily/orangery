@@ -142,7 +142,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataFrut} onModal={dataModal} />
+                      <Coffe data={dataFrut} onModal={dataModal} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -152,7 +152,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataMeatAss} onModal={dataModal} />
+                      <Coffe data={dataMeatAss} onModal={dataModal} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -482,56 +482,7 @@ export const App = () => {
                 </h1>
                 <AccordionPanel>
                   <Accordion allowMultiple>
-                    <AccordionItem>
-                      <h2>
-                        <AccordionButton className={s.titleItem}>
-                          Фруктова нарізка
-                        </AccordionButton>
-                      </h2>
-                      <AccordionPanel>
-                        <List data={dataFrut} onModal={dataModal} />
-                      </AccordionPanel>
-                    </AccordionItem>
-                    <AccordionItem>
-                      <h2>
-                        <AccordionButton className={s.titleItem}>
-                          М'ясне та сирне асорті
-                        </AccordionButton>
-                      </h2>
-                      <AccordionPanel>
-                        <List data={dataMeatAss} onModal={dataModal} />
-                      </AccordionPanel>
-                    </AccordionItem>
-                    <AccordionItem>
-                      <h2>
-                        <AccordionButton className={s.titleItem}>
-                          Салати
-                        </AccordionButton>
-                      </h2>
-                      <AccordionPanel>
-                        <List data={dataSalads} onModal={dataModal} />
-                      </AccordionPanel>
-                    </AccordionItem>
-                    <AccordionItem>
-                      <h2>
-                        <AccordionButton className={s.titleItem}>
-                          Бургери
-                        </AccordionButton>
-                      </h2>
-                      <AccordionPanel>
-                        <List data={dataBurgers} onModal={dataModal} />
-                      </AccordionPanel>
-                    </AccordionItem>
-                    <AccordionItem>
-                      <h2>
-                        <AccordionButton className={s.titleItem}>
-                          Гарячі закуски
-                        </AccordionButton>
-                      </h2>
-                      <AccordionPanel>
-                        <List data={dataHot} onModal={dataModal} />
-                      </AccordionPanel>
-                    </AccordionItem>
+                    
                   </Accordion>
                 </AccordionPanel>
               </>
