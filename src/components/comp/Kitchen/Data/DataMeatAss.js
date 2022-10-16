@@ -1,53 +1,34 @@
 const MeatAssMass=[
     {
         id:1,
-        title:"Ковбаса СК 100г",
+        title:"м'ясна тарілка 200г",
         price:"49 грн",
-        src: "",
-        text:"",
+        src: require('../img/meat/meattarelka.png'),
+        text:"Шинка, Ковбаса СК, бастурма, хамон",
     },
     {
         id:2,
-        title:"Шинка 100г",
+        title:"тарілка під пиво 150г",
         price:"49 грн",
-        src:"",
-        text:"",
+        src:require('../img/meat/tartobear.png'),
+        text:"курка в'ялена, свинина в'ялена, хамон",
     },
+    
     {
         id:3,
-        title:"Салямі 100г",
+        title:"тарілка під горілку 150г/30г",
         price:"49 грн",
-        src:"",
-        text:"",
+        src:require('../img/meat/tovodka.png'),
+        text:"сало, підчеревок, корнішони, гірчиця",
     },
     {
         id:4,
-        title:"Сир брі 50г",
-        price:"45 грн",
-        src:"",
-        text:"",
+        title:"сирна тарілка 200г/30г",
+        price:"49 грн",
+        src:require('../img/meat/tarelkachees.png'),
+        text:"гауда, пармезан, брі, дорблю",
     },
-    {
-        id:5,
-        title:"Сир дорблю 50г",
-        price:"45 грн",
-        src:"",
-        text:"",
-    },
-    {
-        id:6,
-        title:"Сир гауда 50г",
-        price:"45 грн",
-        src:"",
-        text:"",
-    },
-    {
-        id:7,
-        title:"Сир пармезан 50г",
-        price:"45 грн",
-        src:"",
-        text:"",
-    },
+   
     
     
 ]

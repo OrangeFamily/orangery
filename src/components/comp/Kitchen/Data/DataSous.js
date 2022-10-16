@@ -41,6 +41,20 @@ const SousMass=[
         src: require('../img/123123.png'),
         text:"",
     },
+    {
+        id:7,
+        title:"BBQ 40г",
+        price:"18 грн",
+        src: require('../img/123123.png'),
+        text:"",
+    },
+    {
+        id:8,
+        title:"солодкий чілі 40г",
+        price:"18 грн",
+        src: require('../img/123123.png'),
+        text:"",
+    },
 ]
 
 export default SousMass;

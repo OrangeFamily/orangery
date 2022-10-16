@@ -52,7 +52,7 @@ const ClasicMass=[
         id:8,
         title:"Гарібальді 250мл",
         price:"130 грн",
-        src: require('../img/1.png'),
+        src: require('../img/gari.png'),
         text:"кампарі, сік апельсиновий",
     },
     {
@@ -122,7 +122,7 @@ const ClasicMass=[
         id:18,
         title:"Космополітен 120мл",
         price:"120 грн",
-        src: require('../img/1.png'),
+        src: require('../img/kosmo.png'),
         text:"горілка, апельсиновий лікер журавлиний морс, лаймовий фреш, мараскинова вишня",
     },
     {
@@ -143,7 +143,7 @@ const ClasicMass=[
         id:21,
         title:"Манхеттен 120мл",
         price:"150 грн",
-        src: require('../img/1.png'),
+        src: require('../img/manh.png'),
         text:"бурбон Bulleit, червоний вермут, ангостура",
     },
     {

@@ -29,7 +29,7 @@ const ToBearMass=[
     },
     {
         id:5,
-        title:"ORANGE-chips 70г/50г",
+        title:"ORANGE-chips 70г",
         price:"18 грн",
         src: require('../img/ToBear/chips.png'),
         text:"чіпси з лаваша",
@@ -54,6 +54,27 @@ const ToBearMass=[
         price:"18 грн",
         src: require('../img/ToBear/chees.png'),
         text:"",
+    },
+    {
+        id:9,
+        title:"кальмар темпура 100г/50г",
+        price:"18 грн",
+        src: require('../img/ToBear/kalmar.png'),
+        text:"кальмар, темпра, соус тар-тар",
+    },
+    {
+        id:10,
+        title:"тигрові креветки темпура 120г/50г",
+        price:"18 грн",
+        src: require('../img/ToBear/tiger.png'),
+        text:"тигрові креветки, темпура, соус солодкий чілі, лимон",
+    },
+    {
+        id:11,
+        title:"дошка для компанії 900г/150г",
+        price:"18 грн",
+        src: require('../img/ToBear/doshkomp.png'),
+        text:"печериці фрі, мисливські ковбаски, нагетси, сир фрі, медові крильця, соус кисло-солодкий, соус тар-тар, соус часниковий",
     },
 ]
 
