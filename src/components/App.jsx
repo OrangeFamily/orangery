@@ -13,7 +13,7 @@ import s from './App.module.scss';
 import { List } from './comp/List/List';
 
 
-import FrutMass from './comp/Kitchen/Data/DataFrut';
+// import FrutMass from './comp/Kitchen/Data/DataFrut';
 import BurgerMass from './comp/Kitchen/Data/DataBurg';
 import MeatAssMass from './comp/Kitchen/Data/DataMeatAss';
 import SaladsMass from './comp/Kitchen/Data/DataSalads';
@@ -67,7 +67,7 @@ export const App = () => {
   const [showModal, setShowModal] = useState(false);
   const [objectModal, setObjectModal] = useState({});
 
-  const dataFrut = FrutMass;
+  // const dataFrut = FrutMass;
   const dataBurgers = BurgerMass;
   const dataMeatAss = MeatAssMass;
   const dataSalads = SaladsMass;
@@ -156,7 +156,7 @@ export const App = () => {
               </h1>
               <AccordionPanel>
                 <Accordion allowMultiple>
-                  <AccordionItem>
+                  {/* <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
                         Фруктова нарізка
@@ -165,7 +165,7 @@ export const App = () => {
                     <AccordionPanel>
                       <Coffe data={dataFrut} onModal={dataModal} />
                     </AccordionPanel>
-                  </AccordionItem>
+                  </AccordionItem> */}
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
