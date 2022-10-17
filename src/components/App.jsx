@@ -12,13 +12,11 @@ import s from './App.module.scss';
 
 import { List } from './comp/List/List';
 
-
 // import FrutMass from './comp/Kitchen/Data/DataFrut';
 import BurgerMass from './comp/Kitchen/Data/DataBurg';
-import MeatAssMass from './comp/Kitchen/Data/DataMeatAss';
+import AssortiMass from './comp/Kitchen/Data/DataAssorti';
 import SaladsMass from './comp/Kitchen/Data/DataSalads';
 import HotMass from './comp/Kitchen/Data/DataHot';
-
 
 import AperetivMass from './comp/Bar/Data/DataAperetiv';
 import NarCoctMass from './comp/Bar/Data/DataNarCoct';
@@ -60,57 +58,54 @@ import PartyMixMass from './comp/Cocotail/Data/DataPartyMix';
 import ShotDrinkMass from './comp/Cocotail/Data/DataShotDrink';
 
 
-
-
-
 export const App = () => {
   const [showModal, setShowModal] = useState(false);
   const [objectModal, setObjectModal] = useState({});
 
   // const dataFrut = FrutMass;
   const dataBurgers = BurgerMass;
-  const dataMeatAss = MeatAssMass;
+  const dataAssorti = AssortiMass
   const dataSalads = SaladsMass;
   const dataHot = HotMass;
-  const dataFirst=FirstMass;
-  const dataMain=MainMass;
-  const dataSous=SousMass;
-  const dataGarnish=GarnishMass;
-  const dataToBear=ToBearMass;
-  const dataPizza=PizzaMass;
-  const dataKitAdd=AdditivesMass;
-  const dataDeserts=DesertsMass;
+  const dataFirst = FirstMass;
+  const dataMain = MainMass;
+  const dataSous = SousMass;
+  const dataGarnish = GarnishMass;
+  const dataToBear = ToBearMass;
+  const dataPizza = PizzaMass;
+  const dataKitAdd = AdditivesMass;
+  const dataDeserts = DesertsMass;
 
   const dataNarCoct = NarCoctMass;
   const dataAperetiv = AperetivMass;
   const dataRom = RomMass;
   const dataTekila = TekilaMass;
   const dataWiskey = WiskeyMass;
-  const dataCognak=CognakMass;
-  const dataLiqur=LiqurMass;
-  const dataShot=ShotMass;
-  const dataVodka=VodkaMass;
-  const dataGin=GinMass;
-  const dataShampan=ShampanMass;
-  const dataVine=VineMass;
-  const dataVermut= VermutMass
-  const dataBear=BearMass
-  const dataCoffe=CoffeMass
-  const dataTea=TeaMass
-  const dataDrink=DrinkMass
-  const dataEnergy=EnergyMass
-  const dataAdd=AddMass
+  const dataCognak = CognakMass;
+  const dataLiqur = LiqurMass;
+  const dataShot = ShotMass;
+  const dataVodka = VodkaMass;
+  const dataGin = GinMass;
+  const dataShampan = ShampanMass;
+  const dataVine = VineMass;
+  const dataVermut = VermutMass;
+  const dataBear = BearMass;
+  const dataCoffe = CoffeMass;
+  const dataTea = TeaMass;
+  const dataDrink = DrinkMass;
+  const dataEnergy = EnergyMass;
+  const dataAdd = AddMass;
 
-  const dataAuth=AuthMass;
-  const dataBanda=BandaMass;
-  const dataClasic=ClasicMass;
-  const dataColdTea=ColdTeaMass;
-  const dataJager=JagerMass;
-  const dataLemonad=LemonadMass;
-  const dataMixDrink=MixDrinkMass;
-  const dataNon=NonMass;
-  const dataPartyMzix=PartyMixMass;
-  const dataShotDrink=ShotDrinkMass;
+  const dataAuth = AuthMass;
+  const dataBanda = BandaMass;
+  const dataClasic = ClasicMass;
+  const dataColdTea = ColdTeaMass;
+  const dataJager = JagerMass;
+  const dataLemonad = LemonadMass;
+  const dataMixDrink = MixDrinkMass;
+  const dataNon = NonMass;
+  const dataPartyMzix = PartyMixMass;
+  const dataShotDrink = ShotDrinkMass;
 
   const dataModal = (title, price, text, src) => {
     toggleModal();
@@ -169,11 +164,11 @@ export const App = () => {
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
-                        М'ясне та сирне асорті
+                        колекція асорті
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataMeatAss} onModal={dataModal} />
+                      <List data={dataAssorti} onModal={dataModal} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -189,11 +184,11 @@ export const App = () => {
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
-                        Бургери
+                        Перші страви
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataBurgers} onModal={dataModal} />
+                      <List data={dataFirst} onModal={dataModal} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -209,16 +204,6 @@ export const App = () => {
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
-                        Перші страви
-                      </AccordionButton>
-                    </h2>
-                    <AccordionPanel>
-                      <List data={dataFirst} onModal={dataModal} />
-                    </AccordionPanel>
-                  </AccordionItem>
-                  <AccordionItem>
-                    <h2>
-                      <AccordionButton className={s.titleItem}>
                         Основне
                       </AccordionButton>
                     </h2>
@@ -229,11 +214,21 @@ export const App = () => {
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
-                        Coуси
+                        Бургери
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <Coffe data={dataSous} onModal={dataModal} />
+                      <List data={dataBurgers} onModal={dataModal} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                        Pizza
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <List data={dataPizza} onModal={dataModal} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -259,16 +254,6 @@ export const App = () => {
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
-                        Pizza
-                      </AccordionButton>
-                    </h2>
-                    <AccordionPanel>
-                      <List data={dataPizza} onModal={dataModal} />
-                    </AccordionPanel>
-                  </AccordionItem>
-                  <AccordionItem>
-                    <h2>
-                      <AccordionButton className={s.titleItem}>
                         Добавки
                       </AccordionButton>
                     </h2>
@@ -276,6 +261,17 @@ export const App = () => {
                       <Coffe data={dataKitAdd} onModal={dataModal} />
                     </AccordionPanel>
                   </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                        Coуси
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <Coffe data={dataSous} onModal={dataModal} />
+                    </AccordionPanel>
+                  </AccordionItem>
+
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
@@ -289,7 +285,6 @@ export const App = () => {
                 </Accordion>
               </AccordionPanel>
             </AccordionItem>
-            
 
             <AccordionItem>
               <>
@@ -401,7 +396,7 @@ export const App = () => {
                     <AccordionItem>
                       <h2>
                         <AccordionButton className={s.titleItem}>
-                        Шампанське & Игристі вина
+                          Шампанське & Игристі вина
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
@@ -411,7 +406,7 @@ export const App = () => {
                     <AccordionItem>
                       <h2>
                         <AccordionButton className={s.titleItem}>
-                        Вина
+                          Вина
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
@@ -421,7 +416,7 @@ export const App = () => {
                     <AccordionItem>
                       <h2>
                         <AccordionButton className={s.titleItem}>
-                        Вермути
+                          Вермути
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
@@ -431,7 +426,7 @@ export const App = () => {
                     <AccordionItem>
                       <h2>
                         <AccordionButton className={s.titleItem}>
-                        Пиво
+                          Пиво
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
@@ -441,7 +436,7 @@ export const App = () => {
                     <AccordionItem>
                       <h2>
                         <AccordionButton className={s.titleItem}>
-                        Напої
+                          Напої
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
@@ -451,7 +446,7 @@ export const App = () => {
                     <AccordionItem>
                       <h2>
                         <AccordionButton className={s.titleItem}>
-                        Кава
+                          Кава
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
@@ -461,7 +456,7 @@ export const App = () => {
                     <AccordionItem>
                       <h2>
                         <AccordionButton className={s.titleItem}>
-                        Чай
+                          Чай
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
@@ -471,7 +466,7 @@ export const App = () => {
                     <AccordionItem>
                       <h2>
                         <AccordionButton className={s.titleItem}>
-                        Енергетик
+                          Енергетик
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
@@ -481,7 +476,7 @@ export const App = () => {
                     <AccordionItem>
                       <h2>
                         <AccordionButton className={s.titleItem}>
-                        Доповнення
+                          Доповнення
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
@@ -493,7 +488,6 @@ export const App = () => {
               </>
             </AccordionItem>
 
-
             <AccordionItem>
               <>
                 <h1>
@@ -503,10 +497,10 @@ export const App = () => {
                 </h1>
                 <AccordionPanel>
                   <Accordion allowMultiple>
-                  <AccordionItem>
+                    <AccordionItem>
                       <h2>
                         <AccordionButton className={s.titleItem}>
-                        новинки від оранж бар банди
+                          новинки від оранж бар банди
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
@@ -516,7 +510,7 @@ export const App = () => {
                     <AccordionItem>
                       <h2>
                         <AccordionButton className={s.titleItem}>
-                        авторські коктейлі
+                          авторські коктейлі
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
@@ -526,7 +520,7 @@ export const App = () => {
                     <AccordionItem>
                       <h2>
                         <AccordionButton className={s.titleItem}>
-                        безалкогольні коктейлі
+                          безалкогольні коктейлі
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
@@ -546,7 +540,7 @@ export const App = () => {
                     <AccordionItem>
                       <h2>
                         <AccordionButton className={s.titleItem}>
-                        екстрим & шоти
+                          екстрим & шоти
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
@@ -556,7 +550,7 @@ export const App = () => {
                     <AccordionItem>
                       <h2>
                         <AccordionButton className={s.titleItem}>
-                        jagermeister
+                          jagermeister
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
@@ -566,7 +560,7 @@ export const App = () => {
                     <AccordionItem>
                       <h2>
                         <AccordionButton className={s.titleItem}>
-                        mix drinks
+                          mix drinks
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
@@ -576,7 +570,7 @@ export const App = () => {
                     <AccordionItem>
                       <h2>
                         <AccordionButton className={s.titleItem}>
-                        party mixes
+                          party mixes
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
@@ -586,7 +580,7 @@ export const App = () => {
                     <AccordionItem>
                       <h2>
                         <AccordionButton className={s.titleItem}>
-                        холодні чаї
+                          холодні чаї
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
@@ -596,7 +590,7 @@ export const App = () => {
                     <AccordionItem>
                       <h2>
                         <AccordionButton className={s.titleItem}>
-                        лимонади
+                          лимонади
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
