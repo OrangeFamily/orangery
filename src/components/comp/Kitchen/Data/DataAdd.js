@@ -2,7 +2,7 @@ const AdditivesMass=[
     {
         id:1,
         title:"Моцарела 50г",
-        price:"15 грн",
+        price:"20 грн",
         src: require('../img/123123.png'),
         text:"",
     },
@@ -23,7 +23,21 @@ const AdditivesMass=[
     {
         id:4,
         title:"Томати 50г",
-        price:"10 грн",
+        price:"15 грн",
+        src:require('../img/123123.png'),
+        text:"",
+    },
+    {
+        id:5,
+        title:"Оливки 30г",
+        price:"15 грн",
+        src:require('../img/123123.png'),
+        text:"",
+    },
+    {
+        id:6,
+        title:"Маслини 30г",
+        price:"15 грн",
         src:require('../img/123123.png'),
         text:"",
     },

@@ -13,6 +13,13 @@ const PartyMixMass=[
         src: require('../img/1.png'),
         text:"Red Bull - 6шт., Jägermeister - 1л",
     },
+    {
+        id:3,
+        title:"Party Mix vodka",
+        price:"830 грн",
+        src: require('../img/1.png'),
+        text:"Red Bull - 6шт., Nemiroff - 0.5л",
+    },
 ]
 
 export default PartyMixMass;

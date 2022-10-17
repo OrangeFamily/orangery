@@ -37,7 +37,7 @@ const FrutMass=[
     {
         id:6,
         title:"Банан 100г",
-        price:"15 грн",
+        price:"25 грн",
         src:'',
         text:"",
     },
