@@ -225,7 +225,7 @@ export const App = () => {
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
-                        Pizza
+                        піца
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>

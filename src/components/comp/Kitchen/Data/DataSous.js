@@ -46,7 +46,7 @@ const SousMass=[
         title:"BBQ 40г",
         price:"18 грн",
         src: require('../img/123123.png'),
-        text:"",
+        text:"кетчуп, перець болгарський, часник, цибуля, зелень",
     },
     {
         id:8,
