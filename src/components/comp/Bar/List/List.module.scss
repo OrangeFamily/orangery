@@ -12,13 +12,15 @@
     padding: 15px 0;
     margin: 10px 0;
     width: 1029px;
+    cursor: pointer;
     @media (min-width: 320px) and (max-width: 480px) {
         width: 360px;
       }
 }
 .itemMain{
     display: flex;
-    width: 1023px;
+    width: 1020px;
+    font-size: 25px;
     @media (min-width: 320px) and (max-width: 480px) {
         width: 357px;
       }
@@ -28,6 +30,7 @@
     padding: 5px;
     margin: 0;
     width: 850px;
+    font-size: 15px;
     @media (min-width: 320px) and (max-width: 480px) {
         font-size: 10px;
         padding-right: 60px;
@@ -47,7 +50,7 @@
 .price{
     color: white;
     display: flex;
-    width: 120px;
+    width: 125px;
     justify-content: flex-end;
     text-align: center;
     margin: 0 0 0 auto;

@@ -31,7 +31,7 @@ const  NonMass=[
         id:5,
         title:"Персикова долина 350мл",
         price:"89 грн",
-        src: require('../img/1.png'),
+        src: require('../img/dol.png'),
         text:"сироп кокосовий, сироп персиковий, сік ананасовий, вершки",
     },
     {
