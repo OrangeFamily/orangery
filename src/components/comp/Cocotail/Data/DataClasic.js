@@ -153,6 +153,13 @@ const ClasicMass=[
         src: require('../img/club.png'),
         text:"джин гордонс, малиновий сироп, лаймовий фреш, яєчний білок, м’ята",
     },
+    {
+        id:23,
+        title:"глінтвейн 250мл",
+        price:" грн",
+        src: require('../img/glin.png'),
+        text:"вино, сік яблучний, бренді, сахарний сироп, апельсин, кориця",
+    },
 ]
 
 export default ClasicMass;

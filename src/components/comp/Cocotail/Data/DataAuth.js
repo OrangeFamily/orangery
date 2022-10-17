@@ -24,7 +24,7 @@ const AuthMass=[
         id:4,
         title:"Персиковий лизун 350мл",
         price:"130 грн",
-        src: require('../img/1.png'),
+        src: require('../img/liz.png'),
         text:"горілка, сік лимонний, сік персиковий, сироп персиковий, тонік",
     },
     {
@@ -38,7 +38,7 @@ const AuthMass=[
         id:6,
         title:"Cherry Valley 350мл",
         price:"130 грн",
-        src: require('../img/1.png'),
+        src: require('../img/granma.png'),
         text:"горілка, сік вишневий, морс із журавлини, сироп гранатовий, тонік",
     },
     
@@ -55,6 +55,49 @@ const AuthMass=[
         price:"180 грн",
         src: require('../img/fea.png'),
         text:"горілка, ром золотий, лікер динний, ред бул",
+    },
+    {
+        id:9,
+        title:"Німецька ніч 350мл",
+        price:" грн",
+        src: require('../img/noch.png'),
+        text:"ром золотий, jagermaister, амарето лікер, сік лимона, cахарний сироп, пепсі ",
+    },
+    {
+        id:10,
+        title:"Жіноча спокуса 350мл",
+        price:" грн",
+        src: require('../img/spokusa.png'),
+        text:"ром золотий, самбука, сік персиковий, сік ананасовий",
+    },
+    {
+        id:11,
+        title:"Азія мінор фйс ті 450мл",
+        price:" грн",
+        src: require('../img/azia.png'),
+        text:"горілка, ром золотий, джин, лікер диня, сік лимона, 7up",
+    },
+    {
+        id:12,
+        title:"Jager Coffe 120мл",
+        price:" грн",
+        src: require('../img/jagcof.png'),
+        text:"горілка, jagermaister, кавовий лікер, сироп грінадін",
+    },
+    
+    {
+        id:13,
+        title:"Джуніор 350мл",
+        price:" грн",
+        src: require('../img/jun.png'),
+        text:"Джек Деніелс, лікер персик, сік лимона, сахарний сироп, сік яблучний",
+    },
+    {
+        id:14,
+        title:"Sunset 350мл",
+        price:" грн",
+        src: require('../img/sunset.png'),
+        text:"горілка, ром золотий, джин, лікер персиковий, сік лимонний, сахарний сироп, сік апельсиновий, сироп грінадін",
     },
 ]
 

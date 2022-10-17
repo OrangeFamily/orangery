@@ -34,13 +34,6 @@ const BandaMass=[
         src: require('../img/granma.png'),
         text:"горілка, н/к «Currant», тонік, сік вишневий, сік лимонний",
     },
-    {
-        id:6,
-        title:"Vanilla Orange 250мл",
-        price:"130 грн",
-        src: require('../img/1.png'),
-        text:"н/к «Orange», шампанське напівсол., сироп ванільний, сироп «Бузина»",
-    },
 ]
 
 export default BandaMass;
