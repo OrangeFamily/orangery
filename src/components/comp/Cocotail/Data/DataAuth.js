@@ -56,49 +56,7 @@ const AuthMass=[
         src: require('../img/fea.png'),
         text:"горілка, ром золотий, лікер динний, ред бул",
     },
-    {
-        id:9,
-        title:"Німецька ніч 350мл",
-        price:"170 грн",
-        src: require('../img/noch.png'),
-        text:"ром золотий, jagermaister, амарето лікер, сік лимона, cахарний сироп, пепсі ",
-    },
-    {
-        id:10,
-        title:"Жіноча спокуса 350мл",
-        price:"150 грн",
-        src: require('../img/spokusa.png'),
-        text:"ром золотий, самбука, сік персиковий, сік ананасовий",
-    },
-    {
-        id:11,
-        title:"Азія мінор айс ті 450мл",
-        price:"160 грн",
-        src: require('../img/azia.png'),
-        text:"горілка, ром золотий, джин, лікер диня, сік лимона, 7up",
-    },
-    {
-        id:12,
-        title:"Jager Coffe 120мл",
-        price:"140 грн",
-        src: require('../img/jagcof.png'),
-        text:"горілка, jagermaister, кавовий лікер, сироп грінадін",
-    },
     
-    {
-        id:13,
-        title:"Джуніор 350мл",
-        price:"160 грн",
-        src: require('../img/jun.png'),
-        text:"Джек Деніелс, лікер персик, сік лимона, сахарний сироп, сік яблучний",
-    },
-    {
-        id:14,
-        title:"Sunset 350мл",
-        price:"160 грн",
-        src: require('../img/sunset.png'),
-        text:"горілка, ром золотий, джин, лікер персиковий, сік лимонний, сахарний сироп, сік апельсиновий, сироп грінадін",
-    },
 ]
 
 export default AuthMass;
