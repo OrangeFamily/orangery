@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/orangery/static/css/main.cd515091.css",
+    "main.css": "/orangery/static/css/main.0e62f551.css",
     "main.js": "/orangery/static/js/main.5675b2b8.js",
-    "static/media/fon1.jpg": "/orangery/static/media/fon1.fecba46590088500bb50.jpg",
+    "static/media/bambuk.jpg": "/orangery/static/media/bambuk.251b2f67da3bfc61599e.jpg",
     "static/media/meattarelka.png": "/orangery/static/media/meattarelka.d2409c3146a7a604cde9.png",
     "static/media/tartobear.png": "/orangery/static/media/tartobear.92a7c8c0f9f4aec98882.png",
     "static/media/tovodka.png": "/orangery/static/media/tovodka.eed4536bc67dcbe0fde8.png",
@@ -13,11 +13,11 @@
     "static/media/century-gotic.ttf": "/orangery/static/media/century-gotic.b194aa2bd524e2c973f7.ttf",
     "static/media/neuropol-mwdium.ttf": "/orangery/static/media/neuropol-mwdium.56c96f5897e7961cef60.ttf",
     "index.html": "/orangery/index.html",
-    "main.cd515091.css.map": "/orangery/static/css/main.cd515091.css.map",
+    "main.0e62f551.css.map": "/orangery/static/css/main.0e62f551.css.map",
     "main.5675b2b8.js.map": "/orangery/static/js/main.5675b2b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd515091.css",
+    "static/css/main.0e62f551.css",
     "static/js/main.5675b2b8.js"
   ]
 }
