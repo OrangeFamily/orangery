@@ -7,13 +7,14 @@ import {
 
 import { useState } from 'react';
 
-import { Modal } from './Modal/Modal';
+// import { Modal } from './Modal/Modal';
 import s from './App.module.scss';
 
 import { List } from './comp/List/List';
 
 
 import AssortiMass from './comp/Kitchen/Data/DataAssorti';
+import { ModalTwo } from './Modal/ModalTwo';
 
 
 
@@ -114,7 +115,7 @@ export const App = () => {
               </>
             </AccordionItem>
             {showModal && (
-              <Modal objectModal={objectModal} toggleModal={toggleModal} />
+              <ModalTwo objectModal={objectModal} toggleModal={toggleModal} />
             )}
           </Accordion>
         </section>
