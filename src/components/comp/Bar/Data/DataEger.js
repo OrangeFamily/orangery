@@ -1,4 +1,4 @@
-const ShotMass=[
+const EgerMass=[
     {
         id:1,
         title:"Егермайстер (Німеччина) 1л",
@@ -9,4 +9,4 @@ const ShotMass=[
     
 ]
 
-export default ShotMass;
+export default EgerMass;
