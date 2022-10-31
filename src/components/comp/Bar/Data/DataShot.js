@@ -1,10 +1,10 @@
 const ShotMass=[
     {
         id:1,
-        title:"Егермайстер (Германія) 1л",
-        price:"1540 грн",
+        title:"Егермайстер (Німеччина) 1л",
+        price:"1320 грн",
         src: require('../img/jager.png'),
-        text:"50мл - 77грн",
+        text:"50мл - 66грн",
     },
     
 ]

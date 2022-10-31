@@ -2,9 +2,9 @@ const GinMass=[
     {
         id:1,
         title:"Гордон'с Лондон Драй (Великобританія) 1л",
-        price:"1720 грн",
+        price:"1600 грн",
         src: require('../img/gordons.png'),
-        text:"50мл - 86грн",
+        text:"50мл - 80грн",
     },
     
 ]
