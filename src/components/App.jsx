@@ -44,6 +44,15 @@ import HotDrinkMass from './comp/Bar/Data/DataHotDrink';
 import { Bear } from './comp/List/Bear';
 import EnergyMass from './comp/Bar/Data/DataEnergy';
 import { WithoutImg } from './comp/List/WithoutImg';
+import UraMakiMass from './comp/Kitchen/Data/DataUraMaki';
+import FutoMakiMass from './comp/Kitchen/Data/DataFutoMaki';
+import NigiriMass from './comp/Kitchen/Data/DataNigiri';
+import HotRolMass from './comp/Kitchen/Data/DataHotRol';
+import SetMass from './comp/Kitchen/Data/DataSet';
+import SweetRolMass from './comp/Kitchen/Data/DataSweetRol';
+import SaladChukaMass from './comp/Kitchen/Data/DataSaladChuka';
+import DesertsMass from './comp/Kitchen/Data/DataDeserts';
+import AsortiMass from './comp/Kitchen/Data/DataAsorti';
 
 
 
@@ -53,6 +62,15 @@ export const App = () => {
 
   
   const dataMaki = MakiMass
+  const dataUramaki=UraMakiMass
+  const dataFutomaki=FutoMakiMass
+  const dataNigiri=NigiriMass
+  const dataHotRol=HotRolMass
+  const dataSet=SetMass
+  const dataSweetRol=SweetRolMass
+  const dataChuka=SaladChukaMass
+  const dataAsorti=AsortiMass
+  const dataDesert=DesertsMass
 
   const dataAper=AperetivMass
   const dataRom=RomMass
@@ -137,6 +155,96 @@ export const App = () => {
                     </h2>
                     <AccordionPanel>
                       <List data={dataMaki} onModal={dataModal} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                      Урамакі
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <List data={dataUramaki} onModal={dataModal} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                      Футомакі
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <List data={dataFutomaki} onModal={dataModal} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                      Суші нігірі
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <List data={dataNigiri} onModal={dataModal} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                      Гарячі роли
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <List data={dataHotRol} onModal={dataModal} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                      Сети
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <List data={dataSet} onModal={dataModal} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                      Солодкі суші
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <List data={dataSweetRol} onModal={dataModal} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                      Салати з чука
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <List data={dataChuka} onModal={dataModal} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                      Асорті
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <List data={dataAsorti} onModal={dataModal} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                      Десерти
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <List data={dataDesert} onModal={dataModal} />
                     </AccordionPanel>
                   </AccordionItem>
                   
