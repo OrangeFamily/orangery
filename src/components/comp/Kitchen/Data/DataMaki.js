@@ -1,4 +1,4 @@
-const AssortiMass=[
+const MakiMass=[
     {
         id:1,
         title:"м'ясна тарілка 200г",
@@ -40,4 +40,4 @@ const AssortiMass=[
     
 ]
 
-export default AssortiMass;
+export default MakiMass;

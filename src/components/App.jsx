@@ -13,7 +13,7 @@ import s from './App.module.scss';
 import { List } from './comp/List/List';
 
 
-import AssortiMass from './comp/Kitchen/Data/DataAssorti';
+import MakiMass from './comp/Kitchen/Data/DataMaki'
 import { ModalTwo } from './Modal/ModalTwo';
 import AperetivMass from './comp/Bar/Data/DataAperetiv';
 import RomMass from './comp/Bar/Data/DataRom';
@@ -52,7 +52,7 @@ export const App = () => {
   const [objectModal, setObjectModal] = useState({});
 
   
-  const dataAssorti = AssortiMass
+  const dataMaki = MakiMass
 
   const dataAper=AperetivMass
   const dataRom=RomMass
@@ -136,7 +136,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataAssorti} onModal={dataModal} />
+                      <List data={dataMaki} onModal={dataModal} />
                     </AccordionPanel>
                   </AccordionItem>
                   
