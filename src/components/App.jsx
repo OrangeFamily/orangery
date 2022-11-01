@@ -53,11 +53,13 @@ import SweetRolMass from './comp/Kitchen/Data/DataSweetRol';
 import SaladChukaMass from './comp/Kitchen/Data/DataSaladChuka';
 import DesertsMass from './comp/Kitchen/Data/DataDeserts';
 import AsortiMass from './comp/Kitchen/Data/DataAsorti';
+import { Modal } from './Modal/Modal';
 
 
 
 export const App = () => {
   const [showModal, setShowModal] = useState(false);
+  const [showModalTwo, setShowModalTwo] = useState(false);
   const [objectModal, setObjectModal] = useState({});
 
   
@@ -108,6 +110,13 @@ export const App = () => {
   const toggleModal = () => {
     setShowModal(showModal => !showModal);
   };
+  const dataModalTwo = (title, price, text, src) => {
+    toggleModalTwo();
+    setObjectModal({ title, price, text, src });
+  };
+  const toggleModalTwo = () => {
+    setShowModalTwo(showModalTwo => !showModalTwo);
+  };
   return (
     <>
       <div className={s.upper}>
@@ -133,15 +142,15 @@ export const App = () => {
           </a>
         </header>
         <section className={s.main}>
-          <h3 className={s.orign}>*фото можуть не відповідати оригіналу</h3>
+          
           <img
             src={require('./img/logoOrangery.png')}
             alt=""
             className={s.logo}
           />
           <Accordion allowMultiple>
-            <AccordionItem>
-              <h1>
+            <AccordionItem className={s.itemList}>
+              <h1 className={s.titleH}>
                 <AccordionButton className={s.title}>Кухня</AccordionButton>
               </h1>
               <AccordionPanel>
@@ -154,7 +163,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataMaki} onModal={dataModal} />
+                      <List data={dataMaki} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -164,7 +173,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataUramaki} onModal={dataModal} />
+                      <List data={dataUramaki} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -174,7 +183,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataFutomaki} onModal={dataModal} />
+                      <List data={dataFutomaki} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -184,7 +193,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataNigiri} onModal={dataModal} />
+                      <List data={dataNigiri} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -194,7 +203,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataHotRol} onModal={dataModal} />
+                      <List data={dataHotRol} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -204,7 +213,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataSet} onModal={dataModal} />
+                      <List data={dataSet} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -214,7 +223,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataSweetRol} onModal={dataModal} />
+                      <List data={dataSweetRol} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -224,7 +233,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataChuka} onModal={dataModal} />
+                      <List data={dataChuka} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -234,7 +243,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataAsorti} onModal={dataModal} />
+                      <List data={dataAsorti} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -244,17 +253,17 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataDesert} onModal={dataModal} />
+                      <List data={dataDesert} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
-                  
+                  <h3 className={s.orign}>*фото можуть не відповідати оригіналу</h3>
                 </Accordion>
               </AccordionPanel>
             </AccordionItem>
 
-            <AccordionItem>
+            <AccordionItem className={s.itemList}>
               <>
-                <h1>
+                <h1 className={s.titleH}>
                   <AccordionButton className={s.title}>Бар</AccordionButton>
                 </h1>
                 <AccordionPanel>
@@ -539,14 +548,15 @@ export const App = () => {
                       <List data={dataHotDrink} onModal={dataModal} />
                     </AccordionPanel>
                   </AccordionItem>
+                  <h3 className={s.orign}>*фото можуть не відповідати оригіналу</h3>
                   </Accordion>
                 </AccordionPanel>
               </>
             </AccordionItem>
 
-            <AccordionItem>
+            <AccordionItem className={s.itemList}>
               <>
-                <h1>
+                <h1 className={s.titleH}>
                   <AccordionButton className={s.title}>
                     Коктейлі
                   </AccordionButton>
@@ -558,8 +568,11 @@ export const App = () => {
                 </AccordionPanel>
               </>
             </AccordionItem>
+            {showModalTwo && (
+              <ModalTwo objectModal={objectModal} toggleModal={toggleModalTwo} />
+            )}
             {showModal && (
-              <ModalTwo objectModal={objectModal} toggleModal={toggleModal} />
+              <Modal objectModal={objectModal} toggleModal={toggleModal} />
             )}
           </Accordion>
         </section>
