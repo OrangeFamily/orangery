@@ -30,7 +30,7 @@ body {
   // padding: 90px;
   // background-color: orange;
   // background-image: url(./img/fon1.jpg);
-  background-size: contain;
+  // background-size: contain;
   // background-repeat: no-repeat;
   padding-bottom: 400px;
   @media (min-width: 320px) and (max-width: 480px) {
@@ -64,17 +64,17 @@ top: 0;
   // position: relative;
   margin: auto;
   padding-top: 90px;
-  width: 1366px;
+  max-width: 1366px;
   // padding: 60px;
   // background-color: orange;
   background-image: url(./img/bambuk.jpg);
-  background-size: contain;
+  // background-size: contain;
   // background-repeat: no-repeat;
 
   @media (min-width: 320px) and (max-width: 480px) {
     max-width: 400px;
     padding-top: 50px;
-    
+    background-size: contain;
   }
 }
 .link {
@@ -209,6 +209,7 @@ li {
   }
 }
 .itemList{
+  width: 1029px;
   @media (min-width: 320px) and (max-width: 480px) {
    
     width: 360px;
