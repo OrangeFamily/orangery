@@ -54,6 +54,11 @@ import SaladChukaMass from './comp/Kitchen/Data/DataSaladChuka';
 import DesertsMass from './comp/Kitchen/Data/DataDeserts';
 import AsortiMass from './comp/Kitchen/Data/DataAsorti';
 import { Modal } from './Modal/Modal';
+import AuthMass from './comp/Cocotail/Data/DataAuth';
+import ClasicMass from './comp/Cocotail/Data/DataClasic';
+import MilkshakeMass from './comp/Cocotail/Data/DataMilkshake';
+import NonAlkMass from './comp/Cocotail/Data/DataNonAlk';
+import ShortDrinkMass from './comp/Cocotail/Data/DataShortDrink';
 
 
 
@@ -102,6 +107,11 @@ export const App = () => {
   const dataTeaMaribel=TeaMaribelMass
   const dataHotDrink=HotDrinkMass
   
+  const dataAuth=AuthMass;
+  const dataClasic=ClasicMass;
+  const dataMilkshake=MilkshakeMass
+  const dataNonAlk=NonAlkMass
+  const dataShortDrink=ShortDrinkMass
 
   const dataModal = (title, price, text, src) => {
     toggleModal();
@@ -563,7 +573,57 @@ export const App = () => {
                 </h1>
                 <AccordionPanel>
                   <Accordion allowMultiple>
-                    
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                      Клаcика
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <List data={dataClasic} onModal={dataModal} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                      Авторські коктейлі
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <List data={dataAuth} onModal={dataModal} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                      Мілкшейк
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <List data={dataMilkshake} onModal={dataModal} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                      Безалкогольні коктейлі
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <List data={dataNonAlk} onModal={dataModal} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                      Шоти
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <List data={dataShortDrink} onModal={dataModal} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <h3 className={s.orign}>*фото можуть не відповідати оригіналу</h3>
                   </Accordion>
                 </AccordionPanel>
               </>
