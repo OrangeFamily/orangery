@@ -580,7 +580,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataClasic} onModal={dataModal} />
+                      <List data={dataClasic} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -590,7 +590,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataAuth} onModal={dataModal} />
+                      <List data={dataAuth} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -600,7 +600,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataMilkshake} onModal={dataModal} />
+                      <List data={dataMilkshake} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -610,7 +610,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataNonAlk} onModal={dataModal} />
+                      <List data={dataNonAlk} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -620,7 +620,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataShortDrink} onModal={dataModal} />
+                      <List data={dataShortDrink} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <h3 className={s.orign}>*фото можуть не відповідати оригіналу</h3>
