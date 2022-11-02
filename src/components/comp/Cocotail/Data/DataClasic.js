@@ -88,7 +88,7 @@ const ClasicMass=[
         id:13,
         title:"Індійський сауер 200мл",
         price:"139 грн",
-        src: require('../img/may.png'),
+        src: require('../img/1.png'),
         text:"віскі Jack Daniel’s , Ease Foam, сироп кориці, фреш лайму, фреш апельсину, кунжут",
     },
     {
@@ -236,10 +236,3 @@ const ClasicMass=[
 ]
 
 export default ClasicMass;
-
-
- 
- 
-
-
-
