@@ -465,7 +465,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <Bear data={dataBeerTo} onModal={dataModal} />
+                      <WithoutImg data={dataBeerTo} onModal={dataModal} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>

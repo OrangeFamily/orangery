@@ -3,14 +3,14 @@ const ShampanMass=[
         id:1,
         title:"Моет і Шандон Імперіаль (Франція) ігр.,брют біле 0,75л",
         price:"2900 грн",
-        src: require('../img/123123.png'),
+        src: require('../img/moet.png'),
         text:"",
     },
     {
         id:2,
         title:"Асті Мартіні (Італія) 0,75 л",
         price:"600 грн",
-        src: require('../img/123123.png'),
+        src: require('../img/asti.png'),
         text:"",
     },
     {

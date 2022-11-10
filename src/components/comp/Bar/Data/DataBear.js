@@ -11,7 +11,7 @@ const BearMass=[
         id:2,
         title:"Сидр Somersby (Україна) кег.",
         price:"0,5л - 75 грн",
-        src: require('../img/123123.png'),
+        src: require('../img/somers.png'),
         text:"",
     },
     {
@@ -25,7 +25,7 @@ const BearMass=[
         id:4,
         title:"Leffe Brune (Бельгія) бут. 0,33л",
         price:"69 грн",
-        src: require('../img/123123.png'),
+        src: require('../img/lefe.png'),
         text:"",
     },
     {
@@ -39,7 +39,7 @@ const BearMass=[
         id:6,
         title:"Stella Artois б/а (Бельгія) бут. 0,5л",
         price:"59 грн",
-        src: require('../img/123123.png'),
+        src: require('../img/stella.png'),
         text:"",
     },
     

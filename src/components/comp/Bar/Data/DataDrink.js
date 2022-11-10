@@ -24,7 +24,7 @@ const DrinkMass=[
         id:4,
         title:"Пепсі 1 л",
         price:"100 грн",
-        src: require('../img/123123.png'),
+        src: require('../img/pepsil.png'),
         text:"200мл - 20грн",
     },
     {

@@ -3,7 +3,7 @@ const WiskeyMass=[
         id:1,
         title:"Jameson (Ірландія) 1л",
         price:"1600 грн",
-        src: require('../img/123123.png'),
+        src: require('../img/jam.png'),
         text:"50мл - 80грн",
     },
     {
@@ -17,7 +17,7 @@ const WiskeyMass=[
         id:3,
         title:"Джонні Уокер Ред Лейбл (Шотландія) 1 л",
         price:"1600 грн",
-        src: require('../img/123123.png'),
+        src: require('../img/label.png'),
         text:"50мл - 80грн",
     },
     {

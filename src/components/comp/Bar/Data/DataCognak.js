@@ -17,14 +17,14 @@ const CognakMass=[
         id:3,
         title:"Каноні  Дзвелі  **** (Грузія) 0,5",
         price:"600 грн",
-        src: require('../img/123123.png'),
+        src: require('../img/kanoni.png'),
         text:"50мл - 60грн",
     },
     {
         id:4,
         title:"Метакса ***** (Греція) 0,5л",
         price:"600 грн",
-        src: require('../img/123123.png'),
+        src: require('../img/metaxa.png'),
         text:"50мл - 60грн",
     },
     {
