@@ -3,14 +3,14 @@ const MilkshakeMass=[
         id:1,
         title:"Снікерс  250мл",
         price:"84 грн",
-        src: require('../img/1.png'),
+        src: require('../img/snikers.jpg'),
         text:"морозиво, молоко, арахіс, какао, сироп карамельний, вершки кондитерські",
     },
     {
         id:2,
         title:"Баунті 250мл",
         price:"84 грн",
-        src: require('../img/1.png'),
+        src: require('../img/baunti.jpg'),
         text:"морозиво, молоко, какао, кокосова стружка, вершки кондитерські",
     },
     {
@@ -24,7 +24,7 @@ const MilkshakeMass=[
         id:4,
         title:"Скітлз 250мл",
         price:"84 грн",
-        src: require('../img/1.png'),
+        src: require('../img/skitlz.jpg'),
         text:"морозиво, молоко, журавлинний морс, сік апельсиновый, вершки кондитерські",
     },
 ]

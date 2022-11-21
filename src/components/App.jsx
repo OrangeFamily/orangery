@@ -59,6 +59,7 @@ import ClasicMass from './comp/Cocotail/Data/DataClasic';
 import MilkshakeMass from './comp/Cocotail/Data/DataMilkshake';
 import NonAlkMass from './comp/Cocotail/Data/DataNonAlk';
 import ShortDrinkMass from './comp/Cocotail/Data/DataShortDrink';
+import { ListCoct } from './comp/List/ListCoct';
 
 
 
@@ -173,7 +174,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataMaki} onModal={dataModalTwo} />
+                      <ListCoct data={dataMaki} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -183,7 +184,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataUramaki} onModal={dataModalTwo} />
+                      <ListCoct data={dataUramaki} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -193,7 +194,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataFutomaki} onModal={dataModalTwo} />
+                      <ListCoct data={dataFutomaki} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -203,7 +204,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataNigiri} onModal={dataModalTwo} />
+                      <ListCoct data={dataNigiri} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -213,7 +214,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataHotRol} onModal={dataModalTwo} />
+                      <ListCoct data={dataHotRol} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -223,7 +224,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataSet} onModal={dataModalTwo} />
+                      <ListCoct data={dataSet} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -233,7 +234,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataSweetRol} onModal={dataModalTwo} />
+                      <ListCoct data={dataSweetRol} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -243,7 +244,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataChuka} onModal={dataModalTwo} />
+                      <ListCoct data={dataChuka} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -253,7 +254,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataAsorti} onModal={dataModalTwo} />
+                      <ListCoct data={dataAsorti} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -263,7 +264,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataDesert} onModal={dataModalTwo} />
+                      <ListCoct data={dataDesert} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <h3 className={s.orign}>*фото можуть не відповідати оригіналу</h3>
@@ -580,7 +581,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataClasic} onModal={dataModalTwo} />
+                      <ListCoct data={dataClasic} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -590,7 +591,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataAuth} onModal={dataModalTwo} />
+                      <ListCoct data={dataAuth} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -600,7 +601,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataMilkshake} onModal={dataModalTwo} />
+                      <ListCoct data={dataMilkshake} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -610,7 +611,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataNonAlk} onModal={dataModalTwo} />
+                      <ListCoct data={dataNonAlk} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -620,7 +621,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataShortDrink} onModal={dataModalTwo} />
+                      <ListCoct data={dataShortDrink} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <h3 className={s.orign}>*фото можуть не відповідати оригіналу</h3>
