@@ -116,7 +116,7 @@ export const App = () => {
 
   const dataModal = (title, price, text, src) => {
     toggleModal();
-    setObjectModal({ title, price, text, src });
+    setObjectModal({title, price, text, src});
   };
   const toggleModal = () => {
     setShowModal(showModal => !showModal);

@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import s from './Modal.module.scss'
+import s from './Modal.module.scss';
 
 export const Modal = ({ objectModal, toggleModal }) => {
   useEffect(() => {
@@ -15,7 +15,7 @@ export const Modal = ({ objectModal, toggleModal }) => {
     if (e.target.nodeName !== 'DIV') return;
     toggleModal();
   };
-
+  console.log(objectModal.src);
   return (
     <div className={s.backdrop} onClick={handleCloseBackdrop}>
       <div className={s.modal}>

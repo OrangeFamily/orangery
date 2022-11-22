@@ -18,7 +18,7 @@ const DesertsMass=[
         id:3,
         title:"Морозиво 100г",
         price:"70 грн",
-        src:require('../img/123123.png'),
+        src:require('../img/icee.png'),
         text:"",
     },
    

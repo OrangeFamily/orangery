@@ -3,7 +3,6 @@ const BearMass=[
         id:1,
         title:"Kronenbourg Blanc (Франція) кегове",
         price:"0,5л - 69 грн",
-        price2:"0,33л - 45 грн",
         src: require('../img/kron.png'),
         text:"",
     },
