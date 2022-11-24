@@ -49,7 +49,7 @@ import FutoMakiMass from './comp/Kitchen/Data/DataFutoMaki';
 import NigiriMass from './comp/Kitchen/Data/DataNigiri';
 import HotRolMass from './comp/Kitchen/Data/DataHotRol';
 import SetMass from './comp/Kitchen/Data/DataSet';
-import SweetRolMass from './comp/Kitchen/Data/DataSweetRol';
+// import SweetRolMass from './comp/Kitchen/Data/DataSweetRol';
 import SaladChukaMass from './comp/Kitchen/Data/DataSaladChuka';
 import DesertsMass from './comp/Kitchen/Data/DataDeserts';
 import AsortiMass from './comp/Kitchen/Data/DataAsorti';
@@ -75,7 +75,7 @@ export const App = () => {
   const dataNigiri=NigiriMass
   const dataHotRol=HotRolMass
   const dataSet=SetMass
-  const dataSweetRol=SweetRolMass
+  // const dataSweetRol=SweetRolMass
   const dataChuka=SaladChukaMass
   const dataAsorti=AsortiMass
   const dataDesert=DesertsMass
@@ -231,7 +231,7 @@ export const App = () => {
                       <ListCoct data={dataSet} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
-                  <AccordionItem>
+                  {/* <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
                       Солодкі суші
@@ -240,7 +240,7 @@ export const App = () => {
                     <AccordionPanel>
                       <ListCoct data={dataSweetRol} onModal={dataModalTwo} />
                     </AccordionPanel>
-                  </AccordionItem>
+                  </AccordionItem> */}
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
