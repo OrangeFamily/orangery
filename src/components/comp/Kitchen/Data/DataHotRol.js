@@ -25,7 +25,7 @@ const HotRolMass=[
         id:4,
         title:"Макі з креветкою в темпурі 200г",
         price:"250 грн",
-        src:require('../img/123123.png'),
+        src:require('../img/makikrevtemp.jpg'),
         text:"рис, креветки, крем-сир, соус спайс, ікорний продукт, темпура, норі ",
     },
    

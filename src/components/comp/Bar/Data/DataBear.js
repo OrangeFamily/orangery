@@ -2,8 +2,9 @@ const BearMass=[
     {
         id:1,
         title:"Kronenbourg Blanc (Франція) кегове",
-        price:"0,5л - 69 грн",
         src: require('../img/kron.png'),
+        price:"0,5л - 69 грн",
+        price2:"0,3л - 45 грн",
         text:"",
     },
     {
@@ -31,8 +32,8 @@ const BearMass=[
         id:5,
         title:"Corona Extra (Mexico) пляшкове 0,355",
         price:"69 грн",
-        src: require('../img/corona.png'),
         text:"",
+        src: require('../img/corona.png'),
     },
     {
         id:6,

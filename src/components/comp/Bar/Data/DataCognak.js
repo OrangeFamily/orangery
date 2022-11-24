@@ -34,7 +34,13 @@ const CognakMass=[
         src: require('../img/rmvsop.png'),
         text:"50мл - 220грн",
     },
-    
+    {
+        id:6,
+        title:"Areni***** (Вірменія) 0,5 л",
+        price:"600 грн",
+        src: require('../img/areni.png'),
+        text:"50мл - 60грн",
+    },
     
 ]
 

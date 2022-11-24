@@ -25,7 +25,7 @@ const UraMakiMass=[
         id:4,
         title:"«Філадельфія» з лососем 250г",
         price:"270 грн",
-        src:require('../img/123123.png'),
+        src:require('../img/filalosoavok.jpg'),
         text:"норі, рис, крем-сир, авокадо, ікорний продукт, лосось",
     },
     {

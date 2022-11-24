@@ -17,7 +17,7 @@ const MilkshakeMass=[
         id:3,
         title:"Марс 250мл",
         price:"84 грн",
-        src: require('../img/1.png'),
+        src: require('../img/baunti.jpg'),
         text:"морозиво, молоко, сироп карамельний, вершки кондитерські",
     },
     {

@@ -118,6 +118,10 @@ export const App = () => {
     toggleModal();
     setObjectModal({title, price, text, src});
   };
+  const dataModalBeer = (title, price, price2, text, src) => {
+    toggleModal();
+    setObjectModal({title, price, text, src});
+  };
   const toggleModal = () => {
     setShowModal(showModal => !showModal);
   };
@@ -406,7 +410,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <Bear data={dataBeer} onModal={dataModal} />
+                      <Bear data={dataBeer} onModal={dataModalBeer} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -556,7 +560,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <List data={dataHotDrink} onModal={dataModal} />
+                      <ListCoct data={dataHotDrink} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <h3 className={s.orign}>*фото можуть не відповідати оригіналу</h3>

@@ -67,15 +67,16 @@ top: 0;
   max-width: 1366px;
   // padding: 60px;
   // background-color: orange;
-  background-image: url(./img/bambuk.jpg);
+  // background-image: url(./img/bambuk.jpg);
+  background-image: url(./img/fon22.jpg);
   background-attachment: fixed;
-  // background-size: contain;
-  // background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
 
   @media (min-width: 320px) and (max-width: 480px) {
     max-width: 400px;
     padding-top: 50px;
-    background-size: contain;
+    background-size: cover;
   }
 }
 .link {

@@ -59,7 +59,7 @@ const AddMass=[
         id:9,
         title:"імбир до чаю 10гр",
         price:"12 грн",
-        src: require('../img/123123.png'),
+        src:"",
         text:"",
     },
     

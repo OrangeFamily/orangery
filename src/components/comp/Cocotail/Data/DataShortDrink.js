@@ -3,7 +3,7 @@ const ShortDrinkMass=[
         id:1,
         title:"Аравіка 50мл",
         price:"94 грн",
-        src: require('../img/1.png'),
+        src: require('../img/aravika.jpg'),
         text:"сироп гренадін, лікер кавовий, фреш лимон, текіла",
     },
     {
@@ -39,7 +39,7 @@ const ShortDrinkMass=[
         id:6,
         title:"Фрамбі 50мл",
         price:"94 грн",
-        src: require('../img/1.png'),
+        src: require('../img/frambi.jpg'),
         text:"сироп вишня, ром золотий, вишня",
     },
     {
