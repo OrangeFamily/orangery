@@ -8,7 +8,7 @@ const NigiriMass=[
     },
     {
         id:2,
-        title:"Нігірі з вугрем 350г",
+        title:"Нігірі з вугрем 35г",
         price:"44 грн",
         src:require('../img/nigigugor.jpg'),
         text:"рис, вугор, кунжут, соус унагі",
@@ -16,7 +16,7 @@ const NigiriMass=[
     
     {
         id:3,
-        title:"Нігірі з лососем 350г",
+        title:"Нігірі з лососем 35г",
         price:"54 грн",
         src:require('../img/nigigrilos.jpg'),
         text:"рис, лосось",
