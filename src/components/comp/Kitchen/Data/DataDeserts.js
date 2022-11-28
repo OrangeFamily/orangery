@@ -24,14 +24,14 @@ const DesertsMass=[
     {
         id:4,
         title:"Бабл Фан 280г",
-        price:"99 грн",
+        price:"79 грн",
         src: require('../img/bublfun.jpg'),
         text:"морозиво, ріжок, аерозольні вершки, арахіс, топінг, печиво «Орео», мараскинова вишня, желе ведмедики",
     },
     {
         id:5,
         title:"Айс Фрут 280г",
-        price:"99 грн",
+        price:"79 грн",
         src:require('../img/icefrut.jpg'),
         text:"морозиво, мараскинова вишня, ківі, аерозольні вершки, топінг, полуниця, банан",
     },
@@ -39,7 +39,7 @@ const DesertsMass=[
     {
         id:6,
         title:"Морозиво 100г",
-        price:"70 грн",
+        price:"50 грн",
         src:require('../img/icee.png'),
         text:"",
     },
