@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/orangery/static/css/main.e82802ef.css",
-    "main.js": "/orangery/static/js/main.e3fe646d.js",
+    "main.js": "/orangery/static/js/main.70c74e43.js",
     "static/media/icee.png": "/orangery/static/media/icee.930c2665df2215b14ae1.png",
+    "static/media/futlostemp.jpg": "/orangery/static/media/futlostemp.afa28b93c1d0c95221f0.jpg",
     "static/media/sandora.png": "/orangery/static/media/sandora.cdac780e77b3268785ae.png",
     "static/media/med.png": "/orangery/static/media/med.7cc739659a5dc3e3e714.png",
     "static/media/martini.png": "/orangery/static/media/martini.cd80cf140600108f03af.png",
@@ -75,11 +76,10 @@
     "static/media/filaugoravok.jpg": "/orangery/static/media/filaugoravok.9080fff87aec5f7a7bed.jpg",
     "static/media/setkal.jpg": "/orangery/static/media/setkal.03899f7177be98e75448.jpg",
     "static/media/kallosikara.jpg": "/orangery/static/media/kallosikara.6e89a4481a009fd77e32.jpg",
-    "static/media/futlostemp.jpg": "/orangery/static/media/futlostemp.a6c13c7d9b68d1b90984.jpg",
+    "static/media/futloskrevtemp.jpg": "/orangery/static/media/futloskrevtemp.a6c13c7d9b68d1b90984.jpg",
     "static/media/setsamuray.jpg": "/orangery/static/media/setsamuray.8b9ef8e8b646a144bc9e.jpg",
     "static/media/chukaugor.jpg": "/orangery/static/media/chukaugor.1165e76bbc0c076bbeab.jpg",
     "static/media/cherry.png": "/orangery/static/media/cherry.6e834e84bdac0a935d7e.png",
-    "static/media/futloskrevtemp.jpg": "/orangery/static/media/futloskrevtemp.7727f3ef65eebf464cab.jpg",
     "static/media/fanfil.jpg": "/orangery/static/media/fanfil.4c86777f5698bf8224ec.jpg",
     "static/media/proseco.png": "/orangery/static/media/proseco.ab492228fe4132d62a98.png",
     "static/media/futugortemp.jpg": "/orangery/static/media/futugortemp.da695cd39aa72c870170.jpg",
@@ -181,10 +181,10 @@
     "static/media/neuropol-mwdium.ttf": "/orangery/static/media/neuropol-mwdium.56c96f5897e7961cef60.ttf",
     "index.html": "/orangery/index.html",
     "main.e82802ef.css.map": "/orangery/static/css/main.e82802ef.css.map",
-    "main.e3fe646d.js.map": "/orangery/static/js/main.e3fe646d.js.map"
+    "main.70c74e43.js.map": "/orangery/static/js/main.70c74e43.js.map"
   },
   "entrypoints": [
     "static/css/main.e82802ef.css",
-    "static/js/main.e3fe646d.js"
+    "static/js/main.70c74e43.js"
   ]
 }
