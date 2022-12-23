@@ -1,10 +1,18 @@
 const BearMass=[
+    // {
+    //     id:1,
+    //     title:"Kronenbourg Blanc (Франція) кегове",
+    //     src: require('../img/kron.png'),
+    //     price:"0,5л - 69 грн",
+    //     price2:"0,3л - 45 грн",
+    //     text:"",
+    // },
     {
         id:1,
-        title:"Kronenbourg Blanc (Франція) кегове",
-        src: require('../img/kron.png'),
-        price:"0,5л - 69 грн",
-        price2:"0,3л - 45 грн",
+        title:"Хмелевус вайс (Україна) кегове",
+        src: require('../img/hmelevus.png'),
+        price:"0,5л - 65 грн",
+        price2:"0,3л - 39 грн",
         text:"",
     },
     {
