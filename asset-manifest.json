@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orangery/static/css/main.e82802ef.css",
-    "main.js": "/orangery/static/js/main.895b48e1.js",
+    "main.js": "/orangery/static/js/main.fc8d930f.js",
     "static/media/icee.png": "/orangery/static/media/icee.930c2665df2215b14ae1.png",
     "static/media/futlostemp.jpg": "/orangery/static/media/futlostemp.afa28b93c1d0c95221f0.jpg",
     "static/media/sandora.png": "/orangery/static/media/sandora.cdac780e77b3268785ae.png",
@@ -31,7 +31,6 @@
     "static/media/lex.png": "/orangery/static/media/lex.26d3baffa93e6ecc0134.png",
     "static/media/lefe.png": "/orangery/static/media/lefe.200e192697f26c1fce16.png",
     "static/media/pepsi.png": "/orangery/static/media/pepsi.619a5449f5af13b7970a.png",
-    "static/media/pepsil.png": "/orangery/static/media/pepsil.673b718cab2928bd1f28.png",
     "static/media/jam.png": "/orangery/static/media/jam.ffef68962a2c361638f1.png",
     "static/media/jkg.png": "/orangery/static/media/jkg.7a9c34f7e466c46e3fc5.png",
     "static/media/sambuka.png": "/orangery/static/media/sambuka.e86606878f4fafa0f0d5.png",
@@ -181,10 +180,10 @@
     "static/media/neuropol-mwdium.ttf": "/orangery/static/media/neuropol-mwdium.56c96f5897e7961cef60.ttf",
     "index.html": "/orangery/index.html",
     "main.e82802ef.css.map": "/orangery/static/css/main.e82802ef.css.map",
-    "main.895b48e1.js.map": "/orangery/static/js/main.895b48e1.js.map"
+    "main.fc8d930f.js.map": "/orangery/static/js/main.fc8d930f.js.map"
   },
   "entrypoints": [
     "static/css/main.e82802ef.css",
-    "static/js/main.895b48e1.js"
+    "static/js/main.fc8d930f.js"
   ]
 }
