@@ -20,13 +20,13 @@ const DrinkMass=[
         src: require('../img/pepsi.png'),
         text:"",
     },
-    {
-        id:4,
-        title:"Пепсі 1 л",
-        price:"110 грн",
-        src: require('../img/pepsil.png'),
-        text:"200мл - 20грн",
-    },
+    // {
+    //     id:4,
+    //     title:"Пепсі 1 л",
+    //     price:"110 грн",
+    //     src: require('../img/pepsil.png'),
+    //     text:"200мл - 20грн",
+    // },
     {
         id:5,
         title:"Моршинська газ. 0,5 л",

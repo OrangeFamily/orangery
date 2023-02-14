@@ -20,13 +20,13 @@ const ShampanMass=[
         src: require('../img/proseco.png'),
         text:"200мл - 120грн",
     },
-    {
-        id:4,
-        title:"Сан Маре Фраголіно Б'янко (Італія) біл./сол. 0,75 л",
-        price:"360 грн",
-        src: require('../img/fragolinob.png'),
-        text:"200мл - 96грн",
-    },
+    // {
+    //     id:4,
+    //     title:"Сан Маре Фраголіно Б'янко (Італія) біл./сол. 0,75 л",
+    //     price:"360 грн",
+    //     src: require('../img/fragolinob.png'),
+    //     text:"200мл - 96грн",
+    // },
     {
         id:5,
         title:"Сан Маре Фраголіно Россо (Італія) сол./чер. 0,75 л",
