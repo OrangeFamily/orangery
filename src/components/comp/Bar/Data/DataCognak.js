@@ -30,9 +30,9 @@ const CognakMass=[
     {
         id:5,
         title:"Ремі Мартін VSOP (Франція) 0,5л",
-        price:"2200 грн",
+        price:"2400 грн",
         src: require('../img/rmvsop.png'),
-        text:"50мл - 220грн",
+        text:"50мл - 240грн",
     },
     {
         id:6,

@@ -17,7 +17,7 @@ const VineMass=[
         id:3,
         title:"Geo Сапераві (Грузія) черв./сух. 0,75л",
         price:"495 грн",
-        src: require('../img/123123.png'),
+        src: require('../img/alazKrasn.png'),
         text:"200мл - 132грн",
     },
     {

@@ -8,8 +8,8 @@ const BearToMass=[
     },
     {
         id:2,
-        title:"чіпси 60гр",
-        price:"60 грн",
+        title:"чіпси 50гр",
+        price:"70 грн",
         src:"",
         text:"",
     },
