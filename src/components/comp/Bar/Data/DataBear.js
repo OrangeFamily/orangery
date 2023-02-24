@@ -45,9 +45,9 @@ const BearMass=[
     },
     {
         id:6,
-        title:"Stella Artois б/а (Бельгія) бут. 0,5л",
-        price:"59 грн",
-        src: require('../img/stella.png'),
+        title:"Carlsberg (Данія)(Б/А) пляшкове 0,5л",
+        price:"65 грн",
+        src: require('../img/carlnon.webp'),
         text:"",
     },
     
