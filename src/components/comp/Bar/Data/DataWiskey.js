@@ -16,9 +16,9 @@ const WiskeyMass=[
     {
         id:3,
         title:"Джонні Уокер Ред Лейбл (Шотландія) 1 л",
-        price:"1700 грн",
+        price:"1800 грн",
         src: require('../img/label.png'),
-        text:"50мл - 85 грн",
+        text:"50мл - 90 грн",
     },
     {
         id:4,
