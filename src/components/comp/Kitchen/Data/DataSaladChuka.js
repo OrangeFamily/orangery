@@ -2,7 +2,7 @@ const SaladChukaMass=[
     {
         id:1,
         title:"«Чука» салат з вугрем 230г",
-        price:"100 грн",
+        price:"110 грн",
         src: require('../img/chukaugor.jpg'),
         text:"чука, вугор, соэвий соус, кунжут",
     },
@@ -17,7 +17,7 @@ const SaladChukaMass=[
     {
         id:3,
         title:"«Чука» салат з креветками 190г",
-        price:"94 грн",
+        price:"104 грн",
         src:require('../img/chukakrevetka.jpg'),
         text:"чука, креветки, соэвий соус, кунжут",
     },
