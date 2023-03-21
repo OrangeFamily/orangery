@@ -43,6 +43,20 @@ const DrinkMass=[
     },
     {
         id:7,
+        title:"Моршинська газ. 0,33 л",
+        price:"55 грн",
+        src: require('../img/morshs.png'),
+        text:"",
+    },
+    {
+        id:8,
+        title:"Моршинська негаз. 0,33 л",
+        price:"55 грн",
+        src: require('../img/morshnon.png'),
+        text:"",
+    },
+    {
+        id:9,
         title:"Боржомі 0,5л",
         price:"80 грн",
         src: require('../img/borj.png'),
