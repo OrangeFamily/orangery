@@ -7,8 +7,22 @@ const VodkaMass=[
         text:"50мл - 60грн",
     },
     {
+        id:1,
+        title:"Nemiroff De luxe (Україна) 0,5 л",
+        price:"500 грн",
+        src: '',
+        text:"50мл - 50грн",
+    },
+    {
         id:2,
         title:"Koskenkorva (Фінляндія) 0,5 л",
+        price:"550 грн",
+        src: require('../img/kosk.png'),
+        text:"50мл - 55грн",
+    },
+    {
+        id:3,
+        title:"Koskenkorva Ginger (Фінляндія) 0,5 л",
         price:"550 грн",
         src: require('../img/kosk.png'),
         text:"50мл - 55грн",
