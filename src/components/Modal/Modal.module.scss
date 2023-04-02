@@ -18,8 +18,8 @@
   background-color: rgb(25, 26, 27);
   // background-image: url(./img/fon2.jpg);
   // background-size: contain;
-  width: 600px;
-  height: 900px;
+  width: 400px;
+  height: 650px;
   margin: auto;
   margin-top: 100px;
   border-radius: 10px;
@@ -40,10 +40,23 @@
   }
 }
 
-.modal img {
-  margin-top: 20px;
+// .modal img {
+//   margin-top: 20px;
+//   @media (min-width: 320px) and (max-width: 480px) {
+//     width: 190px;
+//   }
+// }
+.imgModal{
+  // position: absolute;
+  z-index: 90;
+  border-radius: 10px;
+  width: 400px;
+  margin-top: 30px;
   @media (min-width: 320px) and (max-width: 480px) {
-    width: 215px;
+    // width: 215px;
+    // top: 0;
+    width: 270px;
+    
   }
 }
 .itemTitle {
@@ -54,7 +67,7 @@
   margin-bottom: 10px;
   padding: 7px 0;
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 30px;
   @media (min-width: 320px) and (max-width: 480px) {
     font-size: 20px;
     width: 235px;

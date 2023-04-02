@@ -63,6 +63,7 @@ import { ListCoct } from './comp/List/ListCoct';
 
 
 
+
 export const App = () => {
   const [showModal, setShowModal] = useState(false);
   const [showModalTwo, setShowModalTwo] = useState(false);
@@ -113,6 +114,7 @@ export const App = () => {
   const dataMilkshake=MilkshakeMass
   const dataNonAlk=NonAlkMass
   const dataShortDrink=ShortDrinkMass
+
 
   const dataModal = (title, price, text, src) => {
     toggleModal();
@@ -170,7 +172,7 @@ export const App = () => {
               </h1>
               <AccordionPanel>
                 <Accordion allowMultiple>
-                 
+
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
