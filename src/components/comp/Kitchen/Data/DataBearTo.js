@@ -15,7 +15,7 @@ const BearToMass=[
     },
     {
         id:3,
-        title:"В‘ялена куриця 50г NEW",
+        title:"В‘ялена курка 50г NEW",
         price:"65 грн",
         src: require('../img/valkurica.jpg'),
         text:"",
