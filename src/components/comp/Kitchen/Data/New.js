@@ -1,123 +1,22 @@
-const New=[
+const Boul=[
+    
     {
         id:1,
-        title:"Картопля Фрі 150г",
-        price:"59 грн",
-        src: require('../img/free.jpg'),
-        text:"",
-    },
-    {
-        id:2,
         title:"Боул з креветкою 253г",
         price:"199 грн",
         src: require('../img/boulkrevetka.jpg'),
         text:"рис, арахіс, огірок, манго, креветка коктельна, чука, ікра масага, Унагі, соус горіховий",
     },
+    
+    
+    
     {
-        id:3,
-        title:"Креветки варені 150г",
-        price:"135 грн",
-        src: require('../img/krevetkavar.jpg'),
-        text:"",
-    },
-    {
-        id:4,
-        title:"Цибулеві кільця 150г",
-        price:"89 грн",
-        src: require('../img/cibkol.jpg'),
-        text:"",
-    },
-    {
-        id:5,
-        title:"Рол з манго та креветкою 265г",
-        price:"245 грн",
-        src: require('../img/rolmango.jpg'),
-        text:"норі, рис, крем-сир, манго, ікра масага, тигрова креветка, Унагі",
-    },
-    {
-        id:6,
-        title:"Філадельфія з тигровою креветкою 300г",
-        price:"275 грн",
-        src: require('../img/filakrevetka.jpg'),
-        text:"норі, рис ,крем-сир, лосось, тигрова креветка, огірок, ікра масага",
-    },
-    {
-        id:7,
-        title:"Чіз рол з креветкою 270г",
-        price:"250 грн",
-        src: require('../img/cheezrol.jpg'),
-        text:"норі, рис, крем-сир, сир чеддер, тигрова креветка, авокадо, Унагі",
-    },
-    {
-        id:8,
+        id:2,
         title:"Боул з лососем 283г",
         price:"240 грн",
         src: require('../img/boullosos.jpg'),
         text:"норі, рис, лосось, манго, авокадо, чука, соус горіховий, Унагі, кунжут",
     },
-    {
-        id:9,
-        title:"В‘ялена куриця 50г",
-        price:"65 грн",
-        src: require('../img/valkurica.jpg'),
-        text:"",
-    },
-    {
-        id:10,
-        title:"В‘ялена свинина 50г",
-        price:"69 грн",
-        src: require('../img/valsvin.jpg'),
-        text:"",
-    },
-    {
-        id:11,
-        title:"Креветки темпура 180г",
-        price:"170 грн",
-        src: require('../img/krevetkitempurra.jpg'),
-        text:"",
-    },
-    {
-        id:12,
-        title:"Опалений рол з манго 290г",
-        price:"275 грн",
-        src: require('../img/obpflvango.jpg'),
-        text:"норі, рис, крем-сир, лосось, манго, ікра масага",
-    },
-    {
-        id:13,
-        title:"Вуха в соєвому соусі 100г",
-        price:"89 грн",
-        src: require('../img/vuhavsous.jpg'),
-        text:"",
-    },
-    {
-        id:14,
-        title:"Пекельні вуха 100г",
-        price:"95 грн",
-        src: require('../img/pekelvuha.jpg'),
-        text:"",
-    },
-    {
-        id:15,
-        title:"Вуха в соусі Sweet Chili 100г",
-        price:"89 грн",
-        src: require('../img/vuhavsussweet.jpg'),
-        text:"",
-    },
-    {
-        id:16,
-        title:"Сирні палички 150г",
-        price:"110 грн",
-        src: require('../img/sirpalki.jpg'),
-        text:"",
-    },
-    {
-        id:17,
-        title:"Тарілка до пива 300г",
-        price:"235 грн",
-        src: require('../img/tarilkadopiva.jpg'),
-        text:"в‘ялена куриця, в‘ялена свинина, чіпси, фісташки, арахіс, вуха в соєвому соусі",
-    },
 ]
 
-export default New;
+export default Boul;

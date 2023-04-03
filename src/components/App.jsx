@@ -32,7 +32,7 @@ import CoffeMass from './comp/Bar/Data/DataCoffe';
 import CoffeMilkMass from './comp/Bar/Data/DataCoffeMilk';
 import CoffeColdMass from './comp/Bar/Data/DataCoffeCold';
 import LimonadMass from './comp/Bar/Data/DataLimonad';
-import BearToMass from './comp/Bar/Data/DataBearTo';
+import BearToMass from './comp/Kitchen/Data/DataBearTo';
 import AddMass from './comp/Bar/Data/DataAdd';
 import DrinkMass from './comp/Bar/Data/DataDrink';
 import FreshMass from './comp/Bar/Data/DataFresh';
@@ -60,6 +60,7 @@ import MilkshakeMass from './comp/Cocotail/Data/DataMilkshake';
 import NonAlkMass from './comp/Cocotail/Data/DataNonAlk';
 import ShortDrinkMass from './comp/Cocotail/Data/DataShortDrink';
 import { ListCoct } from './comp/List/ListCoct';
+import Boul from './comp/Kitchen/Data/New';
 
 
 
@@ -114,6 +115,8 @@ export const App = () => {
   const dataMilkshake=MilkshakeMass
   const dataNonAlk=NonAlkMass
   const dataShortDrink=ShortDrinkMass
+
+  const dataBoul=Boul
 
 
   const dataModal = (title, price, text, src) => {
@@ -246,11 +249,31 @@ export const App = () => {
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
+                      Боули NEW
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <ListCoct data={dataBoul} onModal={dataModalTwo} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
                       Салати з чука
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
                       <ListCoct data={dataChuka} onModal={dataModalTwo} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                      До пива
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <ListCoct data={dataBeerTo} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -465,16 +488,7 @@ export const App = () => {
                       <WithoutImg data={dataLimonad} onModal={dataModal} />
                     </AccordionPanel>
                   </AccordionItem>
-                  <AccordionItem>
-                    <h2>
-                      <AccordionButton className={s.titleItem}>
-                      До пива
-                      </AccordionButton>
-                    </h2>
-                    <AccordionPanel>
-                      <WithoutImg data={dataBeerTo} onModal={dataModal} />
-                    </AccordionPanel>
-                  </AccordionItem>
+                  
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
