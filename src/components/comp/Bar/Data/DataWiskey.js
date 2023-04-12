@@ -34,7 +34,20 @@ const WiskeyMass=[
         src: require('../img/glen.png'),
         text:"50мл - 250 грн",
     },
-    
+    {
+        id:6,
+        title:"Бурбон Буліт (США) 1л",
+        price:"2800 грн",
+        src:require('../img/bulit.png'),
+        text:"50мл - 140 грн",
+    },
+    {
+        id:7,
+        title:"О'Браєн (Ірландія) 1л",
+        price:"1960 грн",
+        src:require('../img/obrayen.png'),
+        text:"50мл - 98 грн",
+    },
 ]
 
 export default WiskeyMass;
