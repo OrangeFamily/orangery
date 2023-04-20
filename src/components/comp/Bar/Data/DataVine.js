@@ -36,7 +36,7 @@ const VineMass=[
     },
     {
         id:6,
-        title:"Сеттесолі Піно Гріджо (Італія) біл./сух. 0,75л",
+        title:"Сеттесолі Піно Гріджіо (Італія) біл./сух. 0,75л",
         price:"495 грн",
         src: require('../img/setesollipino.png'),
         text:"200мл - 132грн",
@@ -54,6 +54,13 @@ const VineMass=[
         price:"420 грн",
         src: require('../img/latin.png'),
         text:"200мл - 112грн",
+    },
+    {
+        id:9,
+        title:"Коблево Піно Гріджіо (Україна) біл./сух. 0,75л",
+        price:"600 грн",
+        src: require('../img/koblevowitewine.png'),
+        text:"200мл - 200 грн",
     },
     
     

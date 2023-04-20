@@ -1,11 +1,11 @@
 const WiskeyMass=[
-    {
-        id:1,
-        title:"Jameson (Ірландія) 1л",
-        price:"1800 грн",
-        src: require('../img/jam.png'),
-        text:"50мл - 90 грн",
-    },
+    // {
+    //     id:1,
+    //     title:"Jameson (Ірландія) 1л",
+    //     price:"1800 грн",
+    //     src: require('../img/jam.png'),
+    //     text:"50мл - 90 грн",
+    // },
     {
         id:2,
         title:"Белл'с Оріджинал (Шотландія) 1л",
@@ -20,11 +20,18 @@ const WiskeyMass=[
         src: require('../img/label.png'),
         text:"50мл - 90 грн",
     },
+    // {
+    //     id:4,
+    //     title:"Джек Деніелс (Теннессі) 1л",
+    //     price:"2000 грн",
+    //     src: require('../img/jd.png'),
+    //     text:"50мл - 100 грн",
+    // },
     {
         id:4,
-        title:"Джек Деніелс (Теннессі) 1л",
+        title:"Джек Деніелс Медовий (Теннессі) 1л",
         price:"2000 грн",
-        src: require('../img/jd.png'),
+        src: require('../img/jdh.webp'),
         text:"50мл - 100 грн",
     },
     {

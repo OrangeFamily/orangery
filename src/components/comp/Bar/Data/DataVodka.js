@@ -1,18 +1,18 @@
 const VodkaMass=[
-    {
-        id:1,
-        title:"Nemiroff Lex (Україна) 0,5 л",
-        price:"600 грн",
-        src: require('../img/lex.png'),
-        text:"50мл - 60грн",
-    },
-    {
-        id:2,
-        title:"Nemiroff De luxe (Україна) 0,5 л",
-        price:"500 грн",
-        src: '',
-        text:"50мл - 50грн",
-    },
+    // {
+    //     id:1,
+    //     title:"Nemiroff Lex (Україна) 0,5 л",
+    //     price:"600 грн",
+    //     src: require('../img/lex.png'),
+    //     text:"50мл - 60грн",
+    // },
+    // {
+    //     id:2,
+    //     title:"Nemiroff De luxe (Україна) 0,5 л",
+    //     price:"500 грн",
+    //     src: '',
+    //     text:"50мл - 50грн",
+    // },
     {
         id:3,
         title:"Koskenkorva (Фінляндія) 0,5 л",
@@ -33,6 +33,13 @@ const VodkaMass=[
         price:"760 грн",
         src: require('../img/persha.png'),
         text:"50мл - 38 грн",
+    },
+    {
+        id:6,
+        title:"Zubrowka Biala (Польша) 0,5л",
+        price:"450 грн",
+        src: require('../img/zubrovka.png'),
+        text:"50мл - 45 грн",
     },
 ]
 

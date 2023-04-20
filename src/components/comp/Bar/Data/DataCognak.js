@@ -10,7 +10,7 @@ const CognakMass=[
         id:2,
         title:"Коблево ****(Україна) 0,5 л",
         price:"500 грн",
-        src: require('../img/123123.png'),
+        src: require('../img/koblevo.png'),
         text:"50мл - 50грн",
     },
     {
@@ -34,13 +34,13 @@ const CognakMass=[
         src: require('../img/rmvsop.png'),
         text:"50мл - 240грн",
     },
-    {
-        id:6,
-        title:"Areni***** (Вірменія) 0,5 л",
-        price:"600 грн",
-        src: require('../img/areni.png'),
-        text:"50мл - 60грн",
-    },
+    // {
+    //     id:6,
+    //     title:"Areni***** (Вірменія) 0,5 л",
+    //     price:"600 грн",
+    //     src: require('../img/areni.png'),
+    //     text:"50мл - 60грн",
+    // },
     
 ]
 

@@ -17,7 +17,7 @@ const BearMass=[
     },
     {
         id:2,
-        title:"Lowenbrau original (Баварія) кегове",
+        title:"Lowenbrau original (Німеччина) кегове",
         src: require('../img/lowenbrau.png'),
         price:"0,5л - 69 грн",
         price2:"0,3л - 45 грн",
