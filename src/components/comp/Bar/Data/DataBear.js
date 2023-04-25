@@ -23,13 +23,14 @@ const BearMass=[
         price2:"0,3л - 45 грн",
         text:"",
     },
-    // {
-    //     id:2,
-    //     title:"Сидр Somersby (Україна) кег.",
-    //     price:"0,5л - 75 грн",
-    //     src: require('../img/somers.png'),
-    //     text:"",
-    // },
+    {
+        id:2,
+        title:"Сидр Somersby (Україна) кег.",
+        price:"0,5л - 69 грн",
+        price2:"0,3л - 45 грн",
+        src: require('../img/somers.png'),
+        text:"",
+    },
     {
         id:3,
         title:"Hoegaarden (Бельгія) пляшкове 0,33",

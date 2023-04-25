@@ -89,7 +89,7 @@ const ClasicMass=[
         title:"Індійський сауер 200мл",
         price:"149 грн",
         src: require('../img/indSau.jpg'),
-        text:"віскі Jack Daniel’s , Ease Foam, сироп кориці, фреш лайму, фреш апельсину, кунжут",
+        text:"віскі бурбон , Ease Foam, сироп кориці, фреш лайму, фреш апельсину, кунжут",
     },
     {
         id:14,
@@ -103,7 +103,7 @@ const ClasicMass=[
         title:"Томі ді сауер 200мл",
         price:"149 грн",
         src: require('../img/tomdisau.jpg'),
-        text:"віскі Jack Daniel’s , сироп маракуї , лимонний фреш, Ease Foam ",
+        text:"віскі бурбон , сироп маракуї , лимонний фреш, Ease Foam ",
     },
     {
         id:16,
@@ -117,7 +117,7 @@ const ClasicMass=[
         title:"Червоний сауер 250мл",
         price:"159 грн",
         src: require('../img/krasnSau.jpg'),
-        text:"віскі Jack Daniel’s,червоне сухе вино, цукровий сироп, медовий сироп",
+        text:"віскі бурбон,червоне сухе вино, цукровий сироп, медовий сироп",
     },
     {
         id:18,
