@@ -48,7 +48,34 @@ const LimonadMass=[
         src:"",
         text:"",
     },
-    
+    {
+        id:8,
+        title:"фісташковий 350мл",
+        price:"69 грн",
+        src:"",
+        text:"",
+    },
+    {
+        id:9,
+        title:"грушевий 350мл",
+        price:"69 грн",
+        src:"",
+        text:"",
+    },
+    {
+        id:10,
+        title:"клиновий 350мл",
+        price:"69 грн",
+        src:"",
+        text:"",
+    },
+    {
+        id:11,
+        title:"ананасовий 350мл",
+        price:"69 грн",
+        src:"",
+        text:"",
+    },    
 ]
 
 export default LimonadMass;
