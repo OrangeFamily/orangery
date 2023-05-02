@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orangery/static/css/main.0f3db924.css",
-    "main.js": "/orangery/static/js/main.eb8a6286.js",
+    "main.js": "/orangery/static/js/main.fa9989bd.js",
     "static/media/icee.png": "/orangery/static/media/icee.930c2665df2215b14ae1.png",
     "static/media/chips.png": "/orangery/static/media/chips.f9202e6bd5d395fa448e.png",
     "static/media/futlostemp.jpg": "/orangery/static/media/futlostemp.afa28b93c1d0c95221f0.jpg",
@@ -77,12 +77,14 @@
     "static/media/kmg.png": "/orangery/static/media/kmg.b5290b01a05ac4b36e7b.png",
     "static/media/xenta.png": "/orangery/static/media/xenta.9407d4babb4d4bb04314.png",
     "static/media/frutassorti.jpg": "/orangery/static/media/frutassorti.8b118229634d99a21daa.jpg",
+    "static/media/fayniyjin.jpg": "/orangery/static/media/fayniyjin.499dbe80a698a4677c39.jpg",
     "static/media/milk.png": "/orangery/static/media/milk.fae5bc0ff92a72ec67b5.png",
     "static/media/terrab.png": "/orangery/static/media/terrab.0213c1a4c9a9d122da09.png",
     "static/media/123123.png": "/orangery/static/media/123123.3962ac34daae8978081b.png",
     "static/media/alazKrasn.png": "/orangery/static/media/alazKrasn.62078d95fa7a1b4da2e4.png",
     "static/media/rmvsop.png": "/orangery/static/media/rmvsop.72274f50f3e169931ba1.png",
     "static/media/bels.png": "/orangery/static/media/bels.d59e916361eff7de1c12.png",
+    "static/media/pekelnamala.jpg": "/orangery/static/media/pekelnamala.f859df99f0612736ab97.jpg",
     "static/media/latin.png": "/orangery/static/media/latin.c8bd2c4a67871a381014.png",
     "static/media/setkatana.jpg": "/orangery/static/media/setkatana.a28b7962b3a9f21b9265.jpg",
     "static/media/bail.png": "/orangery/static/media/bail.f18d22b080a4e6769db5.png",
@@ -199,10 +201,10 @@
     "static/media/neuropol-mwdium.ttf": "/orangery/static/media/neuropol-mwdium.56c96f5897e7961cef60.ttf",
     "index.html": "/orangery/index.html",
     "main.0f3db924.css.map": "/orangery/static/css/main.0f3db924.css.map",
-    "main.eb8a6286.js.map": "/orangery/static/js/main.eb8a6286.js.map"
+    "main.fa9989bd.js.map": "/orangery/static/js/main.fa9989bd.js.map"
   },
   "entrypoints": [
     "static/css/main.0f3db924.css",
-    "static/js/main.eb8a6286.js"
+    "static/js/main.fa9989bd.js"
   ]
 }
