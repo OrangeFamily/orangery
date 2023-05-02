@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orangery/static/css/main.0f3db924.css",
-    "main.js": "/orangery/static/js/main.73a60db5.js",
+    "main.js": "/orangery/static/js/main.7a3e6f96.js",
     "static/media/icee.png": "/orangery/static/media/icee.930c2665df2215b14ae1.png",
     "static/media/chips.png": "/orangery/static/media/chips.f9202e6bd5d395fa448e.png",
     "static/media/futlostemp.jpg": "/orangery/static/media/futlostemp.afa28b93c1d0c95221f0.jpg",
@@ -29,7 +29,6 @@
     "static/media/bulit.png": "/orangery/static/media/bulit.78bad35d53945cbaea15.png",
     "static/media/valkurica.jpg": "/orangery/static/media/valkurica.c83716498f9a9b4beb9f.jpg",
     "static/media/kosk.png": "/orangery/static/media/kosk.18fcbbfd3433dd3ab673.png",
-    "static/media/hmelevus.png": "/orangery/static/media/hmelevus.8e7c0adea99f48ca648d.png",
     "static/media/JaranaB.png": "/orangery/static/media/JaranaB.7e7e873f70bee6fc593e.png",
     "static/media/obpflvango.jpg": "/orangery/static/media/obpflvango.8ddba97cf8bb00123d63.jpg",
     "static/media/somers.png": "/orangery/static/media/somers.2f144008f05ec3078b08.png",
@@ -50,13 +49,13 @@
     "static/media/gordons.png": "/orangery/static/media/gordons.55ed752e8369f7937417.png",
     "static/media/vuhavsous.jpg": "/orangery/static/media/vuhavsous.6ff8f21af2f7dccb0dfa.jpg",
     "static/media/persha.png": "/orangery/static/media/persha.af96eb9c832cb34aa081.png",
-    "static/media/jks.png": "/orangery/static/media/jks.0edc7f9c639f58330c7f.png",
+    "static/media/beloe.png": "/orangery/static/media/beloe.d324c90c58c31a7606c8.png",
     "static/media/free.jpg": "/orangery/static/media/free.b33928a2938e1ead4086.jpg",
     "static/media/krevetkavar.jpg": "/orangery/static/media/krevetkavar.36a675fda326cc9d7f69.jpg",
     "static/media/volare.png": "/orangery/static/media/volare.847ea4a8e55d86cdf7b7.png",
+    "static/media/lefe.png": "/orangery/static/media/lefe.200e192697f26c1fce16.png",
     "static/media/pepsi.png": "/orangery/static/media/pepsi.619a5449f5af13b7970a.png",
     "static/media/zubrovka.png": "/orangery/static/media/zubrovka.b4e343db2d8f053f76a7.png",
-    "static/media/jkg.png": "/orangery/static/media/jkg.7a9c34f7e466c46e3fc5.png",
     "static/media/sambuka.png": "/orangery/static/media/sambuka.e86606878f4fafa0f0d5.png",
     "static/media/moet.png": "/orangery/static/media/moet.d98c571b408e116a6b66.png",
     "static/media/setesollipino.png": "/orangery/static/media/setesollipino.2d6c91b0243d91f90ed3.png",
@@ -199,10 +198,10 @@
     "static/media/neuropol-mwdium.ttf": "/orangery/static/media/neuropol-mwdium.56c96f5897e7961cef60.ttf",
     "index.html": "/orangery/index.html",
     "main.0f3db924.css.map": "/orangery/static/css/main.0f3db924.css.map",
-    "main.73a60db5.js.map": "/orangery/static/js/main.73a60db5.js.map"
+    "main.7a3e6f96.js.map": "/orangery/static/js/main.7a3e6f96.js.map"
   },
   "entrypoints": [
     "static/css/main.0f3db924.css",
-    "static/js/main.73a60db5.js"
+    "static/js/main.7a3e6f96.js"
   ]
 }
