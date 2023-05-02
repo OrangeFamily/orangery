@@ -6,6 +6,13 @@ const GinMass=[
         src: require('../img/gordons.png'),
         text:"50мл - 80грн",
     },
+    {
+        id: 2,
+        title: "Гордон'с оранж (Великобританія) 1л",
+        price: '1820 грн',
+        src: require('../img/ginorange.png'),
+        text: '50мл - 91 грн',
+      },
     
 ]
 
