@@ -53,7 +53,7 @@ const ShampanMass=[
         title:"Маренго рожеве напівсолодке (Україна) напівсол./рож. 0,75л",
         price:"255 грн",
         src: require('../img/mangor.png'),
-        text:"200мл - 68 грн",
+        text:"200мл - 69 грн",
     },
     {
         id:9,
