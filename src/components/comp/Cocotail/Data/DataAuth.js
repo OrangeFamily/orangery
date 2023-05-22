@@ -4,7 +4,7 @@ const AuthMass=[
         title:"Фламінго Оранжа 300мл",
         price:"130 грн",
         src: require('../img/flamOr.jpg'),
-        text:"koskenkorva ginger, сік ананасовий, сироп малиновий",
+        text:"гордон`c середземноморський апельсин, сік ананасовий, сироп малиновий",
     },
     {
         id:2,
