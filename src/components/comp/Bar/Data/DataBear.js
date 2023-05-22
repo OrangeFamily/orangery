@@ -34,7 +34,7 @@ const BearMass=[
     {
         id:4,
         title:"Сидр Somersby (Україна) кег.",
-        price:"0,5л - 69 грн",
+        price:"0,45л - 69 грн",
         price2:"0,3л - 45 грн",
         src: require('../img/somers.png'),
         text:"",
