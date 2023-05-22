@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orangery/static/css/main.0f3db924.css",
-    "main.js": "/orangery/static/js/main.6155fcf1.js",
+    "main.js": "/orangery/static/js/main.aea5dc6c.js",
     "static/media/icee.png": "/orangery/static/media/icee.930c2665df2215b14ae1.png",
     "static/media/chips.png": "/orangery/static/media/chips.f9202e6bd5d395fa448e.png",
     "static/media/futlostemp.jpg": "/orangery/static/media/futlostemp.afa28b93c1d0c95221f0.jpg",
@@ -201,10 +201,10 @@
     "static/media/neuropol-mwdium.ttf": "/orangery/static/media/neuropol-mwdium.56c96f5897e7961cef60.ttf",
     "index.html": "/orangery/index.html",
     "main.0f3db924.css.map": "/orangery/static/css/main.0f3db924.css.map",
-    "main.6155fcf1.js.map": "/orangery/static/js/main.6155fcf1.js.map"
+    "main.aea5dc6c.js.map": "/orangery/static/js/main.aea5dc6c.js.map"
   },
   "entrypoints": [
     "static/css/main.0f3db924.css",
-    "static/js/main.6155fcf1.js"
+    "static/js/main.aea5dc6c.js"
   ]
 }
