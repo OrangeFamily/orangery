@@ -20,13 +20,13 @@ const VodkaMass=[
         src: require('../img/kosk.png'),
         text:"50мл - 55грн",
     },
-    {
-        id:4,
-        title:"Koskenkorva Ginger (Фінляндія) 0,5 л",
-        price:"550 грн",
-        src: require('../img/kosk.png'),
-        text:"50мл - 55грн",
-    },
+    //{
+        //id:4,
+        //title:"Koskenkorva Ginger (Фінляндія) 0,5 л",
+        //price:"550 грн",
+        //src: require('../img/kosk.png'),
+        //text:"50мл - 55грн",
+    //},
     {
         id:5,
         title:"Перша Гільдія Поважна (Україна) 1л",
