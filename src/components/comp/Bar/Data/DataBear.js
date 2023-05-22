@@ -39,13 +39,13 @@ const BearMass=[
         src: require('../img/somers.png'),
         text:"",
     },
-    {
-        id:5,
-        title:"Hoegaarden (Бельгія) пляшкове 0,33",
-        price:"89 грн",
-        src: require('../img/hoegarden.png'),
-        text:"",
-    },
+    //{
+        //id:5,
+        //title:"Hoegaarden (Бельгія) пляшкове 0,33",
+        //price:"89 грн",
+        //src: require('../img/hoegarden.png'),
+        //text:"",
+   // },
     {
         id:6,
         title:"Leffe Brune (Бельгія) бут. 0,33л",
