@@ -62,6 +62,13 @@ const VineMass=[
         src: require('../img/koblevowitewine.png'),
         text:"200мл - 200 грн",
     },
+    {
+        id:10,
+        title:"Коблево Мерло (Україна) черв./сух. 0,75л",
+        price:"405 грн",
+        src: require('../img/kobmerlo.png'),
+        text:"200мл - 108 грн",
+    },
     
     
 ]
