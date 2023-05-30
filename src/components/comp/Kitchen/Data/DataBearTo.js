@@ -30,7 +30,7 @@ const BearToMass=[
     {
         id:5,
         title:"Креветки темпура 180г NEW",
-        price:"170 грн",
+        price:"199 грн",
         src: require('../img/krevetkitempurra.jpg'),
         text:"",
     },
@@ -66,7 +66,7 @@ const BearToMass=[
     {
         id:10,
         title:"Тарілка до пива 300г NEW",
-        price:"235 грн",
+        price:"250 грн",
         src: require('../img/tarilkadopiva.jpg'),
         text:"в‘ялена куриця, в‘ялена свинина, чіпси, фісташки, арахіс, вуха в соєвому соусі",
     },
@@ -88,7 +88,7 @@ const BearToMass=[
     {
         id:13,
         title:"Картопля Фрі 150г NEW",
-        price:"59 грн",
+        price:"69 грн",
         src: require('../img/free.jpg'),
         text:"",
     },

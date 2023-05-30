@@ -9,7 +9,7 @@ const UraMakiMass=[
     {
         id:24,
         title:"Філадельфія з тигровою креветкою 300г NEW",
-        price:"275 грн",
+        price:"299 грн",
         src: require('../img/filakrevetka.jpg'),
         text:"норі, рис ,крем-сир, лосось, тигрова креветка, огірок, ікра масага",
     },
@@ -45,7 +45,7 @@ const UraMakiMass=[
     {
         id:3,
         title:"«Філадельфія» з вугрем 250г",
-        price:"285 грн",
+        price:"320 грн",
         src:require('../img/filaugoravok.jpg'),
         text:"норі, рис, крем-сир, авокадо, вугор, ікорний продукт, соус «унагі», кунжут",
     },
@@ -111,7 +111,7 @@ const UraMakiMass=[
     {
         id:12,
         title:"Рол «Чорний дракон» 270г",
-        price:"279 грн",
+        price:"320 грн",
         src:require('../img/cherndrak.jpg'),
         text:"норі, рис, вугор, лосось, ікорний продукт, огірок, авокадо, кунжут, соус «унагі»",
     },
@@ -148,7 +148,7 @@ const UraMakiMass=[
     {
         id:17,
         title:"Рол з обпаленим лососем 290г",
-        price:"275 грн",
+        price:"300 грн",
         src:require('../img/rolobplas.jpg'),
         text:"рис, авокадо, соус спайс, огірок, лосось, норі ",
     },

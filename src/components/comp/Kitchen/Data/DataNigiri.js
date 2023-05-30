@@ -9,7 +9,7 @@ const NigiriMass=[
     {
         id:2,
         title:"Нігірі з вугрем 35г",
-        price:"27 грн",
+        price:"45 грн",
         src:require('../img/nigigugor.jpg'),
         text:"рис, вугор, кунжут, соус унагі",
     },

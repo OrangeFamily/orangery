@@ -2,24 +2,24 @@ const AperetivMass=[
     {
         id:1,
         title:"Апероль (Італія) 1л",
-        price:"1640 грн",
+        price:"1700 грн",
         src: require('../img/aperol.png'),
-        text:"50мл - 82грн",
+        text:"50мл - 85 грн",
     },
     {
         id:2,
         title:"Кампарі (Італія) 1л",
-        price:"1500 грн",
+        price:"1600 грн",
         src: require('../img/campary.png'),
-        text:"50мл - 75грн",
+        text:"50мл - 80 грн",
     },
     
     {
         id:3,
         title:"Ксента Абсента (Італія) 1л",
-        price:"1800 грн",
+        price:"1900 грн",
         src: require('../img/xenta.png'),
-        text:"50мл - 90грн",
+        text:"50мл - 95 грн",
     },
     
     
