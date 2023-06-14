@@ -2,7 +2,7 @@ const BearToMass=[
     {
         id:14,
         title:"хамон 50г",
-        price:"89 грн",
+        price:"99 грн",
         src:require('../img/hamon.jpg'),
         text:"",
     },
