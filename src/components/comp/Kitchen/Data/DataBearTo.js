@@ -9,7 +9,7 @@ const BearToMass=[
     {
         id:1,
         title:"фісташки 50гр",
-        price:"65 грн",
+        price:"80 грн",
         src:require('../img/fist.png'),
         text:"",
     },
@@ -66,7 +66,7 @@ const BearToMass=[
     {
         id:9,
         title:"Сирні палички 150г NEW",
-        price:"110 грн",
+        price:"125 грн",
         src: require('../img/sirpalki.jpg'),
         text:"",
     },

@@ -2,7 +2,7 @@ const ClasicMass=[
     {
         id:1,
         title:"Бульвардье 150мл",
-        price:"180 грн",
+        price:"190 грн",
         src: require('../img/bulv.jpg'),
         text:"бурбон, Кампарі, Мартіні Россо",
     },
@@ -38,7 +38,7 @@ const ClasicMass=[
     {
         id:6,
         title:"Апероль спрітц 250мл",
-        price:"155 грн",
+        price:"169 грн",
         src: require('../img/apero.jpg'),
         text:"апероль, просекко, мінеральна вода, апельсин",
     },
@@ -66,7 +66,7 @@ const ClasicMass=[
     {
         id:10,
         title:"Віскі сауер 200мл",
-        price:"160 грн",
+        price:"180 грн",
         src: require('../img/viskSau.jpg'),
         text:"бурбон, Ангостура, фреш лимон, яєчний білок, лимон, вишня",
     },
@@ -80,7 +80,7 @@ const ClasicMass=[
     {
         id:12,
         title:"Мімоза 180мл",
-        price:"130 грн",
+        price:"140 грн",
         src: require('../img/mimoza.jpg'),
         text:"просекко, апельсиновий фреш ",
     },
@@ -143,7 +143,7 @@ const ClasicMass=[
 {
         id:21,
         title:"Кампарі Спрітц 250мл",
-        price:"150 грн",
+        price:"170 грн",
         src: require('../img/kamparispr.jpg'),
         text:"Кампарі, тонік, апельсин",
     },
@@ -214,7 +214,7 @@ const ClasicMass=[
     {
         id:31,
         title:"Піч Апероль 250мл",
-        price:"145 грн",
+        price:"159 грн",
         src: require('../img/apero.jpg'),
         text:"апероль, персиковий сироп, фраголіно",
     },

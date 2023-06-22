@@ -45,7 +45,7 @@ const AuthMass=[
     {
         id:7,
         title:"Зелена Фея 450мл",
-        price:"180 грн",
+        price:"190 грн",
         src: require('../img/feya.jpg'),
         text:"горілка, ром золотий, лікер динний, Ред Бул ",
     },
