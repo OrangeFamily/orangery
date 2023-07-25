@@ -43,13 +43,13 @@ const CoffeMass=[
         src: require('../img/cof.png'),
         text:"",
     },
-    {
-        id:7,
-        title:"Матча Лате 0,250л",
-        price:"80 грн",
-        src: require('../img/cof.png'),
-        text:"",
-    },
+    // {
+    //     id:7,
+    //     title:"Матча Лате 0,250л",
+    //     price:"80 грн",
+    //     src: require('../img/cof.png'),
+    //     text:"",
+    // },
     
     
     

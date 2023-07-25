@@ -29,7 +29,7 @@ import ShampanMass from './comp/Bar/Data/DataShampan';
 import VineMass from './comp/Bar/Data/DataVine';
 import BearMass from './comp/Bar/Data/DataBear';
 import CoffeMass from './comp/Bar/Data/DataCoffe';
-import CoffeMilkMass from './comp/Bar/Data/DataCoffeMilk';
+// import CoffeMilkMass from './comp/Bar/Data/DataCoffeMilk';
 import CoffeColdMass from './comp/Bar/Data/DataCoffeCold';
 import LimonadMass from './comp/Bar/Data/DataLimonad';
 import BearToMass from './comp/Kitchen/Data/DataBearTo';
@@ -38,7 +38,7 @@ import DrinkMass from './comp/Bar/Data/DataDrink';
 import FreshMass from './comp/Bar/Data/DataFresh';
 import TeaMass from './comp/Bar/Data/DataTea';
 import TeaColdMass from './comp/Bar/Data/DataTeaCold';
-import TeaMatchaMass from './comp/Bar/Data/DataTeaMatcha';
+// import TeaMatchaMass from './comp/Bar/Data/DataTeaMatcha';
 import TeaMaribelMass from './comp/Bar/Data/DataTeaMaribel';
 import HotDrinkMass from './comp/Bar/Data/DataHotDrink';
 import { Bear } from './comp/List/Bear';
@@ -97,7 +97,7 @@ export const App = () => {
   const dataBeer=BearMass
   const dataEnerg=EnergyMass
   const dataCoffe=CoffeMass
-  const dataCoffeMilk=CoffeMilkMass
+  // const dataCoffeMilk=CoffeMilkMass
   const dataCoffeCold=CoffeColdMass
   const dataLimonad=LimonadMass
   const dataBeerTo=BearToMass
@@ -106,7 +106,7 @@ export const App = () => {
   const dataFresh=FreshMass
   const dataTea=TeaMass
   const dataTeaCold=TeaColdMass
-  const dataTeaMatcha=TeaMatchaMass
+  // const dataTeaMatcha=TeaMatchaMass
   const dataTeaMaribel=TeaMaribelMass
   const dataHotDrink=HotDrinkMass
   
@@ -458,7 +458,7 @@ export const App = () => {
                       <WithoutImg data={dataCoffe} onModal={dataModal} />
                     </AccordionPanel>
                   </AccordionItem>
-                  <AccordionItem>
+                  {/* <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
                       КАВА З РОСЛИННИМ МОЛОКОМ
@@ -467,7 +467,7 @@ export const App = () => {
                     <AccordionPanel>
                       <WithoutImg data={dataCoffeMilk} onModal={dataModal} />
                     </AccordionPanel>
-                  </AccordionItem>
+                  </AccordionItem> */}
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
@@ -539,7 +539,7 @@ export const App = () => {
                       <WithoutImg data={dataTeaCold} onModal={dataModal} />
                     </AccordionPanel>
                   </AccordionItem>
-                  <AccordionItem>
+                  {/* <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
                       Чай Матча  
@@ -548,8 +548,8 @@ export const App = () => {
                     <AccordionPanel>
                       <WithoutImg data={dataTeaMatcha} onModal={dataModal} />
                     </AccordionPanel>
-                  </AccordionItem>
-                  <AccordionItem>
+                  </AccordionItem> */}
+                  {/* <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
                       Айс Матча  
@@ -558,7 +558,7 @@ export const App = () => {
                     <AccordionPanel>
                       <WithoutImg data={dataTeaMatcha} onModal={dataModal} />
                     </AccordionPanel>
-                  </AccordionItem>
+                  </AccordionItem> */}
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>

@@ -6,13 +6,13 @@ const AddMass=[
         src: require('../img/milk.png'),
         text:"",
     },
-    {
-        id:2,
-        title:"рослинне Молоко 0,050л",
-        price:"17 грн",
-        src: require('../img/milk.png'),
-        text:"",
-    },
+    // {
+    //     id:2,
+    //     title:"рослинне Молоко 0,050л",
+    //     price:"17 грн",
+    //     src: require('../img/milk.png'),
+    //     text:"",
+    // },
     {
         id:3,
         title:"Мед 0,025л",
