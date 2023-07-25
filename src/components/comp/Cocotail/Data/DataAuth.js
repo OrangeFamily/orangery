@@ -2,7 +2,7 @@ const AuthMass=[
     {
         id:1,
         title:"Фламінго Оранжа 300мл",
-        price:"140 грн",
+        price:"145 грн",
         src: require('../img/flamOr.jpg'),
         text:"гордон`c середземноморський апельсин, сік ананасовий, сироп малиновий",
     },
@@ -16,7 +16,7 @@ const AuthMass=[
     {
         id:3,
         title:"Манстера 300мл",
-        price:"140 грн",
+        price:"150 грн",
         src: require('../img/manst.jpg'),
         text:"ром золотий, сироп кавуновий, лімончелло, 7ап",
     },
@@ -66,7 +66,7 @@ const AuthMass=[
     {
         id:10,
         title:"Файний джин 250мл",
-        price:"145 грн",
+        price:"150 грн",
         src: require('../img/fayniyjin.jpg'),
         text:"гордон`c середземноморський апельсин, тонік, апельсин",
     },
