@@ -175,7 +175,16 @@ export const App = () => {
               </h1>
               <AccordionPanel>
                 <Accordion allowMultiple>
-
+                <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                      суші-бургери
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <ListCoct data={dataMaki} onModal={dataModalTwo} />
+                    </AccordionPanel>
+                  </AccordionItem>
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
