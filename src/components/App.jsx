@@ -15,6 +15,7 @@ import { List } from './comp/List/List';
 
 import MakiMass from './comp/Kitchen/Data/DataMaki'
 import { ModalTwo } from './Modal/ModalTwo';
+import { ModalThree } from './Modal/ModalThree';
 import AperetivMass from './comp/Bar/Data/DataAperetiv';
 import RomMass from './comp/Bar/Data/DataRom';
 import TekilaMass from './comp/Bar/Data/DataTekila';
@@ -49,6 +50,7 @@ import FutoMakiMass from './comp/Kitchen/Data/DataFutoMaki';
 import NigiriMass from './comp/Kitchen/Data/DataNigiri';
 import HotRolMass from './comp/Kitchen/Data/DataHotRol';
 import SetMass from './comp/Kitchen/Data/DataSet';
+import Buger from './comp/Kitchen/Data/DataBurger'
 // import SweetRolMass from './comp/Kitchen/Data/DataSweetRol';
 import SaladChukaMass from './comp/Kitchen/Data/DataSaladChuka';
 import DesertsMass from './comp/Kitchen/Data/DataDeserts';
@@ -61,6 +63,7 @@ import NonAlkMass from './comp/Cocotail/Data/DataNonAlk';
 import ShortDrinkMass from './comp/Cocotail/Data/DataShortDrink';
 import { ListCoct } from './comp/List/ListCoct';
 import Boul from './comp/Kitchen/Data/New';
+import { ListDoublePrice } from './comp/List/ListDoublePrice';
 
 
 
@@ -68,6 +71,7 @@ import Boul from './comp/Kitchen/Data/New';
 export const App = () => {
   const [showModal, setShowModal] = useState(false);
   const [showModalTwo, setShowModalTwo] = useState(false);
+  const [showModalThree, setShowModalThree] = useState(false);
   const [objectModal, setObjectModal] = useState({});
 
   
@@ -81,6 +85,7 @@ export const App = () => {
   const dataChuka=SaladChukaMass
   const dataAsorti=AsortiMass
   const dataDesert=DesertsMass
+  const dataBurger=Buger
 
   const dataAper=AperetivMass
   const dataRom=RomMass
@@ -137,6 +142,17 @@ export const App = () => {
   const toggleModalTwo = () => {
     setShowModalTwo(showModalTwo => !showModalTwo);
   };
+
+
+
+
+  const dataModalThree = (title, price, price2, text, src) => {
+    toggleModalThree();
+    setObjectModal({ title, price, price2, text, src });
+  };
+  const toggleModalThree = () => {
+    setShowModalThree(showModalThree => !showModalThree);
+  };
   return (
     <>
       <div className={s.upper}>
@@ -178,11 +194,12 @@ export const App = () => {
                 <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
-                      суші-бургери
+                      суші-бургери new
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <ListCoct data={dataMaki} onModal={dataModalTwo} />
+                    <ListDoublePrice data={dataBurger} onModal={dataModalThree} />
+                   
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -242,7 +259,7 @@ export const App = () => {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <ListCoct data={dataSet} onModal={dataModalTwo} />
+                      <ListDoublePrice data={dataSet} onModal={dataModalThree} />
                     </AccordionPanel>
                   </AccordionItem>
                   {/* <AccordionItem>
@@ -658,6 +675,9 @@ export const App = () => {
                 </AccordionPanel>
               </>
             </AccordionItem>
+            {showModalThree && (
+              <ModalThree objectModal={objectModal} toggleModal={toggleModalThree} />
+            )}
             {showModalTwo && (
               <ModalTwo objectModal={objectModal} toggleModal={toggleModalTwo} />
             )}

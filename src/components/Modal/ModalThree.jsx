@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import s from './ModalTwo.module.scss'
 
-export const ModalTwo = ({ objectModal, toggleModal }) => {
+export const ModalThree = ({ objectModal, toggleModal }) => {
   useEffect(() => {
     const handleKeyDown = e => {
       if (e.code === 'Escape') {
@@ -23,7 +23,7 @@ export const ModalTwo = ({ objectModal, toggleModal }) => {
       <div className={s.modal}>
         <div className={s.modalInfo}>
           <h2 className={s.itemTitle}>{objectModal.title}</h2>
-          
+          <h3 className={s.itemTitlePriceTwo}>{objectModal.price2}</h3>
         <h3 className={s.itemTitle}>{objectModal.price}</h3>
         <div className={s.itemText}>{objectModal.text}</div>
         </div>
