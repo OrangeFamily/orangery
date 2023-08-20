@@ -4,7 +4,7 @@ const SetMass=[
         title:"Сет Гурман 1150г",
         price2:"980 грн",
         price:"749 грн",
-        src: require('../img/setkatana.jpg'),
+        src: require('../img/gurman.jpg'),
         text:"Філадельфія з лососем та огірком, Рол Інь-янь, Філадельфія з тунцем в ікрі, Рол Чеддер",
     },
     {
