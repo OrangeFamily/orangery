@@ -53,6 +53,7 @@
     @media (min-width: 320px) and (max-width: 480px) {
         font-size: 13px;
         width: 200px;
+        line-height: 15px;
       }
 }
 .price{
@@ -65,7 +66,8 @@
     
     @media (min-width: 320px) and (max-width: 480px) {
         font-size: 13px;
-        width: 85px;
+        width: 55px;
+        
       }
 }
 .priceTwo{
@@ -92,4 +94,8 @@ p{
     border-radius: 15px;
     margin-left: 15px;
     padding: 5px 20px;
+    @media (min-width: 320px) and (max-width: 480px) {
+        padding: 1px 10px;
+        font-size: 10px;
+      }
   }
