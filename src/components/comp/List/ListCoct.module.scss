@@ -58,7 +58,7 @@
 .price{
     color: white;
     display: flex;
-    width: 200px;
+    width: 110px;
     justify-content: flex-end;
     text-align: center;
     margin: 0 0 0 auto;
@@ -85,3 +85,11 @@
 p{
     margin: 7px 0;
 }
+
+.newWord{
+    background-color: #0f0e0d;
+    color: white;
+    border-radius: 15px;
+    margin-left: 15px;
+    padding: 5px 20px;
+  }

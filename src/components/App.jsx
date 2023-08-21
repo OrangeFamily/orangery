@@ -194,7 +194,7 @@ export const App = () => {
                 <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
-                      суші-бургери new
+                      суші-бургери <span className={s.newWord}>new</span> 
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
