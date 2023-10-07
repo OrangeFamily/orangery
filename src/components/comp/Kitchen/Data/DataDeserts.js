@@ -22,6 +22,13 @@ const DesertsMass=[
     //     text:"тісто, крем-сир, какао, ківі, мараскінова вишня, м’ята, арахіс, ананс, топінг, цукрова пудра",
     // },
     {
+        id:7,
+        title:"pink cheesecake 150г",
+        price:"99 грн",
+        src: require('../img/cheesecake.jpg'),
+        text:"",
+    },
+    {
         id:4,
         title:"Бабл Фан 280г",
         price:"139 грн",
