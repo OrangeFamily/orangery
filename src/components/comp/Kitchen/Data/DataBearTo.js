@@ -73,7 +73,7 @@ const BearToMass=[
     {
         id:10,
         title:"Тарілка до пива 300г NEW",
-        price:"250 грн",
+        price:"299 грн",
         src: require('../img/tarilkadopiva.jpg'),
         text:"в‘ялена куриця, в‘ялена свинина, чіпси, фісташки, арахіс, вуха в соєвому соусі",
     },

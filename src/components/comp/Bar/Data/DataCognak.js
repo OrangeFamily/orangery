@@ -2,9 +2,9 @@ const CognakMass=[
     {
         id:1,
         title:"Легенда Вірменії**** (Вірменія) 0,5 л",
-        price:"600 грн",
+        price:"650 грн",
         src: require('../img/123123.png'),
-        text:"50мл - 60 грн",
+        text:"50мл - 65 грн",
     },
     {
         id:2,
@@ -16,16 +16,16 @@ const CognakMass=[
     {
         id:3,
         title:"Каноні  Дзвелі  **** (Грузія) 0,5",
-        price:"600 грн",
+        price:"700 грн",
         src: require('../img/kanoni.png'),
-        text:"50мл - 60 грн",
+        text:"50мл - 70 грн",
     },
     {
         id:4,
         title:"Метакса ***** (Греція) 0,5л",
-        price:"700 грн",
+        price:"850 грн",
         src: require('../img/metaxa.png'),
-        text:"50мл - 70 грн",
+        text:"50мл - 85 грн",
     },
     {
         id:5,

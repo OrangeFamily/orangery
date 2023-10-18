@@ -9,9 +9,9 @@ const WiskeyMass=[
     {
         id:2,
         title:"Белл'с Оріджинал (Шотландія) 1л",
-        price:"1360 грн",
+        price:"1520 грн",
         src: require('../img/bels.png'),
-        text:"50мл - 68 грн",
+        text:"50мл - 76 грн",
     },
     {
         id:3,
@@ -30,16 +30,16 @@ const WiskeyMass=[
     {
         id:4,
         title:"Джек Деніелс Медовий (Теннессі) 1л",
-        price:"2100 грн",
+        price:"2400 грн",
         src: require('../img/jdh.webp'),
-        text:"50мл - 105 грн",
+        text:"50мл - 120 грн",
     },
     {
         id:5,
         title:"Гленморанджі Оріджинал, 10 років (Шотландія) 0,7л",
-        price:"3500 грн",
+        price:"3990 грн",
         src: require('../img/glen.png'),
-        text:"50мл - 250 грн",
+        text:"50мл - 285 грн",
     },
     {
         id:6,
@@ -51,9 +51,9 @@ const WiskeyMass=[
     {
         id:7,
         title:"О'Браєн (Ірландія) 1л",
-        price:"1960 грн",
+        price:"2000 грн",
         src:require('../img/obrayen.png'),
-        text:"50мл - 98 грн",
+        text:"50мл - 100 грн",
     },
 ]
 

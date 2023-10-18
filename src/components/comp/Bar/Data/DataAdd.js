@@ -16,7 +16,7 @@ const AddMass=[
     {
         id:3,
         title:"Мед 0,025л",
-        price:"15 грн",
+        price:"20 грн",
         src: require('../img/med.png'),
         text:"",
     },
@@ -30,21 +30,21 @@ const AddMass=[
     {
         id:5,
         title:"Апельсин 1 частка",
-        price:"8 грн",
+        price:"10 грн",
         src: require('../img/orange.png'),
         text:"",
     },
     {
         id:6,
         title:"Лайм 1 частка",
-        price:"8 грн",
+        price:"10 грн",
         src: require('../img/lime.png'),
         text:"",
     },
     {
         id:7,
         title:"Лимон 1 частка",
-        price:"8 грн",
+        price:"10 грн",
         src: require('../img/lemon.png'),
         text:"",
     },
@@ -58,7 +58,7 @@ const AddMass=[
     {
         id:9,
         title:"імбир до чаю 10гр",
-        price:"11 грн",
+        price:"12 грн",
         src:"",
         text:"",
     },

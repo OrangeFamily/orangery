@@ -9,14 +9,14 @@ const DrinkMass=[
     {
         id:2,
         title:"7UP 0.5 л",
-        price:"60 грн",
+        price:"65 грн",
         src: require('../img/up.png'),
         text:"",
     },
     {
         id:3,
         title:"Пепсі 0.33 л",
-        price:"59 грн",
+        price:"65 грн",
         src: require('../img/pepsi.png'),
         text:"",
     },
@@ -58,7 +58,7 @@ const DrinkMass=[
     {
         id:9,
         title:"Боржомі 0,5л",
-        price:"80 грн",
+        price:"85 грн",
         src: require('../img/borj.png'),
         text:"",
     },

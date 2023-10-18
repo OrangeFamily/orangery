@@ -24,7 +24,7 @@ const SaladChukaMass=[
     {
         id:4,
         title:"«Чука» салат з горіховим соусом  180г",
-        price:"119 грн",
+        price:"130 грн",
         src:require('../img/chukasous.jpg'),
         text:"",
     },

@@ -56,7 +56,7 @@ const BearMass=[
     {
         id:7,
         title:"Corona Extra (Mexico) пляшкове 0,355",
-        price:"89 грн",
+        price:"120 грн",
         text:"",
         src: require('../img/corona.png'),
     },

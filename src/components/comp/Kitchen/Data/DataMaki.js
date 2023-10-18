@@ -9,7 +9,7 @@ const MakiMass=[
     {
         id:2,
         title:"Макі з огірком 130г",
-        price:"69 грн",
+        price:"89 грн",
         src:require('../img/makiogur.jpg'),
         text:"норі, рис, огірок, соус «унагі», кунжут",
     },
