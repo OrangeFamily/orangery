@@ -1,11 +1,11 @@
 const BearToMass=[
-    {
-        id:14,
-        title:"хамон 50г",
-        price:"99 грн",
-        src:require('../img/hamon.jpg'),
-        text:"",
-    },
+    //{
+       // id:14,
+      //  title:"хамон 50г",
+       // price:"99 грн",
+      //  src:require('../img/hamon.jpg'),
+      //  text:"",
+   // },
     {
         id:1,
         title:"фісташки 50гр",
