@@ -16,9 +16,9 @@ const VodkaMass=[
     {
         id:3,
         title:"Koskenkorva (Фінляндія) 0,5 л",
-        price:"700 грн",
+        price:"710 грн",
         src: require('../img/kosk.png'),
-        text:"50мл - 70грн",
+        text:"50мл - 71грн",
     },
     //{
         //id:4,
@@ -30,16 +30,16 @@ const VodkaMass=[
     {
         id:5,
         title:"Перша Гільдія Поважна (Україна) 1л",
-        price:"800 грн",
+        price:"820 грн",
         src: require('../img/persha.png'),
-        text:"50мл - 40 грн",
+        text:"50мл - 41 грн",
     },
     {
         id:6,
         title:"Zubrowka Biala (Польша) 0,5л",
-        price:"450 грн",
+        price:"460 грн",
         src: require('../img/zubrovka.png'),
-        text:"50мл - 45 грн",
+        text:"50мл - 46 грн",
     },
 ]
 
