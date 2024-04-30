@@ -44,7 +44,7 @@ import HotDrinkMass from './comp/Bar/Data/DataHotDrink';
 import { Bear } from './comp/List/Bear';
 import EnergyMass from './comp/Bar/Data/DataEnergy';
 import { WithoutImg } from './comp/List/WithoutImg';
-import UraMakiMass from './comp/Kitchen/Data/DataUraMaki';
+// import UraMakiMass from './comp/Kitchen/Data/DataUraMaki';
 import FutoMakiMass from './comp/Kitchen/Data/DataFutoMaki';
 import NigiriMass from './comp/Kitchen/Data/DataNigiri';
 import HotRolMass from './comp/Kitchen/Data/DataHotRol';
@@ -63,6 +63,11 @@ import ShortDrinkMass from './comp/Cocotail/Data/DataShortDrink';
 import { ListCoct } from './comp/List/ListCoct';
 import Boul from './comp/Kitchen/Data/New';
 import { ListDoublePrice } from './comp/List/ListDoublePrice';
+import FilaMass from './comp/Kitchen/Data/DataFila';
+import CaliforniaMass from './comp/Kitchen/Data/DataCalifornia';
+import CheesRollMass from './comp/Kitchen/Data/DataCheesRoll';
+import DragonMass from './comp/Kitchen/Data/DataDragon';
+import AuthRollMass from './comp/Kitchen/Data/DataAuthRoll';
 
 export const App = () => {
   const [showModal, setShowModal] = useState(false);
@@ -71,7 +76,12 @@ export const App = () => {
   const [objectModal, setObjectModal] = useState({});
 
   const dataMaki = MakiMass;
-  const dataUramaki = UraMakiMass;
+  // const dataUramaki = UraMakiMass;
+  const dataFila = FilaMass
+  const dataCalifornia = CaliforniaMass
+  const dataCheesRoll = CheesRollMass
+  const dataDragon = DragonMass
+  const dataAuthRoll = AuthRollMass
   const dataFutomaki = FutoMakiMass;
   const dataNigiri = NigiriMass;
   const dataHotRol = HotRolMass;
@@ -209,7 +219,7 @@ export const App = () => {
                       <ListCoct data={dataMaki} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
-                  <AccordionItem>
+                  {/* <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
                         Урамакі
@@ -218,7 +228,64 @@ export const App = () => {
                     <AccordionPanel>
                       <ListCoct data={dataUramaki} onModal={dataModalTwo} />
                     </AccordionPanel>
+                  </AccordionItem> */}
+
+
+
+
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                        Роли Філадельфія
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <ListCoct data={dataFila} onModal={dataModalTwo} />
+                    </AccordionPanel>
                   </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                        Роли Каліфорнія
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <ListCoct data={dataCalifornia} onModal={dataModalTwo} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                        Чіз-роли
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <ListCoct data={dataCheesRoll} onModal={dataModalTwo} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                        Дракони
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <ListCoct data={dataDragon} onModal={dataModalTwo} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                        Авторські роли
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <ListCoct data={dataAuthRoll} onModal={dataModalTwo} />
+                    </AccordionPanel>
+                  </AccordionItem>
+
+
+
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>

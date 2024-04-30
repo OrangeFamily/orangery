@@ -48,7 +48,14 @@ const NonAlkMass=[
         price:"115 грн",
         src: require('../img/apero.jpg'),
         text:"сироп апероль, тонік, апельсин",
-    }
+    },
+    {
+        id:8,
+        title:"Холодний рожевий шоколад 0,200л",
+        price:"85 грн",
+        src: require('../img/pinkchockice.jpg'),
+        text:"",
+    },
     
 ]
 

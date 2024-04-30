@@ -30,13 +30,6 @@ const CoffeMass=[
         text:"",
     },
     {
-        id:5,
-        title:"какао 0,200л",
-        price:"55 грн",
-        src: require('../img/cof.png'),
-        text:"",
-    },
-    {
         id:6,
         title:"Флет вайт 0,250л",
         price:"75 грн",
