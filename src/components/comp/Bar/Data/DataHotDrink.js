@@ -24,7 +24,7 @@ const HotDrinkMass=[
         id:4,
         title:"Рожевий шоколад 0,200л",
         price:"75 грн",
-        src: require('../img/pinkchock.jpg'),
+        src: require('../img/kakaoo.jpg'),
         text:"",
     },
     
