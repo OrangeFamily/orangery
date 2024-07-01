@@ -212,45 +212,44 @@ export const App = () => {
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
-                        Макі
+                        Сети
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <ListCoct data={dataMaki} onModal={dataModalTwo} />
-                    </AccordionPanel>
-                  </AccordionItem>
-                  {/* <AccordionItem>
-                    <h2>
-                      <AccordionButton className={s.titleItem}>
-                        Урамакі
-                      </AccordionButton>
-                    </h2>
-                    <AccordionPanel>
-                      <ListCoct data={dataUramaki} onModal={dataModalTwo} />
-                    </AccordionPanel>
-                  </AccordionItem> */}
-
-
-
-
-                  <AccordionItem>
-                    <h2>
-                      <AccordionButton className={s.titleItem}>
-                        Роли Філадельфія
-                      </AccordionButton>
-                    </h2>
-                    <AccordionPanel>
-                      <ListCoct data={dataFila} onModal={dataModalTwo} />
+                      <ListDoublePrice
+                        data={dataSet}
+                        onModal={dataModalThree}
+                      />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
-                        Роли Каліфорнія
+                        Салати з чука
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <ListCoct data={dataCalifornia} onModal={dataModalTwo} />
+                      <ListCoct data={dataChuka} onModal={dataModalTwo} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                        Боули NEW
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <ListCoct data={dataBoul} onModal={dataModalTwo} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                        Авторські роли
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <ListCoct data={dataAuthRoll} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -266,26 +265,13 @@ export const App = () => {
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
-                        Дракони
+                        Гарячі роли
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <ListCoct data={dataDragon} onModal={dataModalTwo} />
+                      <ListCoct data={dataHotRol} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
-                  <AccordionItem>
-                    <h2>
-                      <AccordionButton className={s.titleItem}>
-                        Авторські роли
-                      </AccordionButton>
-                    </h2>
-                    <AccordionPanel>
-                      <ListCoct data={dataAuthRoll} onModal={dataModalTwo} />
-                    </AccordionPanel>
-                  </AccordionItem>
-
-
-
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
@@ -309,54 +295,41 @@ export const App = () => {
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
-                        Гарячі роли
+                        Макі
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <ListCoct data={dataHotRol} onModal={dataModalTwo} />
+                      <ListCoct data={dataMaki} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
-                        Сети
+                        Роли Філадельфія
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <ListDoublePrice
-                        data={dataSet}
-                        onModal={dataModalThree}
-                      />
-                    </AccordionPanel>
-                  </AccordionItem>
-                  {/* <AccordionItem>
-                    <h2>
-                      <AccordionButton className={s.titleItem}>
-                      Солодкі суші
-                      </AccordionButton>
-                    </h2>
-                    <AccordionPanel>
-                      <ListCoct data={dataSweetRol} onModal={dataModalTwo} />
-                    </AccordionPanel>
-                  </AccordionItem> */}
-                  <AccordionItem>
-                    <h2>
-                      <AccordionButton className={s.titleItem}>
-                        Боули NEW
-                      </AccordionButton>
-                    </h2>
-                    <AccordionPanel>
-                      <ListCoct data={dataBoul} onModal={dataModalTwo} />
+                      <ListCoct data={dataFila} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
-                        Салати з чука
+                        Роли Каліфорнія
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <ListCoct data={dataChuka} onModal={dataModalTwo} />
+                      <ListCoct data={dataCalifornia} onModal={dataModalTwo} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                        Дракони
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <ListCoct data={dataDragon} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -369,6 +342,55 @@ export const App = () => {
                       <ListCoct data={dataBeerTo} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
+
+
+
+
+
+
+
+
+
+                  
+                  {/* <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                        Урамакі
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <ListCoct data={dataUramaki} onModal={dataModalTwo} />
+                    </AccordionPanel>
+                  </AccordionItem> */}
+
+
+
+
+                  
+                  
+                  
+                  
+                  
+
+
+
+                  
+                  
+                  
+                  
+                  {/* <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                      Солодкі суші
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <ListCoct data={dataSweetRol} onModal={dataModalTwo} />
+                    </AccordionPanel>
+                  </AccordionItem> */}
+                  
+                  
+                  
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
