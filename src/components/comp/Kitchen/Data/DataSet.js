@@ -42,7 +42,7 @@ const SetMass=[
     {
         id:3,
         title:"Сет «Самурай» 1000г",
-        price:"110 грн",
+        price:"1100 грн",
         src:require('../img/setsamuray.jpg'),
         text:"фірмовий рол «Оранжерея», «Yoko», «Філадельфія» з лососем, «Фламінго»",
     },
