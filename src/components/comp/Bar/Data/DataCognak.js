@@ -3,7 +3,7 @@ const CognakMass=[
         id:1,
         title:"Легенда Вірменії**** (Вірменія) 0,5 л",
         price:"800 грн",
-        src: require('../img/123123.png'),
+        src: require('../img/legenda.png'),
         text:"50мл - 80 грн",
     },
     {
