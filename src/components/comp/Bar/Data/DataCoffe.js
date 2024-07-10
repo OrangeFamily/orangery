@@ -18,14 +18,14 @@ const CoffeMass=[
     {
         id:3,
         title:"Капучино 0,160л",
-        price:"55 грн",
+        price:"60 грн",
         src: require('../img/cof.png'),
         text:"",
     },
     {
         id:4,
         title:"Латте 0,200л",
-        price:"55 грн",
+        price:"60 грн",
         src: require('../img/cof.png'),
         text:"",
     },

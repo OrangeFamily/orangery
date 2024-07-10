@@ -9,7 +9,7 @@ const ShampanMass=[
     {
         id:2,
         title:"Асті Мартіні (Італія) 0,75 л",
-        price:"615 грн",
+        price:"750 грн",
         src: require('../img/asti.png'),
         text:"",
     },
@@ -58,9 +58,9 @@ const ShampanMass=[
     {
         id:9,
         title:"Латініум Спарклінг (Німеччина) ігристе, біл./напівсол. 0,75л",
-        price:"405 грн",
+        price:"465 грн",
         src: require('../img/sparkling.png'),
-        text:"200мл - 108грн",
+        text:"200мл - 128",
     },
     
     

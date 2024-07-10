@@ -17,7 +17,7 @@ const CheesRollMass=[
     {
         id:3,
         title:"Рол сирний з лососем 270г",
-        price:"265 грн",
+        price:"275 грн",
         src:require('../img/sirLosos.jpg'),
         text:"рис, крем-сир, огірок, лосось, чеддер",
     },

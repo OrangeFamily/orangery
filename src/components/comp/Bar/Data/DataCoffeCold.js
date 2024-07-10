@@ -9,14 +9,14 @@ const CoffeColdMass=[
     {
         id:1,
         title:"Глясе 0,250л",
-        price:"75 грн",
+        price:"80 грн",
         src: require('../img/cof.png'),
         text:"",
     },
     {
         id:2,
         title:"Фрапучіно 0,250л",
-        price:"75 грн",
+        price:"80 грн",
         src: require('../img/cof.png'),
         text:"",
     },

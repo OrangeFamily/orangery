@@ -2,7 +2,7 @@ const AddMass=[
     {
         id:1,
         title:"Молоко 0,050л",
-        price:"10 грн",
+        price:"15 грн",
         src: require('../img/milk.png'),
         text:"",
     },
@@ -16,14 +16,14 @@ const AddMass=[
     {
         id:3,
         title:"Мед 0,025л",
-        price:"20 грн",
+        price:"30 грн",
         src: require('../img/med.png'),
         text:"",
     },
     {
         id:4,
         title:"Вершки 0,025л",
-        price:"20 грн",
+        price:"25 грн",
         src: require('../img/cream.png'),
         text:"",
     },
@@ -58,7 +58,7 @@ const AddMass=[
     {
         id:9,
         title:"імбир до чаю 10гр",
-        price:"12 грн",
+        price:"15 грн",
         src:"",
         text:"",
     },
