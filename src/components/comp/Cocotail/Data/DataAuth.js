@@ -78,6 +78,13 @@ const AuthMass=[
         src: require('../img/pekelnamala.jpg'),
         text:"гордон`c середземноморський апельсин, лимонний сік, сироп гренадін",
     },
+    {
+        id:12,
+        title:"Tropical Hurricane 450мл",
+        price:"150 грн",
+        src: require('../img/tropic.jpg'),
+        text:"ром золотий, лікер кокосовий, сироп ананасовий, ред бул тропічний",
+    },
     
 ]
 
