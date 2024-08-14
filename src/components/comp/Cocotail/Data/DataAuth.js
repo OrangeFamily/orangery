@@ -80,7 +80,7 @@ const AuthMass=[
     },
     {
         id:12,
-        title:"Tropical Hurricane 450мл",
+        title:"Tropical Pirate 450мл",
         price:"150 грн",
         src: require('../img/tropic.jpg'),
         text:"ром золотий, лікер кокосовий, сироп ананасовий, ред бул тропічний",
