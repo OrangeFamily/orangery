@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orangery/static/css/main.4e3775cb.css",
-    "main.js": "/orangery/static/js/main.983ee0df.js",
+    "main.js": "/orangery/static/js/main.00c1f763.js",
     "static/media/icee.png": "/orangery/static/media/icee.930c2665df2215b14ae1.png",
     "static/media/chips.png": "/orangery/static/media/chips.f9202e6bd5d395fa448e.png",
     "static/media/futlostemp.jpg": "/orangery/static/media/futlostemp.afa28b93c1d0c95221f0.jpg",
@@ -29,7 +29,6 @@
     "static/media/roltuna.jpg": "/orangery/static/media/roltuna.b4191029d614d0551126.jpg",
     "static/media/rolgreen.jpg": "/orangery/static/media/rolgreen.51fbca8ea5db48568676.jpg",
     "static/media/inyan.jpg": "/orangery/static/media/inyan.53b04fc5b5e63d8906e7.jpg",
-    "static/media/rolkarabas.jpg": "/orangery/static/media/rolkarabas.c61d174a571a9dd9b2e0.jpg",
     "static/media/sandora.png": "/orangery/static/media/sandora.cdac780e77b3268785ae.png",
     "static/media/med.png": "/orangery/static/media/med.7cc739659a5dc3e3e714.png",
     "static/media/martini.png": "/orangery/static/media/martini.cd80cf140600108f03af.png",
@@ -123,10 +122,8 @@
     "static/media/futovo.jpg": "/orangery/static/media/futovo.99ad5554bde72da21cd0.jpg",
     "static/media/setfourdrag.jpg": "/orangery/static/media/setfourdrag.c489c62624dae5814718.jpg",
     "static/media/filaugoravok.jpg": "/orangery/static/media/filaugoravok.9080fff87aec5f7a7bed.jpg",
-    "static/media/setkal.jpg": "/orangery/static/media/setkal.03899f7177be98e75448.jpg",
     "static/media/kallosikara.jpg": "/orangery/static/media/kallosikara.6e89a4481a009fd77e32.jpg",
     "static/media/futloskrevtemp.jpg": "/orangery/static/media/futloskrevtemp.a6c13c7d9b68d1b90984.jpg",
-    "static/media/setsamuray.jpg": "/orangery/static/media/setsamuray.8b9ef8e8b646a144bc9e.jpg",
     "static/media/chukaugor.jpg": "/orangery/static/media/chukaugor.1165e76bbc0c076bbeab.jpg",
     "static/media/cherry.png": "/orangery/static/media/cherry.6e834e84bdac0a935d7e.png",
     "static/media/fanfil.jpg": "/orangery/static/media/fanfil.4c86777f5698bf8224ec.jpg",
@@ -149,9 +146,7 @@
     "static/media/makiskrevetkoy.jpg": "/orangery/static/media/makiskrevetkoy.e10efa5bc1f4815317fe.jpg",
     "static/media/rolobplas.jpg": "/orangery/static/media/rolobplas.4208868c60bcfbec5a3b.jpg",
     "static/media/futlossir.jpg": "/orangery/static/media/futlossir.1016343e75df2f7f36aa.jpg",
-    "static/media/kimami.jpg": "/orangery/static/media/kimami.51711411d46caaae7206.jpg",
     "static/media/cherndrak.jpg": "/orangery/static/media/cherndrak.9f6ebaf919fca8f1cbe4.jpg",
-    "static/media/asama.jpg": "/orangery/static/media/asama.754f9167b8af3fe90dc0.jpg",
     "static/media/glintkras.jpg": "/orangery/static/media/glintkras.f8e931bb97dd8f8ac65e.jpg",
     "static/media/zeldrak.jpg": "/orangery/static/media/zeldrak.626fe70b7b14e5b37568.jpg",
     "static/media/setfirm.jpg": "/orangery/static/media/setfirm.b4be87922843b8c143dc.jpg",
@@ -181,7 +176,6 @@
     "static/media/indSau.jpg": "/orangery/static/media/indSau.6b689c5c4102e72284fe.jpg",
     "static/media/nigigrilos.jpg": "/orangery/static/media/nigigrilos.d095942f494ec30db19d.jpg",
     "static/media/baunti.jpg": "/orangery/static/media/baunti.d970942382fe37d6edc5.jpg",
-    "static/media/krasnSau.jpg": "/orangery/static/media/krasnSau.2ff9376ec7b80e4035cc.jpg",
     "static/media/arbDol.jpg": "/orangery/static/media/arbDol.e4dc146b937060f38733.jpg",
     "static/media/mohitp.jpg": "/orangery/static/media/mohitp.4cbbae154ca3f61178c9.jpg",
     "static/media/kolada.jpg": "/orangery/static/media/kolada.00ee091bac0a41881092.jpg",
@@ -190,7 +184,6 @@
     "static/media/makikrobsir.jpg": "/orangery/static/media/makikrobsir.b1063ea77cb1e5b6e4d4.jpg",
     "static/media/francMart.jpg": "/orangery/static/media/francMart.cbc00f47b8667090b733.jpg",
     "static/media/garib.jpg": "/orangery/static/media/garib.35cb1a564b631a330dd9.jpg",
-    "static/media/ramdzh.jpg": "/orangery/static/media/ramdzh.df53bf7c24fddc9354c1.jpg",
     "static/media/belini.jpg": "/orangery/static/media/belini.334d654d40202dd43e33.jpg",
     "static/media/mozg.jpg": "/orangery/static/media/mozg.7b5beb6dd13c13a25166.jpg",
     "static/media/beltuk.jpg": "/orangery/static/media/beltuk.815467c1baaf7900315f.jpg",
@@ -223,10 +216,10 @@
     "static/media/neuropol-mwdium.ttf": "/orangery/static/media/neuropol-mwdium.56c96f5897e7961cef60.ttf",
     "index.html": "/orangery/index.html",
     "main.4e3775cb.css.map": "/orangery/static/css/main.4e3775cb.css.map",
-    "main.983ee0df.js.map": "/orangery/static/js/main.983ee0df.js.map"
+    "main.00c1f763.js.map": "/orangery/static/js/main.00c1f763.js.map"
   },
   "entrypoints": [
     "static/css/main.4e3775cb.css",
-    "static/js/main.983ee0df.js"
+    "static/js/main.00c1f763.js"
   ]
 }
