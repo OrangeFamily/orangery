@@ -2,7 +2,7 @@ const DrinkMass=[
     {
         id:1,
         title:"Сік 0,95л",
-        price:"259 грн",
+        price:"190 грн",
         src: require('../img/sandora.png'),
         text:"200мл - 35 грн",
     },
