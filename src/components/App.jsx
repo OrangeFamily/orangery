@@ -77,11 +77,11 @@ export const App = () => {
 
   const dataMaki = MakiMass;
   // const dataUramaki = UraMakiMass;
-  const dataFila = FilaMass
-  const dataCalifornia = CaliforniaMass
-  const dataCheesRoll = CheesRollMass
-  const dataDragon = DragonMass
-  const dataAuthRoll = AuthRollMass
+  const dataFila = FilaMass;
+  const dataCalifornia = CaliforniaMass;
+  const dataCheesRoll = CheesRollMass;
+  const dataDragon = DragonMass;
+  const dataAuthRoll = AuthRollMass;
   const dataFutomaki = FutoMakiMass;
   const dataNigiri = NigiriMass;
   const dataHotRol = HotRolMass;
@@ -343,15 +343,6 @@ export const App = () => {
                     </AccordionPanel>
                   </AccordionItem>
 
-
-
-
-
-
-
-
-
-                  
                   {/* <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
@@ -363,21 +354,6 @@ export const App = () => {
                     </AccordionPanel>
                   </AccordionItem> */}
 
-
-
-
-                  
-                  
-                  
-                  
-                  
-
-
-
-                  
-                  
-                  
-                  
                   {/* <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
@@ -388,9 +364,7 @@ export const App = () => {
                       <ListCoct data={dataSweetRol} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem> */}
-                  
-                  
-                  
+
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
