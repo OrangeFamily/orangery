@@ -40,7 +40,7 @@ const FilaMass=[
         id:6,
         title:"Рол Туна 270г",
         isNew: true,
-        price:"320 грн",
+        price:"360 грн",
         src: require('../img/roltuna.jpg'),
         text:"норі, рис, огірок, ікра масага, крем-сир, тунець",
     },
