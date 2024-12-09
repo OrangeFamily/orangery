@@ -23,7 +23,7 @@ const ClasicMass=[
     {
         id:4,
         title:"Куба Лібре 250мл",
-        price:"175 грн",
+        price:"185 грн",
         src: require('../img/kuba.jpg'),
         text:"ром, лайм, пепсі",
     },
@@ -31,14 +31,14 @@ const ClasicMass=[
     {
         id:5,
         title:"Нікербокер 150мл",
-        price:"160 грн",
+        price:"170 грн",
         src: require('../img/niker.jpg'),
         text:"ром золотий, лікер апельсиновий, сироп малиновий, лайм",
     },
     {
         id:6,
         title:"Апероль спрітц 250мл",
-        price:"210 грн",
+        price:"220 грн",
         src: require('../img/apero.jpg'),
         text:"апероль, просекко, мінеральна вода, апельсин",
     },
@@ -185,7 +185,7 @@ const ClasicMass=[
     {
         id:27,
         title:"Кловер клаб 200мл",
-        price:"175 грн",
+        price:"185 грн",
         src: require('../img/klovclub.jpg'),
         text:"джин, сироп малиновий, фреш лайм, Ease Foam, м’ята",
     },
@@ -200,7 +200,7 @@ const ClasicMass=[
     {
         id:29,
         title:"Чорний Тукан 100мл",
-        price:"175 грн",
+        price:"185 грн",
         src: require('../img/chernTuk.jpg'),
         text:"горілка, лікер кавовий, вишня",
     },
@@ -235,7 +235,7 @@ const ClasicMass=[
     {
         id:34,
         title:"Французький мартіні 100мл",
-        price:"155 грн",
+        price:"165 грн",
         src: require('../img/francMart.jpg'),
         text:"горілка, сироп малиновий, сік ананасовий, вишня",
     },
