@@ -214,7 +214,7 @@ const ClasicMass=[
     {
         id:31,
         title:"Піч Апероль 250мл",
-        price:"175 грн",
+        price:"185 грн",
         src: require('../img/apero.jpg'),
         text:"апероль, персиковий сироп, фраголіно",
     },
