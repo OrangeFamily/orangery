@@ -57,10 +57,17 @@ const ShampanMass=[
     },
     {
         id:9,
-        title:"Латініум Спарклінг (Німеччина) ігристе, біл./напівсол. 0,75л",
+        title:"Latinium sparkling (Німеччина) ігристе, біл./напівсол. 0,75л",
         price:"465 грн",
         src: require('../img/sparkling.png'),
-        text:"200мл - 128",
+        text:"200мл - 128 грн",
+    },
+    {
+        id:9,
+        title:"Latinium sparkling rose (Німеччина) ігристе, рож./напівсол. 0,75л",
+        price:"465 грн",
+        src: require('../img/sparklingrose.png'),
+        text:"200мл - 128 грн",
     },
     
     

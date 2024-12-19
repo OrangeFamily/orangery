@@ -69,6 +69,13 @@ const VineMass=[
         src: require('../img/kobmerlo.png'),
         text:"200мл - 124 грн",
     },
+    {
+        id:11,
+        title:"Mud House Marlborough savignon blanc (Нова Зеландія) біл./сух. 0,75л",
+        price:"900 грн",
+        src: require('../img/MudHouse.png'),
+        text:"200мл - 240 грн",
+    },
     
     
 ]
