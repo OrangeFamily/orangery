@@ -76,6 +76,34 @@ const VineMass=[
         src: require('../img/MudHouse.png'),
         text:"200мл - 320 грн",
     },
+    {
+        id:12,
+        title:"Кампіроса luminate dino (Італія) рож./сух. 0,75л",
+        price:"750 грн",
+        src: require('../img/kampirosa.webp'),
+        text:"200мл - 200 грн",
+    },
+    {
+        id:13,
+        title:"бардоліно ессере Cesari (Італія) чер./сух. 0,75л",
+        price:"750 грн",
+        src: require('../img/bardolino.webp'),
+        text:"200мл - 200 грн",
+    },
+    {
+        id:14,
+        title:"sant orsola (Італія) біл./сух. 0,75л",
+        price:"600 грн",
+        src: require('../img/santOrsola.webp'),
+        text:"200мл - 160 грн",
+    },
+    {
+        id:15,
+        title:"Marlborough sun savignon blanc (Нова Зеландія) біл./сух. 0,75л",
+        price:"1200 грн",
+        src: require('../img/malboroSun.webp'),
+        text:"200мл - 320 грн",
+    },
     
     
 ]
