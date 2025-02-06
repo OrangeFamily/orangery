@@ -38,6 +38,7 @@
     margin: 0;
     width: 850px;
     font-size: 15px;
+    text-transform: lowercase;
     @media (min-width: 320px) and (max-width: 480px) {
         font-size: 10px;
         padding-right: 60px;

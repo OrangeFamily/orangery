@@ -50,7 +50,20 @@ const DesertsMass=[
         src:require('../img/icee.png'),
         text:"",
     },
-   
+    {
+        id: 2,
+        title: 'Тірамісу 160г',
+        price: '150 грн',
+        src: require('../img/tiramisu.png'),
+        text: `Крем-сир,
+Вершки 30%,
+Цукрова пудра,
+Печево саваярді,
+Какао порошок,
+Віскі,
+М'ята 
+`,
+      },
     
 ]
 

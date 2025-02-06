@@ -21,6 +21,13 @@ const DragonMass=[
         src: require('../img/krasndrak.jpg'),
         text:"норі, рис, авокадо, огірок, лосось, вугор, майонез, ікорний продукт",
     },
+    {
+        id:4,
+        title:"Рол «пінк дракон» 270г",
+        price:"369 грн",
+        src: require('../img/pinkRoll.jpg'),
+        text:"норі, рис, авокадо, огірок, тунець, вугор, майонез, ікорний продукт, соус Ширача",
+    },
 ]
 
 export default DragonMass;

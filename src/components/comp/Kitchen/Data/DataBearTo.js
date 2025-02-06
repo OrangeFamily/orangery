@@ -96,7 +96,7 @@ const BearToMass=[
         id:13,
         title:"Картопля Фрі 150г NEW",
         price:"79 грн",
-        src: require('../img/free.jpg'),
+        src: require('../img/frii.jpg'),
         text:"",
     },
 ]
