@@ -2,7 +2,7 @@ const AsortiMass=[
     {
         id:1,
         title:"Фруктове асорті 320г",
-        price:"250 грн",
+        price:"240 грн",
         src: require('../img/assortiFrut.jpg'),
         text:"",
     },
