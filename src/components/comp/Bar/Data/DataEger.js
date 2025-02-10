@@ -2,9 +2,9 @@ const EgerMass=[
     {
         id:1,
         title:"Егермайстер (Німеччина) 1л",
-        price:"2200 грн",
+        price:"2400 грн",
         src: require('../img/jager.png'),
-        text:"50мл - 110 грн",
+        text:"50мл - 120 грн",
     },
     
 ]
