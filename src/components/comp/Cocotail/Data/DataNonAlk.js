@@ -2,7 +2,7 @@ const NonAlkMass=[
     {
         id: 1,
         title: 'mojito 250мл',
-        price: '155 грн',
+        price: '140 грн',
         text: `
 Моршинська,
 М'ята,
@@ -14,7 +14,7 @@ const NonAlkMass=[
       {
         id: 2,
         title: 'mimosa 180мл',
-        price: '140 грн',
+        price: '125 грн',
         text: `фреш апельсину,
 Тонік`,
         src: require('../img/mimoza.jpg'),
@@ -23,7 +23,7 @@ const NonAlkMass=[
       {
         id: 3,
         title: 'cucumber boom 300мл',
-        price: '145 грн',
+        price: '130 грн',
         text: `Тонік,
 Огірок,
 коричневий цукор`,
@@ -33,7 +33,7 @@ const NonAlkMass=[
       {
         id: 4,
         title: 'spicy ginger 300мл',
-        price: '150 грн',
+        price: '135 грн',
         text: `Сироп кориця,
 імбир,
 Лайм,
