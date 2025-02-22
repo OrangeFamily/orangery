@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orangery/static/css/main.abafb9b9.css",
-    "main.js": "/orangery/static/js/main.49c57045.js",
+    "main.js": "/orangery/static/js/main.8d54e65e.js",
     "static/media/tiramisu.png": "/orangery/static/media/tiramisu.88180b5c05c49bfac1eb.png",
     "static/media/icee.png": "/orangery/static/media/icee.930c2665df2215b14ae1.png",
     "static/media/Boulevardier.jpg": "/orangery/static/media/Boulevardier.b74767f5df3f9cb07406.jpg",
@@ -194,7 +194,6 @@
     "static/media/mozg.jpg": "/orangery/static/media/mozg.7b5beb6dd13c13a25166.jpg",
     "static/media/meduza.jpg": "/orangery/static/media/meduza.bed2754dd6e647e24c7b.jpg",
     "static/media/bulv.jpg": "/orangery/static/media/bulv.8dc06d0d4a318b8e2925.jpg",
-    "static/media/dracena.jpg": "/orangery/static/media/dracena.e664c75edc894c2c9b57.jpg",
     "static/media/oblaka.jpg": "/orangery/static/media/oblaka.6ec970dbc34336aa4886.jpg",
     "static/media/orangery.jpg": "/orangery/static/media/orangery.fd744c066eeb0fb5e911.jpg",
     "static/media/sunrise.jpg": "/orangery/static/media/sunrise.26da89dfa0f135fe4b20.jpg",
@@ -214,10 +213,10 @@
     "static/media/bardolino.webp": "/orangery/static/media/bardolino.fc7b3bc0623f6b3b2ced.webp",
     "index.html": "/orangery/index.html",
     "main.abafb9b9.css.map": "/orangery/static/css/main.abafb9b9.css.map",
-    "main.49c57045.js.map": "/orangery/static/js/main.49c57045.js.map"
+    "main.8d54e65e.js.map": "/orangery/static/js/main.8d54e65e.js.map"
   },
   "entrypoints": [
     "static/css/main.abafb9b9.css",
-    "static/js/main.49c57045.js"
+    "static/js/main.8d54e65e.js"
   ]
 }
