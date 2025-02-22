@@ -42,13 +42,13 @@ const ShortDrinkMass=[
         src: require('../img/frambi.jpg'),
         text:"сироп вишня, ром золотий, вишня",
     },
-    {
-        id:7,
-        title:"Драцена 50мл",
-        price:"165 грн",
-        src: require('../img/dracena.jpg'),
-        text:"лікер касіс, горілка, лимон",
-    },
+    // {
+    //     id:7,
+    //     title:"Драцена 50мл",
+    //     price:"165 грн",
+    //     src: require('../img/dracena.jpg'),
+    //     text:"лікер касіс, горілка, лимон",
+    // },
     {
         id:8,
         title:"Зелений мексиканець 50мл",
