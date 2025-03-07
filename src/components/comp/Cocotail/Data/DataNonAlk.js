@@ -14,7 +14,7 @@ const NonAlkMass=[
       {
         id: 2,
         title: 'mimosa 180мл',
-        price: '125 грн',
+        price: '140 грн',
         text: `фреш апельсину,
 Тонік`,
         src: require('../img/mimoza.jpg'),
