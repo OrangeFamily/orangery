@@ -15,7 +15,7 @@ const FilaMass=[
     },
     {
         id:3,
-        title:"Філадельфія з тигровою креветкою 300г",
+        title:"«Філадельфія» з тигровою креветкою 300г",
         isNew: true,
         price:"365 грн",
         src: require('../img/filakrevetka.jpg'),
@@ -23,7 +23,7 @@ const FilaMass=[
     },
     {
         id:4,
-        title:"Філадельфія з лососем в ікрі 270г",
+        title:"«Філадельфія» з лососем в ікрі 270г",
         isNew: true,
         price:"355 грн",
         src: require('../img/filalosvikre.jpg'),
@@ -46,7 +46,7 @@ const FilaMass=[
     },
     {
         id:7,
-        title:`Філадельфія з тунцем в ікрі 270г`,
+        title:`«Філадельфія» з тунцем в ікрі 270г`,
         isNew: true,
         price:"350 грн",
         src: require('../img/filatunec.jpg'),

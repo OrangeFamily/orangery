@@ -9,7 +9,7 @@ const SetMass=[
     // },
     {
         id:11,
-        title:"Сет Рейнбоу 1000г",
+        title:"Сет «Рейнбоу» 1000г",
         price:"999 грн",
         // price2:"881 грн",
         src: require('../img/rainbo.jpg'),

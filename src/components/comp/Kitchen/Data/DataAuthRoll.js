@@ -1,7 +1,7 @@
 const AuthRollMass=[
     {
         id:28,
-        title:"Рол Грін (гострий) 290г",
+        title:"Рол «Грін» (гострий) 290г",
         isNew: true,
         price:"320 грн",
         src: require('../img/rolgreen.jpg'),
@@ -25,7 +25,7 @@ const AuthRollMass=[
     // },
     {
         id:31,
-        title:"Рол Інь-янь 260г",
+        title:"Рол «Інь-янь» 260г",
         isNew: true,
         price:"300 грн",
         src: require('../img/inyan.jpg'),
