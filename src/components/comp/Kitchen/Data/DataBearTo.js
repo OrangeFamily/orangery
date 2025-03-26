@@ -44,22 +44,22 @@ const BearToMass=[
     
     {
         id:6,
-        title:"Вуха в соєвому соусі 100г NEW",
-        price:"99 грн",
+        title:"Вуха в соєвому соусі 150г NEW",
+        price:"135 грн",
         src: require('../img/vuhavsous.jpg'),
         text:"",
     },
     {
         id:7,
-        title:"Пекельні вуха 100г NEW",
-        price:"99 грн",
+        title:"Пекельні вуха 150г NEW",
+        price:"135 грн",
         src: require('../img/pekelvuha.jpg'),
         text:"",
     },
     {
         id:8,
-        title:"Вуха в соусі Sweet Chili 100г NEW",
-        price:"99 грн",
+        title:"Вуха в соусі Sweet Chili 150г NEW",
+        price:"135 грн",
         src: require('../img/vuhavsussweet.jpg'),
         text:"",
     },
@@ -78,13 +78,13 @@ const BearToMass=[
         text:"в‘ялена куриця, в‘ялена свинина, чіпси, фісташки, арахіс, вуха в соєвому соусі",
     },
     
-    {
-        id:11,
-        title:"Креветки варені 150г NEW",
-        price:"150 грн",
-        src: require('../img/krevetkavar.jpg'),
-        text:"",
-    },
+    // {
+    //     id:11,
+    //     title:"Креветки варені 150г NEW",
+    //     price:"150 грн",
+    //     src: require('../img/krevetkavar.jpg'),
+    //     text:"",
+    // },
     {
         id:12,
         title:"Цибулеві кільця 150г NEW",

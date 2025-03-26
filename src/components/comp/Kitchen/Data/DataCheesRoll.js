@@ -1,8 +1,17 @@
 const CheesRollMass=[
+    
+    {
+        id:4,
+        title:"Чіз рол з тунцем 270г",
+        price:"310 грн",
+        isNew: true,
+        src:require('../img/sirLosos.jpg'),
+        text:"рис, крем-сир, огірок, тунець, чеддер",
+    },
     {
         id:1,
         title:"Чіз рол з тигровою креветкою 270г",
-        isNew: true,
+        
         price:"290 грн",
         src: require('../img/cheezrol.jpg'),
         text:"норі, рис, крем-сир, сир чеддер, тигрова креветка, авокадо, Унагі",
@@ -21,14 +30,14 @@ const CheesRollMass=[
         src:require('../img/sirLosos.jpg'),
         text:"рис, крем-сир, огірок, лосось, чеддер",
     },
-    {
-        id:4,
-        title:"Чіз рол 245г",
-        isNew: true,
-        price:"260 грн",
-        src: require('../img/rolcheder.jpg'),
-        text:"норі, рис, крем-сир, сир чеддер, соус унаги",
-    },
+    // {
+    //     id:4,
+    //     title:"Чіз рол 245г",
+    //     isNew: true,
+    //     price:"260 грн",
+    //     src: require('../img/rolcheder.jpg'),
+    //     text:"норі, рис, крем-сир, сир чеддер, соус унаги",
+    // },
 
 ]
 

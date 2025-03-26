@@ -45,8 +45,8 @@ import { Bear } from './comp/List/Bear';
 import EnergyMass from './comp/Bar/Data/DataEnergy';
 import { WithoutImg } from './comp/List/WithoutImg';
 // import UraMakiMass from './comp/Kitchen/Data/DataUraMaki';
-import FutoMakiMass from './comp/Kitchen/Data/DataFutoMaki';
-import NigiriMass from './comp/Kitchen/Data/DataNigiri';
+// import FutoMakiMass from './comp/Kitchen/Data/DataFutoMaki';
+// import NigiriMass from './comp/Kitchen/Data/DataNigiri';
 import HotRolMass from './comp/Kitchen/Data/DataHotRol';
 import SetMass from './comp/Kitchen/Data/DataSet';
 import Buger from './comp/Kitchen/Data/DataBurger';
@@ -61,7 +61,7 @@ import MilkshakeMass from './comp/Cocotail/Data/DataMilkshake';
 import NonAlkMass from './comp/Cocotail/Data/DataNonAlk';
 import ShortDrinkMass from './comp/Cocotail/Data/DataShortDrink';
 import { ListCoct } from './comp/List/ListCoct';
-import Boul from './comp/Kitchen/Data/New';
+// import Boul from './comp/Kitchen/Data/New';
 import { ListDoublePrice } from './comp/List/ListDoublePrice';
 import FilaMass from './comp/Kitchen/Data/DataFila';
 import CaliforniaMass from './comp/Kitchen/Data/DataCalifornia';
@@ -82,8 +82,8 @@ export const App = () => {
   const dataCheesRoll = CheesRollMass;
   const dataDragon = DragonMass;
   const dataAuthRoll = AuthRollMass;
-  const dataFutomaki = FutoMakiMass;
-  const dataNigiri = NigiriMass;
+  // const dataFutomaki = FutoMakiMass;
+  // const dataNigiri = NigiriMass;
   const dataHotRol = HotRolMass;
   const dataSet = SetMass;
   // const dataSweetRol=SweetRolMass
@@ -126,7 +126,7 @@ export const App = () => {
   const dataNonAlk = NonAlkMass;
   const dataShortDrink = ShortDrinkMass;
 
-  const dataBoul = Boul;
+  // const dataBoul = Boul;
 
   const dataModal = (title, price, text, src) => {
     toggleModal();
@@ -232,7 +232,7 @@ export const App = () => {
                       <ListCoct data={dataChuka} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
-                  <AccordionItem>
+                 {/* <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
                         Боули NEW
@@ -241,7 +241,7 @@ export const App = () => {
                     <AccordionPanel>
                       <ListCoct data={dataBoul} onModal={dataModalTwo} />
                     </AccordionPanel>
-                  </AccordionItem>
+                  </AccordionItem>*/}
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
@@ -272,7 +272,7 @@ export const App = () => {
                       <ListCoct data={dataHotRol} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
-                  <AccordionItem>
+                  {/* <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
                         Футомакі
@@ -281,8 +281,8 @@ export const App = () => {
                     <AccordionPanel>
                       <ListCoct data={dataFutomaki} onModal={dataModalTwo} />
                     </AccordionPanel>
-                  </AccordionItem>
-                  <AccordionItem>
+                  </AccordionItem> */}
+                  {/* <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
                         Суші нігірі
@@ -291,7 +291,7 @@ export const App = () => {
                     <AccordionPanel>
                       <ListCoct data={dataNigiri} onModal={dataModalTwo} />
                     </AccordionPanel>
-                  </AccordionItem>
+                  </AccordionItem> */}
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>

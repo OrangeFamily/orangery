@@ -35,13 +35,13 @@ const MakiMass=[
         src:require('../img/makiavok.jpg'),
         text:"норі, рис, авокадо, крем-сир, ікорний продукт",
     },
-    {
-        id:6,
-        title:"Макі з крабовим кремом 130г",
-        price:"149 грн",
-        src:require('../img/makikrobsir.jpg'),
-        text:"норі, рис, крабовий крем, крем-сир",
-    },
+    // {
+    //     id:6,
+    //     title:"Макі з крабовим кремом 130г",
+    //     price:"149 грн",
+    //     src:require('../img/makikrobsir.jpg'),
+    //     text:"норі, рис, крабовий крем, крем-сир",
+    // },
    
     
     
