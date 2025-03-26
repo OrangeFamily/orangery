@@ -222,16 +222,7 @@ export const App = () => {
                       />
                     </AccordionPanel>
                   </AccordionItem>
-                  <AccordionItem>
-                    <h2>
-                      <AccordionButton className={s.titleItem}>
-                        Салати з чука
-                      </AccordionButton>
-                    </h2>
-                    <AccordionPanel>
-                      <ListCoct data={dataChuka} onModal={dataModalTwo} />
-                    </AccordionPanel>
-                  </AccordionItem>
+                  
                  {/* <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
@@ -295,21 +286,21 @@ export const App = () => {
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
-                        Макі
-                      </AccordionButton>
-                    </h2>
-                    <AccordionPanel>
-                      <ListCoct data={dataMaki} onModal={dataModalTwo} />
-                    </AccordionPanel>
-                  </AccordionItem>
-                  <AccordionItem>
-                    <h2>
-                      <AccordionButton className={s.titleItem}>
                         Роли Філадельфія
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
                       <ListCoct data={dataFila} onModal={dataModalTwo} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                        Дракони
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <ListCoct data={dataDragon} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
                   <AccordionItem>
@@ -325,13 +316,25 @@ export const App = () => {
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
-                        Дракони
+                        Макі
                       </AccordionButton>
                     </h2>
                     <AccordionPanel>
-                      <ListCoct data={dataDragon} onModal={dataModalTwo} />
+                      <ListCoct data={dataMaki} onModal={dataModalTwo} />
                     </AccordionPanel>
                   </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                        Салати з чука
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <ListCoct data={dataChuka} onModal={dataModalTwo} />
+                    </AccordionPanel>
+                  </AccordionItem>
+                  
+                  
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
@@ -607,7 +610,7 @@ export const App = () => {
                         </AccordionButton>
                       </h2>
                       <AccordionPanel>
-                        <WithoutImg data={dataFresh} onModal={dataModal} />
+                        <ListCoct data={dataFresh} onModal={dataModalTwo} />
                       </AccordionPanel>
                     </AccordionItem>
                     <AccordionItem>

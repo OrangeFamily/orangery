@@ -4,7 +4,7 @@ const AuthMass=[
         title: 'Манстера 300мл',
         price: '210 грн',
         text: `ром золотий, сироп кавуновий, лімончелло, 7ап`,
-        src: require('../img/manst.jpg'),
+        src: require('../img/manstera.jpg'),
         description: ``,
       },
       {
@@ -12,7 +12,7 @@ const AuthMass=[
         title: 'Фламінго Оранжа 300мл',
         price: '210 грн',
         text: `гордон'c середземноморський апельсин, сік ананасовий, сироп малиновий`,
-        src: require('../img/flamOr.jpg'),
+        src: require('../img/flamingo.jpg'),
         description: ``,
       },
       {
@@ -27,7 +27,7 @@ const AuthMass=[
           id:4,
           title:"Пекельна мала 350мл",
           price:"220 грн",
-          src: require('../img/pekelnamala.jpg'),
+          src: require('../img/manstera.jpg'),
           text:"гордон`c середземноморський апельсин, лимонний сік, сироп гренадін",
           description: ``,
       },
