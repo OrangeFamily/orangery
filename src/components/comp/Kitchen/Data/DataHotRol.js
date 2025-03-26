@@ -1,5 +1,13 @@
 const HotRolMass=[
     {
+        id:5,
+        title:"Футомакі з тунцем в темпурі 400г",
+        price:"330 грн",
+        isNew: true,
+        src:require('../img/futlostemp.jpg'),
+        text:"рис, тунець, крем-сир, авокадо, огірок, темпура, норі",
+    },
+    {
         id:1,
         title:"Футомакі з вугрем в темпурі 300г",
         price:"350 грн",
