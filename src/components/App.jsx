@@ -713,6 +713,19 @@ export const App = () => {
                     <AccordionItem>
                       <h2>
                         <AccordionButton className={s.titleItem}>
+                          Шоти
+                        </AccordionButton>
+                      </h2>
+                      <AccordionPanel>
+                        <ListCoct
+                          data={dataShortDrink}
+                          onModal={dataModalTwo}
+                        />
+                      </AccordionPanel>
+                    </AccordionItem>
+                    <AccordionItem>
+                      <h2>
+                        <AccordionButton className={s.titleItem}>
                           Мілкшейк
                         </AccordionButton>
                       </h2>
@@ -730,19 +743,7 @@ export const App = () => {
                         <ListCoct data={dataNonAlk} onModal={dataModalTwo} />
                       </AccordionPanel>
                     </AccordionItem>
-                    <AccordionItem>
-                      <h2>
-                        <AccordionButton className={s.titleItem}>
-                          Шоти
-                        </AccordionButton>
-                      </h2>
-                      <AccordionPanel>
-                        <ListCoct
-                          data={dataShortDrink}
-                          onModal={dataModalTwo}
-                        />
-                      </AccordionPanel>
-                    </AccordionItem>
+                   
                     <h3 className={s.orign}>
                       *фото можуть не відповідати оригіналу
                     </h3>
