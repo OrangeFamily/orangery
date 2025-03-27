@@ -33,6 +33,7 @@ import CoffeMass from './comp/Bar/Data/DataCoffe';
 import CoffeColdMass from './comp/Bar/Data/DataCoffeCold';
 import LimonadMass from './comp/Bar/Data/DataLimonad';
 import BearToMass from './comp/Kitchen/Data/DataBearTo';
+import Pizza from './comp/Kitchen/Data/DataPizza'
 import AddMass from './comp/Bar/Data/DataAdd';
 import DrinkMass from './comp/Bar/Data/DataDrink';
 import FreshMass from './comp/Bar/Data/DataFresh';
@@ -50,6 +51,7 @@ import { WithoutImg } from './comp/List/WithoutImg';
 import HotRolMass from './comp/Kitchen/Data/DataHotRol';
 import SetMass from './comp/Kitchen/Data/DataSet';
 import Buger from './comp/Kitchen/Data/DataBurger';
+// import Banket from './comp/Kitchen/Data/DataBanket'
 // import SweetRolMass from './comp/Kitchen/Data/DataSweetRol';
 import SaladChukaMass from './comp/Kitchen/Data/DataSaladChuka';
 import DesertsMass from './comp/Kitchen/Data/DataDeserts';
@@ -91,7 +93,7 @@ export const App = () => {
   const dataAsorti = AsortiMass;
   const dataDesert = DesertsMass;
   const dataBurger = Buger;
-
+  // const dataBanket = Banket;
   const dataAper = AperetivMass;
   const dataRom = RomMass;
   const dataTekilla = TekilaMass;
@@ -111,6 +113,7 @@ export const App = () => {
   const dataCoffeCold = CoffeColdMass;
   const dataLimonad = LimonadMass;
   const dataBeerTo = BearToMass;
+  const dataPizza=Pizza;
   const dataAdd = AddMass;
   const dataDrink = DrinkMass;
   const dataFresh = FreshMass;
@@ -190,6 +193,25 @@ export const App = () => {
             робити замовлення
           </p>
           <Accordion allowMultiple>
+          {/* <AccordionItem className={s.itemList}>
+              <h1 className={s.titleH}>
+                <AccordionButton className={s.title}>Банкетне меню</AccordionButton>
+              </h1>
+              <AccordionPanel>
+                <Accordion allowMultiple>
+                  
+                      <ListCoct
+                        data={dataBanket}
+                        onModal={dataModalTwo}
+                      />
+                  
+                  <h3 className={s.orign}>
+                    *фото можуть не відповідати оригіналу
+                  </h3>
+                </Accordion>
+              </AccordionPanel>
+            </AccordionItem> */}
+
             <AccordionItem className={s.itemList}>
               <h1 className={s.titleH}>
                 <AccordionButton className={s.title}>Кухня</AccordionButton>
@@ -334,7 +356,16 @@ export const App = () => {
                     </AccordionPanel>
                   </AccordionItem>
                   
-                  
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton className={s.titleItem}>
+                        Піца
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel>
+                      <ListCoct data={dataPizza} onModal={dataModalTwo} />
+                    </AccordionPanel>
+                  </AccordionItem>
                   <AccordionItem>
                     <h2>
                       <AccordionButton className={s.titleItem}>
