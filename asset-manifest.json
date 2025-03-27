@@ -1,10 +1,15 @@
 {
   "files": {
-    "main.css": "/orangery/static/css/main.abafb9b9.css",
-    "main.js": "/orangery/static/js/main.0a8ec8d5.js",
+    "main.css": "/orangery/static/css/main.c72c6006.css",
+    "main.js": "/orangery/static/js/main.33810019.js",
     "static/media/fresh.jpg": "/orangery/static/media/fresh.c708f201f5c3c5bc6260.jpg",
     "static/media/tiramisu.png": "/orangery/static/media/tiramisu.88180b5c05c49bfac1eb.png",
     "static/media/icee.png": "/orangery/static/media/icee.930c2665df2215b14ae1.png",
+    "static/media/sirnaya.jpg": "/orangery/static/media/sirnaya.b77fb0d5f6fa7402ca49.jpg",
+    "static/media/gavai.jpg": "/orangery/static/media/gavai.beaeabe43602583c65df.jpg",
+    "static/media/delikat.jpg": "/orangery/static/media/delikat.c8dcc1ea6e0f574f9745.jpg",
+    "static/media/morskaya.jpg": "/orangery/static/media/morskaya.52e2e7b64c42473603e1.jpg",
+    "static/media/myaso.jpg": "/orangery/static/media/myaso.73a9e25144394b8c92d4.jpg",
     "static/media/kakao.jpg": "/orangery/static/media/kakao.1dfd79844fcb673a425b.jpg",
     "static/media/frambi.jpg": "/orangery/static/media/frambi.04fcd965a637540dd0cb.jpg",
     "static/media/glintRed.jpg": "/orangery/static/media/glintRed.677a3f404e06854eb4c6.jpg",
@@ -192,11 +197,11 @@
     "static/media/santOrsola.webp": "/orangery/static/media/santOrsola.1b03fc4edda53f64d00f.webp",
     "static/media/bardolino.webp": "/orangery/static/media/bardolino.fc7b3bc0623f6b3b2ced.webp",
     "index.html": "/orangery/index.html",
-    "main.abafb9b9.css.map": "/orangery/static/css/main.abafb9b9.css.map",
-    "main.0a8ec8d5.js.map": "/orangery/static/js/main.0a8ec8d5.js.map"
+    "main.c72c6006.css.map": "/orangery/static/css/main.c72c6006.css.map",
+    "main.33810019.js.map": "/orangery/static/js/main.33810019.js.map"
   },
   "entrypoints": [
-    "static/css/main.abafb9b9.css",
-    "static/js/main.0a8ec8d5.js"
+    "static/css/main.c72c6006.css",
+    "static/js/main.33810019.js"
   ]
 }
