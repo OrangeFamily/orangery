@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orangery/static/css/main.c72c6006.css",
-    "main.js": "/orangery/static/js/main.33810019.js",
+    "main.js": "/orangery/static/js/main.41afe0aa.js",
     "static/media/fresh.jpg": "/orangery/static/media/fresh.c708f201f5c3c5bc6260.jpg",
     "static/media/tiramisu.png": "/orangery/static/media/tiramisu.88180b5c05c49bfac1eb.png",
     "static/media/icee.png": "/orangery/static/media/icee.930c2665df2215b14ae1.png",
@@ -67,7 +67,6 @@
     "static/media/ginton.jpg": "/orangery/static/media/ginton.237c7cc6b24c9f87ce77.jpg",
     "static/media/meks.jpg": "/orangery/static/media/meks.bf91c96fd2ea6a0e63f4.jpg",
     "static/media/kuba.jpg": "/orangery/static/media/kuba.85ef6c11475a343a17de.jpg",
-    "static/media/yokko.jpg": "/orangery/static/media/yokko.6e2089d0e198ba1b0f92.jpg",
     "static/media/negr.jpg": "/orangery/static/media/negr.6cd30dacc99a93569f08.jpg",
     "static/media/pinkRoll.jpg": "/orangery/static/media/pinkRoll.8946894e0f8c1d3904af.jpg",
     "static/media/rainbo.jpg": "/orangery/static/media/rainbo.4e9fc82b6f3685a181c1.jpg",
@@ -198,10 +197,10 @@
     "static/media/bardolino.webp": "/orangery/static/media/bardolino.fc7b3bc0623f6b3b2ced.webp",
     "index.html": "/orangery/index.html",
     "main.c72c6006.css.map": "/orangery/static/css/main.c72c6006.css.map",
-    "main.33810019.js.map": "/orangery/static/js/main.33810019.js.map"
+    "main.41afe0aa.js.map": "/orangery/static/js/main.41afe0aa.js.map"
   },
   "entrypoints": [
     "static/css/main.c72c6006.css",
-    "static/js/main.33810019.js"
+    "static/js/main.41afe0aa.js"
   ]
 }
