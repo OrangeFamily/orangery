@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orangery/static/css/main.1d550a23.css",
-    "main.js": "/orangery/static/js/main.5ba9036a.js",
+    "main.js": "/orangery/static/js/main.ff1ea09e.js",
     "static/media/ribneFile.jpg": "/orangery/static/media/ribneFile.52a352801b16ceb2c18c.jpg",
     "static/media/grebenci.jpg": "/orangery/static/media/grebenci.a4f87375e4de608117d5.jpg",
     "static/media/saladZVosem.jpg": "/orangery/static/media/saladZVosem.cf29ee5a2603ce9013cd.jpg",
@@ -53,7 +53,6 @@
     "static/media/orgazm.jpg": "/orangery/static/media/orgazm.a195a5882ad7f9c75863.jpg",
     "static/media/flamingoOr.jpg": "/orangery/static/media/flamingoOr.6f89cb40d155f3efc8b8.jpg",
     "static/media/kolada.jpg": "/orangery/static/media/kolada.2004fb5b521f0bdb86cf.jpg",
-    "static/media/assortiFrut.jpg": "/orangery/static/media/assortiFrut.b1262670e87c9983cb48.jpg",
     "static/media/milkshake.jpg": "/orangery/static/media/milkshake.2cb7319b72c7e140a17d.jpg",
     "static/media/fist.png": "/orangery/static/media/fist.625972740707135b5e24.png",
     "static/media/Pinklady.jpg": "/orangery/static/media/Pinklady.50a39679bfd6fd31bc5c.jpg",
@@ -249,10 +248,10 @@
     "static/media/lemMalina.webp": "/orangery/static/media/lemMalina.057af86a3102fdcbe78a.webp",
     "index.html": "/orangery/index.html",
     "main.1d550a23.css.map": "/orangery/static/css/main.1d550a23.css.map",
-    "main.5ba9036a.js.map": "/orangery/static/js/main.5ba9036a.js.map"
+    "main.ff1ea09e.js.map": "/orangery/static/js/main.ff1ea09e.js.map"
   },
   "entrypoints": [
     "static/css/main.1d550a23.css",
-    "static/js/main.5ba9036a.js"
+    "static/js/main.ff1ea09e.js"
   ]
 }
