@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orangery/static/css/main.02333c42.css",
-    "main.js": "/orangery/static/js/main.b5a58b2b.js",
+    "main.js": "/orangery/static/js/main.b3391770.js",
     "static/media/ribneFile.jpg": "/orangery/static/media/ribneFile.52a352801b16ceb2c18c.jpg",
     "static/media/grebenci.jpg": "/orangery/static/media/grebenci.a4f87375e4de608117d5.jpg",
     "static/media/saladZVosem.jpg": "/orangery/static/media/saladZVosem.cf29ee5a2603ce9013cd.jpg",
@@ -93,6 +93,7 @@
     "static/media/stakeSvinini.webp": "/orangery/static/media/stakeSvinini.413dd67752b844768678.webp",
     "static/media/filakrevetka.jpg": "/orangery/static/media/filakrevetka.f4787e7100df9a0a0130.jpg",
     "static/media/cheezrol.jpg": "/orangery/static/media/cheezrol.da05b5520812ec712a43.jpg",
+    "static/media/MartiniExtraDry.png": "/orangery/static/media/MartiniExtraDry.365615eb7ce05ce004b3.png",
     "static/media/sirpalki.jpg": "/orangery/static/media/sirpalki.b27ac40a35b0213a183b.jpg",
     "static/media/inst.png": "/orangery/static/media/inst.da61275da83501aa7a6f.png",
     "static/media/valsvin.jpg": "/orangery/static/media/valsvin.0871fed49802604bec13.jpg",
@@ -100,8 +101,12 @@
     "static/media/vuhavsous.jpg": "/orangery/static/media/vuhavsous.6ff8f21af2f7dccb0dfa.jpg",
     "static/media/blacklabel.png": "/orangery/static/media/blacklabel.85b9bb929823ae599631.png",
     "static/media/kartoplyaZTravami.webp": "/orangery/static/media/kartoplyaZTravami.b5153e9492afc305a839.webp",
+    "static/media/CinzanoBianco.png": "/orangery/static/media/CinzanoBianco.f065917cf0dd4aff99c8.png",
     "static/media/MudHouse.png": "/orangery/static/media/MudHouse.7bac9f7b389ccfdcea8c.png",
+    "static/media/CinzanoRosso.png": "/orangery/static/media/CinzanoRosso.76fab1e750f32d9096f8.png",
     "static/media/fileIndichki.webp": "/orangery/static/media/fileIndichki.21667e1c0abbfced81a3.webp",
+    "static/media/proseco1881.png": "/orangery/static/media/proseco1881.5fe164a3868312708a2a.png",
+    "static/media/pesca.png": "/orangery/static/media/pesca.7a2575184bf5e3f32e6f.png",
     "static/media/Logo.png": "/orangery/static/media/Logo.14a1ec15eb5127a888eb.png",
     "static/media/brusketaZikroy.webp": "/orangery/static/media/brusketaZikroy.d9a3ed50f5932f12283c.webp",
     "static/media/oliveZLososem.webp": "/orangery/static/media/oliveZLososem.08ff159dca8671572baa.webp",
@@ -138,7 +143,6 @@
     "static/media/kanapeZsiromTaVinogradom.webp": "/orangery/static/media/kanapeZsiromTaVinogradom.5d4cf5e9fddc7c3d9835.webp",
     "static/media/kanapeZSiromTaGarganzolou.webp": "/orangery/static/media/kanapeZSiromTaGarganzolou.0f3e5490db61c99749da.webp",
     "static/media/sandora.webp": "/orangery/static/media/sandora.e007c3415fc9a3ab4afd.webp",
-    "static/media/martini.webp": "/orangery/static/media/martini.c79351b2307420613cec.webp",
     "static/media/tea.webp": "/orangery/static/media/tea.e7233f811f2481c6d382.webp",
     "static/media/SansationLight.ttf": "/orangery/static/media/SansationLight.c0d37cac32ee23060372.ttf",
     "static/media/cof.webp": "/orangery/static/media/cof.c2245704a984375f5496.webp",
@@ -248,10 +252,10 @@
     "static/media/lemMalina.webp": "/orangery/static/media/lemMalina.057af86a3102fdcbe78a.webp",
     "index.html": "/orangery/index.html",
     "main.02333c42.css.map": "/orangery/static/css/main.02333c42.css.map",
-    "main.b5a58b2b.js.map": "/orangery/static/js/main.b5a58b2b.js.map"
+    "main.b3391770.js.map": "/orangery/static/js/main.b3391770.js.map"
   },
   "entrypoints": [
     "static/css/main.02333c42.css",
-    "static/js/main.b5a58b2b.js"
+    "static/js/main.b3391770.js"
   ]
 }
