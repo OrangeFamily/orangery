@@ -1105,6 +1105,14 @@ export const menuData = [
           //   zvd: 'room',
           // },
           {
+            id: 9,
+            title: 'Сирні палички 150г',
+            price: '160 грн',
+            src: require('../img/sirpalki.jpg'),
+            text: 'соус вишневий',
+            zvd: 'orangery',
+          },
+          {
             id: 10,
             title: 'Картопля фрі 150г/50г',
             price: '120 грн',
