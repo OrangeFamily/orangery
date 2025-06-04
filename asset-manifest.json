@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orangery/static/css/main.02333c42.css",
-    "main.js": "/orangery/static/js/main.6a7e3c3b.js",
+    "main.js": "/orangery/static/js/main.b698a47f.js",
     "static/media/ribneFile.jpg": "/orangery/static/media/ribneFile.52a352801b16ceb2c18c.jpg",
     "static/media/grebenci.jpg": "/orangery/static/media/grebenci.a4f87375e4de608117d5.jpg",
     "static/media/saladZVosem.jpg": "/orangery/static/media/saladZVosem.cf29ee5a2603ce9013cd.jpg",
@@ -243,6 +243,7 @@
     "static/media/fruktAssorti.webp": "/orangery/static/media/fruktAssorti.a7cc891f6fedbf10ae69.webp",
     "static/media/terrar.webp": "/orangery/static/media/terrar.d8492b353ab4f28309a2.webp",
     "static/media/morshnon.webp": "/orangery/static/media/morshnon.1ee724932b9db95f8f00.webp",
+    "static/media/saladLosos.webp": "/orangery/static/media/saladLosos.26e6cab16e90cb969560.webp",
     "static/media/gribniyKremSup.webp": "/orangery/static/media/gribniyKremSup.5d5ad8c3f29d277e2240.webp",
     "static/media/lemImbMyata.webp": "/orangery/static/media/lemImbMyata.71114ba5c5e5a9f4cfd4.webp",
     "static/media/lenOgur.webp": "/orangery/static/media/lenOgur.71acdba2d571d84b6c81.webp",
@@ -253,10 +254,10 @@
     "static/media/lemMalina.webp": "/orangery/static/media/lemMalina.057af86a3102fdcbe78a.webp",
     "index.html": "/orangery/index.html",
     "main.02333c42.css.map": "/orangery/static/css/main.02333c42.css.map",
-    "main.6a7e3c3b.js.map": "/orangery/static/js/main.6a7e3c3b.js.map"
+    "main.b698a47f.js.map": "/orangery/static/js/main.b698a47f.js.map"
   },
   "entrypoints": [
     "static/css/main.02333c42.css",
-    "static/js/main.6a7e3c3b.js"
+    "static/js/main.b698a47f.js"
   ]
 }
