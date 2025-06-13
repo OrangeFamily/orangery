@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orangery/static/css/main.02333c42.css",
-    "main.js": "/orangery/static/js/main.b698a47f.js",
+    "main.js": "/orangery/static/js/main.cc8f9730.js",
     "static/media/ribneFile.jpg": "/orangery/static/media/ribneFile.52a352801b16ceb2c18c.jpg",
     "static/media/grebenci.jpg": "/orangery/static/media/grebenci.a4f87375e4de608117d5.jpg",
     "static/media/saladZVosem.jpg": "/orangery/static/media/saladZVosem.cf29ee5a2603ce9013cd.jpg",
@@ -182,6 +182,7 @@
     "static/media/ginorange.webp": "/orangery/static/media/ginorange.c79b5795e4db49d863a5.webp",
     "static/media/zubrovka.webp": "/orangery/static/media/zubrovka.75026f891b91e81d5708.webp",
     "static/media/borj.webp": "/orangery/static/media/borj.bae146862b5df81893fe.webp",
+    "static/media/mirinda.webp": "/orangery/static/media/mirinda.6347a2b1cbd43961284c.webp",
     "static/media/metaxa.webp": "/orangery/static/media/metaxa.44ae1628f2129e3ee30a.webp",
     "static/media/volare.webp": "/orangery/static/media/volare.f48c2b5c14aae04dc6fc.webp",
     "static/media/mbl.webp": "/orangery/static/media/mbl.213a7ba0c6f99ec05c00.webp",
@@ -254,10 +255,10 @@
     "static/media/lemMalina.webp": "/orangery/static/media/lemMalina.057af86a3102fdcbe78a.webp",
     "index.html": "/orangery/index.html",
     "main.02333c42.css.map": "/orangery/static/css/main.02333c42.css.map",
-    "main.b698a47f.js.map": "/orangery/static/js/main.b698a47f.js.map"
+    "main.cc8f9730.js.map": "/orangery/static/js/main.cc8f9730.js.map"
   },
   "entrypoints": [
     "static/css/main.02333c42.css",
-    "static/js/main.b698a47f.js"
+    "static/js/main.cc8f9730.js"
   ]
 }
