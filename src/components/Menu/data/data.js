@@ -2359,7 +2359,7 @@ export const menuData = [
           },
           {
             id: 10,
-            title: 'Швепс тонік  0.75 л',
+            title: 'Швепс тонік  0.75л',
             price: '100 грн',
             src: require('../img/tonic.png'),
             text: '',
