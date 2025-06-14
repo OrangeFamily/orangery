@@ -277,7 +277,7 @@ export const menuData = [
           {
             id: 1,
             title: 'Фірмовий рол «Оранжерея» 270г',
-            price: '350 грн',
+            price: '379 грн',
             src: require('../img/orangereya.jpg'),
             text: 'норі, рис, крем-сир, лосось, огірок, ікорний продукт, «чука», горіховий соус',
             zvd: 'orangery',
@@ -521,7 +521,7 @@ export const menuData = [
           {
             id: 1,
             title: 'Рол «Зелений дракон» 280г',
-            price: '329 грн',
+            price: '339 грн',
             src: require('../img/zeldrak.jpg'),
             text: 'рис, норі, авокадо, лосось, ікорний продукт, соус «унагі», кунжут',
             zvd: 'orangery',
@@ -529,7 +529,7 @@ export const menuData = [
           {
             id: 2,
             title: 'Рол «Чорний дракон» 270г',
-            price: '369 грн',
+            price: '399 грн',
             src: require('../img/cherndrak.jpg'),
             text: 'норі, рис, вугор, лосось, ікорний продукт, огірок, авокадо, кунжут, соус «унагі»',
             zvd: 'orangery',
@@ -538,7 +538,7 @@ export const menuData = [
           {
             id: 3,
             title: 'Рол «Червоний дракон» 270г',
-            price: '369 грн',
+            price: '399 грн',
             src: require('../img/krasndrak.jpg'),
             text: 'норі, рис, авокадо, огірок, лосось, вугор, майонез, ікорний продукт',
             zvd: 'orangery',
@@ -559,7 +559,7 @@ export const menuData = [
           {
             id: 1,
             title: 'Макі з лососем і авокадо 130г',
-            price: '135 грн',
+            price: '139 грн',
             src: require('../img/makilosavok.jpg'),
             text: 'норі, рис, авокадо, лосось',
             zvd: 'orangery',
@@ -567,7 +567,7 @@ export const menuData = [
           {
             id: 2,
             title: 'Макі з огірком 130г',
-            price: '99 грн',
+            price: '115 грн',
             src: require('../img/makiogur.jpg'),
             text: 'норі, рис, огірок, соус «унагі», кунжут',
             zvd: 'orangery',
@@ -584,7 +584,7 @@ export const menuData = [
           {
             id: 4,
             title: 'Макі з креветкою 130г',
-            price: '155 грн',
+            price: '169 грн',
             src: require('../img/makiskrevetkoy.jpg'),
             text: 'рис, норі, креветки',
             zvd: 'orangery',
@@ -592,7 +592,7 @@ export const menuData = [
           {
             id: 5,
             title: 'Макі з авокадо і сиром «Філадельфія» 140г',
-            price: '149 грн',
+            price: '159 грн',
             src: require('../img/makiavok.jpg'),
             text: 'норі, рис, авокадо, крем-сир, ікорний продукт',
             zvd: 'orangery',
@@ -748,7 +748,7 @@ export const menuData = [
           {
             id: 1,
             title: 'Спрінг роли 280г',
-            price: '340 грн',
+            price: '255 грн',
             src: require('../img/springRoll.webp'),
             text: 'Рисовий папір, авокадо, огірок, крем-сир, лист салату, лосось, креветка тигрова, перець болгарський, морква, соус горіховий, соус «Солодкий Чилі»',
             description: `Свіжа закуска, що включає три види ролів: з лососем, тигровими креветками та овочами з крем-сиром. Всі роли загорнуті в рисовий папір і доповнені горіховим соусом, що надає страві глибини та багатства смаку. `,
