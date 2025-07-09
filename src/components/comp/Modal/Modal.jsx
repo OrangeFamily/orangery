@@ -57,7 +57,7 @@ export const Modal = ({ objectModal, toggleModal }) => {
           onLoad={handleImageLoad}
           style={{ display: isImageLoading ? 'none' : 'block' }}
         />
-
+{console.log(objectModal.zvd)}
         <div>
           <h2 id="itemTitle" className={s.itemTitle}>
             {objectModal.title}
