@@ -1942,8 +1942,8 @@ export const menuData = [
         items: [
           {
         id:11,
-        title:"Просеко кег 150 мл",
-        price:"100 грн",
+        title:"Просеко кег 200 мл",
+        price:"150 грн",
         src: require('../img/prossecoKeg.png'),
         text:"",
     },
