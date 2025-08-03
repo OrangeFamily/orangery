@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orangery/static/css/main.53e7b0ad.css",
-    "main.js": "/orangery/static/js/main.2480db7a.js",
+    "main.js": "/orangery/static/js/main.0bba809a.js",
     "static/media/ribneFile.jpg": "/orangery/static/media/ribneFile.52a352801b16ceb2c18c.jpg",
     "static/media/grebenci.jpg": "/orangery/static/media/grebenci.a4f87375e4de608117d5.jpg",
     "static/media/saladZVosem.jpg": "/orangery/static/media/saladZVosem.cf29ee5a2603ce9013cd.jpg",
@@ -98,6 +98,7 @@
     "static/media/tartaletkaIkra.webp": "/orangery/static/media/tartaletkaIkra.f2e9ff7266f39af0705c.webp",
     "static/media/vuhavsussweet.jpg": "/orangery/static/media/vuhavsussweet.5547f3f8ed2f5bbd9886.jpg",
     "static/media/ciplyaTabaka.webp": "/orangery/static/media/ciplyaTabaka.ac5fb031d00d5d055b2e.webp",
+    "static/media/coronaba.png": "/orangery/static/media/coronaba.f288afa43ee8ef192846.png",
     "static/media/valkurica.jpg": "/orangery/static/media/valkurica.c83716498f9a9b4beb9f.jpg",
     "static/media/asortiSolin.webp": "/orangery/static/media/asortiSolin.39da27faeafca9784a66.webp",
     "static/media/ratatuy.webp": "/orangery/static/media/ratatuy.524d5d8cddce15ce19e1.webp",
@@ -260,10 +261,10 @@
     "static/media/lemMalina.webp": "/orangery/static/media/lemMalina.057af86a3102fdcbe78a.webp",
     "index.html": "/orangery/index.html",
     "main.53e7b0ad.css.map": "/orangery/static/css/main.53e7b0ad.css.map",
-    "main.2480db7a.js.map": "/orangery/static/js/main.2480db7a.js.map"
+    "main.0bba809a.js.map": "/orangery/static/js/main.0bba809a.js.map"
   },
   "entrypoints": [
     "static/css/main.53e7b0ad.css",
-    "static/js/main.2480db7a.js"
+    "static/js/main.0bba809a.js"
   ]
 }
