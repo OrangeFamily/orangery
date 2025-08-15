@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orangery/static/css/main.53e7b0ad.css",
-    "main.js": "/orangery/static/js/main.0bba809a.js",
+    "main.js": "/orangery/static/js/main.698957b5.js",
     "static/media/ribneFile.jpg": "/orangery/static/media/ribneFile.52a352801b16ceb2c18c.jpg",
     "static/media/grebenci.jpg": "/orangery/static/media/grebenci.a4f87375e4de608117d5.jpg",
     "static/media/saladZVosem.jpg": "/orangery/static/media/saladZVosem.cf29ee5a2603ce9013cd.jpg",
@@ -18,8 +18,6 @@
     "static/media/setZapechen.jpg": "/orangery/static/media/setZapechen.64913da0c68078be5a74.jpg",
     "static/media/salatLosos.jpg": "/orangery/static/media/salatLosos.82425962959f15b1467d.jpg",
     "static/media/bruskKrevetka.jpg": "/orangery/static/media/bruskKrevetka.a51290d7ad906c1ca6c4.jpg",
-    "static/media/chukaugor.jpg": "/orangery/static/media/chukaugor.bd8bed036ca2549588d3.jpg",
-    "static/media/chukalos.jpg": "/orangery/static/media/chukalos.7e1248d0c733d4c89336.jpg",
     "static/media/frambi.jpg": "/orangery/static/media/frambi.04fcd965a637540dd0cb.jpg",
     "static/media/fayniyjin.jpg": "/orangery/static/media/fayniyjin.adb486c91e72c3f672ec.jpg",
     "static/media/setfourdrag.jpg": "/orangery/static/media/setfourdrag.5d8aecc1ebec89a609ee.jpg",
@@ -58,7 +56,6 @@
     "static/media/teksunr.jpg": "/orangery/static/media/teksunr.7f0f3c7428e28836ae36.jpg",
     "static/media/feya.jpg": "/orangery/static/media/feya.a482b76bcc0519e8eb1c.jpg",
     "static/media/mimoza.jpg": "/orangery/static/media/mimoza.91841adfff5114ecbbae.jpg",
-    "static/media/BlackandWhite.jpg": "/orangery/static/media/BlackandWhite.427fb2bd300b9afe6cf6.jpg",
     "static/media/futlostemp.jpg": "/orangery/static/media/futlostemp.afa28b93c1d0c95221f0.jpg",
     "static/media/manstera.jpg": "/orangery/static/media/manstera.a406100be74f25c0bb1a.jpg",
     "static/media/orgazm.jpg": "/orangery/static/media/orgazm.a195a5882ad7f9c75863.jpg",
@@ -127,7 +124,6 @@
     "static/media/brusketaZikroy.webp": "/orangery/static/media/brusketaZikroy.d9a3ed50f5932f12283c.webp",
     "static/media/prossecoKeg.png": "/orangery/static/media/prossecoKeg.048edfcf311cf1e9f440.png",
     "static/media/oliveZLososem.webp": "/orangery/static/media/oliveZLososem.08ff159dca8671572baa.webp",
-    "static/media/chukakrevetka.jpg": "/orangery/static/media/chukakrevetka.06e9c5371efa14863047.jpg",
     "static/media/makilosavok.jpg": "/orangery/static/media/makilosavok.055dfb0309d002784841.jpg",
     "static/media/filaugoravok.jpg": "/orangery/static/media/filaugoravok.9080fff87aec5f7a7bed.jpg",
     "static/media/kallosikara.jpg": "/orangery/static/media/kallosikara.6e89a4481a009fd77e32.jpg",
@@ -141,7 +137,6 @@
     "static/media/makiskrevetkoy.jpg": "/orangery/static/media/makiskrevetkoy.e10efa5bc1f4815317fe.jpg",
     "static/media/rolobplas.jpg": "/orangery/static/media/rolobplas.4208868c60bcfbec5a3b.jpg",
     "static/media/cherndrak.jpg": "/orangery/static/media/cherndrak.9f6ebaf919fca8f1cbe4.jpg",
-    "static/media/zeldrak.jpg": "/orangery/static/media/zeldrak.626fe70b7b14e5b37568.jpg",
     "static/media/kalugorikra.jpg": "/orangery/static/media/kalugorikra.8aba4734ba67e5319232.jpg",
     "static/media/makiogur.jpg": "/orangery/static/media/makiogur.8a65953339a654c98313.jpg",
     "static/media/YsabeauSCMedium.ttf": "/orangery/static/media/YsabeauSCMedium.dc5c222da04b499c7ae8.ttf",
@@ -245,7 +240,6 @@
     "static/media/telyanimaSGribami.webp": "/orangery/static/media/telyanimaSGribami.0eb268a039c36d8607b8.webp",
     "static/media/karpachoTun.webp": "/orangery/static/media/karpachoTun.d64525511199a1135a17.webp",
     "static/media/setesollikr.webp": "/orangery/static/media/setesollikr.b06710909c2ed630f7d9.webp",
-    "static/media/shashlYakitori.webp": "/orangery/static/media/shashlYakitori.e90712345918ce1c1703.webp",
     "static/media/pastaGrushaGargonzola.webp": "/orangery/static/media/pastaGrushaGargonzola.bd57000cba0fa820c1cc.webp",
     "static/media/nisuaz.webp": "/orangery/static/media/nisuaz.5b260f676bd581933bfa.webp",
     "static/media/fruktAssorti.webp": "/orangery/static/media/fruktAssorti.a7cc891f6fedbf10ae69.webp",
@@ -261,10 +255,10 @@
     "static/media/lemMalina.webp": "/orangery/static/media/lemMalina.057af86a3102fdcbe78a.webp",
     "index.html": "/orangery/index.html",
     "main.53e7b0ad.css.map": "/orangery/static/css/main.53e7b0ad.css.map",
-    "main.0bba809a.js.map": "/orangery/static/js/main.0bba809a.js.map"
+    "main.698957b5.js.map": "/orangery/static/js/main.698957b5.js.map"
   },
   "entrypoints": [
     "static/css/main.53e7b0ad.css",
-    "static/js/main.0bba809a.js"
+    "static/js/main.698957b5.js"
   ]
 }
