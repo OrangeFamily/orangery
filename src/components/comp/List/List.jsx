@@ -1,5 +1,6 @@
 import s from './List.module.scss';
 import oops from './img/oops.webp';
+import lamp from './img/lamp.png';
 export const List = ({ data, onModal, subcategory, category }) => {
   document.querySelectorAll('#itemTitle').forEach((el) => {
     if (!el.innerHTML.includes('<span class="number">')) {
@@ -19,6 +20,7 @@ export const List = ({ data, onModal, subcategory, category }) => {
       onClick={() => onModal(e.title, e.price, e.text, e.src, e.description, e.zvd)}
       className={s.item}
     >
+      {e.energy ? <img src={lamp} alt="lamp" className={s.lamp}/> : null}
       <img src={e.src || oops} alt={e.title} className={`${s.sizeImg} ${category === 'Краш меню' ? s.music : ''}`} />
       <div className={s.itemBox}>
         <div className={s.itemMain}>
@@ -27,6 +29,7 @@ export const List = ({ data, onModal, subcategory, category }) => {
             {e.isNew ? <span className={s.newWord}>NEW</span> : null}
           </h3>
           <div className={s.boxPrice}>
+            
             <h3
               className={`${s.price} ${subcategory === 'Пиво' ? s.widthPrice : ''}`}
             >
