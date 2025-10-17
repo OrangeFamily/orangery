@@ -1581,7 +1581,7 @@ export const menuData = [
             energy: true
           },
           {
-            id: 4,
+            id: 5,
             title: 'pink cheesecake 150г',
             price: '120 грн',
             src: require('../img/cheesecake.jpg'),
@@ -1590,7 +1590,7 @@ export const menuData = [
             energy: true
           },
           {
-            id: 5,
+            id: 6,
             title: 'Бабл Фан 280г',
             price: '170 грн',
             src: require('../img/bublfun.jpg'),
@@ -1598,7 +1598,7 @@ export const menuData = [
             zvd: 'orangery',
           },
           //  {
-          //id: 6,
+          //id: 7,
           //title: 'Айс Фрут 280г',
           //price: '170 грн',
           //src: require('../img/icefrut.jpg'),
@@ -1607,7 +1607,7 @@ export const menuData = [
           //},
 
           {
-            id: 7,
+            id: 8,
             title: 'Морозиво 100г',
             price: '90 грн',
             src: require('../img/icee.png'),
@@ -1616,7 +1616,7 @@ export const menuData = [
             energy: true
           },
           //           {
-          //             id: 8,
+          //             id: 9,
           //             title: 'Тірамісу 160г',
           //             price: '150 грн',
           //             src: require('../img/tiramisu.png'),
@@ -1630,7 +1630,7 @@ export const menuData = [
           // `,
           //           zvd: 'orangery',},
           {
-            id: 8,
+            id: 10,
             title: 'Тірамісу 160г',
             price: '170 грн',
             src: require('../img/tiramisu.jpg'),
@@ -1647,7 +1647,7 @@ export const menuData = [
             energy: true
           },
           {
-            id: 9,
+            id: 11,
             title: 'Млинці креп сюзетт 200г',
             price: '240 грн',
             src: require('../img/mlinciKrepSuzett.webp'),
