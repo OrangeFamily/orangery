@@ -226,8 +226,18 @@ export const menuData = [
       {
         subcategory: 'Авторські роли',
         items: [
+          {
+            id: 1,
+            title: 'Пряний рол 250 г',
+            // isNew: true,
+            price: '320 грн',
+            src: require('../img/Pryaniyrol.jpg'),
+            text: 'Груша, гарбуз, крем-сир, вугор, соус манго, насіння гарбуза',
+            zvd: 'orangery',
+            energy: true
+          },
           // {
-          //   id: 29,
+          //   id: 2,
           //   title: 'Black & White 300г',
           //   isNew: true,
           //   price: '429 грн',
@@ -236,7 +246,7 @@ export const menuData = [
           //   zvd: 'room',
           // },
           {
-            id: 28,
+            id: 3,
             title: 'Рол «Грін» (гострий) 290г',
             // isNew: true,
             price: '350 грн',
@@ -246,7 +256,7 @@ export const menuData = [
             energy: true
           },
           // {
-          //     id:29,
+          //     id:4,
           //     title:"Рол Orange 300г",
           //     isNew: true,
           //     price:"350 грн",
@@ -254,7 +264,7 @@ export const menuData = [
           //     text:"норі, рис, крем-сир, лосось, вугор, апельсин, соус унагі, соус солодкий чілі, кунжут",
           // zvd: 'orangery',},
           // {
-          //     id:30,
+          //     id:5,
           //     title:"Рол Крабс 250г",
           //     isNew: true,
           //     price:"265 грн",
@@ -262,7 +272,7 @@ export const menuData = [
           //     text:"норі, рис, авокадо, крабовий крем,ікра масага",
           // zvd: 'orangery',},
           // {
-          //     id:31,
+          //     id:6,
           //     title:"Рол «Інь-янь» 260г",
           //     isNew: true,
           //     price:"300 грн",
@@ -270,7 +280,7 @@ export const menuData = [
           //     text:"норі, рис, огірок, ікра масага, вугор, кунжут, крем-сир, соус унагі",
           // zvd: 'orangery',},
           // {
-          //     id:23,
+          //     id:7,
           //     title:"Рол з манго та креветкою 265г",
           //     isNew: true,
           //     price:"330 грн",
@@ -278,7 +288,7 @@ export const menuData = [
           //     text:"норі, рис, крем-сир, манго, ікра масага, тигрова креветка, Унагі",
           // zvd: 'orangery',},
           // {
-          //     id:26,
+          //     id:8,
           //     title:"Опалений рол з манго 290г",
           //     isNew: true,
           //     price:"328 грн",
@@ -286,7 +296,7 @@ export const menuData = [
           //     text:"норі, рис, крем-сир, лосось, манго, ікра масага",
           // zvd: 'orangery',},
           {
-            id: 1,
+            id: 9,
             title: 'Фірмовий рол «Оранжерея» 270г',
             price: '379 грн',
             src: require('../img/orangereya.jpg'),
@@ -295,14 +305,14 @@ export const menuData = [
             energy: true
           },
           // {
-          //     id:15,
+          //     id:10,
           //     title:"«Гейша» 280г",
           //     price:"300 грн",
           //     src:require('../img/geysha.jpg'),
           //     text:"норі, рис, креветка, крем-сир, ікорний продукт, огірок, крабовий крем",
           // zvd: 'orangery',},
           {
-            id: 17,
+            id: 11,
             title: 'Рол з обпаленим лососем 290г',
             price: '389 грн',
             src: require('../img/rolobplas.jpg'),
@@ -311,21 +321,21 @@ export const menuData = [
             energy: true
           },
           // {
-          //     id:18,
+          //     id:12,
           //     title:"Рол «Кімамі» (гострий) 250г",
           //     price:"279 грн",
           //     src:require('../img/kimami.jpg'),
           //     text:"рис, лосось, авокадо, огірок, соус спайс, соус шрірача, кунжут, норі ",
           // zvd: 'orangery',},
           // {
-          //     id:19,
+          //     id:13,
           //     title:"Рол «Asama» 300г",
           //     price:"299 грн",
           //     src:require('../img/asama.jpg'),
           //     text:"рис, крабовий крем, ананас, лосось, норі, арахіс",
           // zvd: 'orangery',},
           // {
-          //   id: 20,
+          //   id: 14,
           //   title: 'Рол «Yoko» 320г',
           //   price: '349 грн',
           //   src: require('../img/yokko.jpg'),
@@ -1561,6 +1571,15 @@ export const menuData = [
           //     src:require('../img/mayami.jpg'),
           //     text:"тісто, крем-сир, какао, ківі, мараскінова вишня, м’ята, арахіс, ананс, топінг, цукрова пудра",
           // zvd: 'orangery',},
+          {
+            id: 4,
+            title: 'Гарбузові панкейки з медом 200г',
+            price: '120 грн',
+            src: require('../img/garbuzPankake.jpg'),
+            text: 'Панкейки з гарбуза, мед, вишня коктейльна, мʼята, цукрова пудра',
+            zvd: 'orangery',
+            energy: true
+          },
           {
             id: 4,
             title: 'pink cheesecake 150г',
