@@ -409,6 +409,16 @@ export const menuData = [
         subcategory: 'Роли Філадельфія',
         items: [
           {
+            id: 9,
+            title: 'Філадельфія з креветкою і апельсином 300г',
+            price: '370 грн',
+            src: require('../img/filakrevetkaiapelsin.png'),
+            text: 'Креветки тигрові, крем сир, апельсин, огірок, соус спайсі.',
+            zvd: 'room',
+            isNew: true,
+            energy: true
+          },
+          {
             id: 8,
             title: 'ФІЛАДЕЛЬФІЯ З МАСЛЯНОЮ 270г',
             price: '379 грн',
@@ -1166,6 +1176,15 @@ export const menuData = [
         subcategory: 'Гарячі закуски',
         items: [
           {
+            id: 13,
+            title: 'Курка теріякі 200г',
+            price: '260 грн',
+            src: require('../img/kurkatiriyaki.png'),
+            text: `Філе курки, соус теріякі, часник, кунжут, нитки чілі`,
+            description: ``,
+            zvd: 'room',
+          },
+          {
             id: 1,
             title: 'Мідії під сирною шапкою 130г',
             price: '240 грн',
@@ -1578,7 +1597,7 @@ export const menuData = [
             src: require('../img/garbuzPankake.jpg'),
             text: 'Панкейки з гарбуза, мед, вишня коктейльна, мʼята, цукрова пудра',
             zvd: 'orangery',
-            energy: true
+            // energy: true
           },
           {
             id: 5,
