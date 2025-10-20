@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orangery/static/css/main.53afcd7d.css",
-    "main.js": "/orangery/static/js/main.135f7692.js",
+    "main.js": "/orangery/static/js/main.38843971.js",
     "static/media/ribneFile.jpg": "/orangery/static/media/ribneFile.52a352801b16ceb2c18c.jpg",
     "static/media/grebenci.jpg": "/orangery/static/media/grebenci.a4f87375e4de608117d5.jpg",
     "static/media/saladZVosem.jpg": "/orangery/static/media/saladZVosem.cf29ee5a2603ce9013cd.jpg",
@@ -14,10 +14,12 @@
     "static/media/icee.png": "/orangery/static/media/icee.930c2665df2215b14ae1.png",
     "static/media/bruskLosos.jpg": "/orangery/static/media/bruskLosos.423f78c249686b61650c.jpg",
     "static/media/bruskProsutto.jpg": "/orangery/static/media/bruskProsutto.4d9e4abec45dcd56690c.jpg",
+    "static/media/filakrevetkaiapelsin.png": "/orangery/static/media/filakrevetkaiapelsin.65d3f02eede47efff2e8.png",
     "static/media/bruskTomat.jpg": "/orangery/static/media/bruskTomat.df0c43740f5b42572d28.jpg",
     "static/media/setZapechen.jpg": "/orangery/static/media/setZapechen.64913da0c68078be5a74.jpg",
     "static/media/salatLosos.jpg": "/orangery/static/media/salatLosos.82425962959f15b1467d.jpg",
     "static/media/bruskKrevetka.jpg": "/orangery/static/media/bruskKrevetka.a51290d7ad906c1ca6c4.jpg",
+    "static/media/kurkatiriyaki.png": "/orangery/static/media/kurkatiriyaki.d94b8e336731641b636b.png",
     "static/media/frambi.jpg": "/orangery/static/media/frambi.04fcd965a637540dd0cb.jpg",
     "static/media/fayniyjin.jpg": "/orangery/static/media/fayniyjin.adb486c91e72c3f672ec.jpg",
     "static/media/setfourdrag.jpg": "/orangery/static/media/setfourdrag.5d8aecc1ebec89a609ee.jpg",
@@ -256,10 +258,10 @@
     "static/media/lemMalina.webp": "/orangery/static/media/lemMalina.057af86a3102fdcbe78a.webp",
     "index.html": "/orangery/index.html",
     "main.53afcd7d.css.map": "/orangery/static/css/main.53afcd7d.css.map",
-    "main.135f7692.js.map": "/orangery/static/js/main.135f7692.js.map"
+    "main.38843971.js.map": "/orangery/static/js/main.38843971.js.map"
   },
   "entrypoints": [
     "static/css/main.53afcd7d.css",
-    "static/js/main.135f7692.js"
+    "static/js/main.38843971.js"
   ]
 }
