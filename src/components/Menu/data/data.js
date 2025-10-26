@@ -2789,7 +2789,7 @@ export const menuData = [
             id: 32,
             title: 'Бетон 250 мл',
             price: '180 грн',
-            src: '',
+            src: require('../img/fayniyjin.jpg'),
             text: 'Бехеровка, тонік, апельсин',
           },
           {
