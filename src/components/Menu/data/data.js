@@ -316,7 +316,7 @@ export const menuData = [
             title: 'Рол з обпаленим лососем 290г',
             price: '389 грн',
             src: require('../img/rolobplas.jpg'),
-            text: 'рис, авокадо, соус спайс, огірок, лосось, норі ',
+            text: 'рис, авокадо, соус спайсі, нитки Чилі, огірок, лосось, норі ',
             zvd: 'orangery',
             energy: true
           },
