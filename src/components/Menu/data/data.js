@@ -2281,14 +2281,7 @@ export const menuData = [
             src: require('../img/beloe.webp'),
             text: ``,
           },
-          {
-            id: 4,
-            title: 'Сидр Somersby (Україна) кег.',
-            price: '0,45л - 90 грн',
-            price2: '0,3л - 60 грн',
-            src: require('../img/somers.webp'),
-            text: ``,
-          },
+          // {
           //{
           //id:5,
           //title:"Hoegaarden (Бельгія) пляшкове 0,33",
@@ -2452,10 +2445,7 @@ export const menuData = [
             title: 'манго-маракуйя 350мл',
             price: '135 грн',
             src: require('../img/mangomarak.jpg'),
-            text: `Огірок,
-Сік лимон,
-7ап,
-Лайм`,
+            text: `Пюре манго, сироп маракуйя, сік ананас, сік лимон, 7-up`,
           },
           {
             id: 2,
