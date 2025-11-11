@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orangery/static/css/main.53afcd7d.css",
-    "main.js": "/orangery/static/js/main.c2716a44.js",
+    "main.js": "/orangery/static/js/main.a8aa0a5f.js",
     "static/media/ribneFile.jpg": "/orangery/static/media/ribneFile.52a352801b16ceb2c18c.jpg",
     "static/media/grebenci.jpg": "/orangery/static/media/grebenci.a4f87375e4de608117d5.jpg",
     "static/media/saladZVosem.jpg": "/orangery/static/media/saladZVosem.cf29ee5a2603ce9013cd.jpg",
@@ -178,7 +178,6 @@
     "static/media/saladKurPech.webp": "/orangery/static/media/saladKurPech.d031418109a00e937336.webp",
     "static/media/jdh.webp": "/orangery/static/media/jdh.f3734686d340ab1428ab.webp",
     "static/media/bels.webp": "/orangery/static/media/bels.fa986881b43df7bbf770.webp",
-    "static/media/somers.webp": "/orangery/static/media/somers.c72d5a97f331b6f29de9.webp",
     "static/media/gordons.webp": "/orangery/static/media/gordons.5fb90fe780074787203c.webp",
     "static/media/midiiPidSirShapk.webp": "/orangery/static/media/midiiPidSirShapk.2266b9a2446e8e29301b.webp",
     "static/media/glen.webp": "/orangery/static/media/glen.192d16a1f4062ac516ab.webp",
@@ -265,10 +264,10 @@
     "static/media/lemMalina.webp": "/orangery/static/media/lemMalina.057af86a3102fdcbe78a.webp",
     "index.html": "/orangery/index.html",
     "main.53afcd7d.css.map": "/orangery/static/css/main.53afcd7d.css.map",
-    "main.c2716a44.js.map": "/orangery/static/js/main.c2716a44.js.map"
+    "main.a8aa0a5f.js.map": "/orangery/static/js/main.a8aa0a5f.js.map"
   },
   "entrypoints": [
     "static/css/main.53afcd7d.css",
-    "static/js/main.c2716a44.js"
+    "static/js/main.a8aa0a5f.js"
   ]
 }
