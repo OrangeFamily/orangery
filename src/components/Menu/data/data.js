@@ -2461,7 +2461,7 @@ export const menuData = [
           {
             id: 2,
             title: 'огірковий 350мл',
-            price: '125 грн',
+            price: '135 грн',
             src: require('../img/lenOgur.webp'),
             text: `Огірок,
 Сік лимон,
@@ -2471,7 +2471,7 @@ export const menuData = [
           {
             id: 3,
             title: 'малиновий 350мл',
-            price: '125 грн',
+            price: '135 грн',
             src: require('../img/lemMalina.webp'),
             text: `Пюре малини,
 7ап,
@@ -2481,7 +2481,7 @@ export const menuData = [
           {
             id: 4,
             title: 'полуничний 350мл',
-            price: '125 грн',
+            price: '135 грн',
             src: require('../img/lemPolGru.webp'),
             text: `Пюре полуниці,
 7ап,
@@ -2490,7 +2490,7 @@ export const menuData = [
           {
             id: 5,
             title: 'персиковий 350мл',
-            price: '125 грн',
+            price: '135 грн',
             src: require('../img/lemPersik.webp'),
             text: `Пюре персик,
 тонік,
@@ -2499,14 +2499,14 @@ export const menuData = [
           {
             id: 6,
             title: 'цитрусовий 350мл',
-            price: '125 грн',
+            price: '135 грн',
             src: require('../img/lemCitr.webp'),
             text: `апельсин, лимон, лайм, сік, мінеральна вода`,
           },
           {
             id: 7,
             title: `імбирно-м'ятний 350мл`,
-            price: '125 грн',
+            price: '135 грн',
             src: require('../img/lemImbMyata.webp'),
             text: `імбир, м'ята, лимонний сік, 7ап`,
           },
