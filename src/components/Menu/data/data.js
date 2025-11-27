@@ -1415,7 +1415,7 @@ export const menuData = [
             id: 10,
             title: 'Стейк із свинини з картоплею  240г/50г',
             price: '340 грн',
-            src: require('../img/steykPay.jpg'),
+            src: require('../img/steykPays.png'),
             text: `Свинина, картопля, помідор чері, соус BBQ, перець чилі`,
             description: `Стейк із соковитого свинячого ошийка, обсмажений до золотистої скоринки, подається з хрусткою картоплею, ароматним соусом BBQ та запеченими томатами чері, які додають страві ніжної кислинки. Ідеальне поєднання смаків для справжніх гурманів`,
             zvd: 'room',
@@ -1481,10 +1481,10 @@ export const menuData = [
             id: 16,
             title: 'Арахіс 50г',
             price: '120 грн',
-            src: '',
+            src:require('../img/arahis.png'),
             text: '',
             description: ``,
-            zvd: 'room',
+            zvd: 'orangery',
           },
           {
             id: 15,
@@ -2140,9 +2140,9 @@ export const menuData = [
           {
             id: 9,
             title: 'Маренго рожеве напівсолодке (Україна) напівсол./рож. 0,75л',
-            price: '345 грн',
+            price: '480 грн',
             src: require('../img/mangor.webp'),
-            text: '200мл - 92 грн',
+            text: '200мл - 128 грн',
           },
           {
             id: 10,
@@ -2299,6 +2299,14 @@ export const menuData = [
             price: '0,5л - 90 грн',
             price2: '0,33л - 65 грн',
             src: require('../img/beloe.webp'),
+            text: ``,
+          },
+          {
+            id: 3,
+            title: 'Повна Діжка (Україна) кегове',
+            price: '0,5л - 90 грн',
+            price2: '0,33л - 65 грн',
+            src: require('../img/dizhka.png'),
             text: ``,
           },
           // {
