@@ -59,9 +59,9 @@ export default function ValentineHearts({
               opacity: h.opacity,
               animationDuration: `${h.duration}s`,
               animationDelay: `-${h.delay}s`,
-              ["--drift"]: `${h.drift}px`,
-              ["--rot"]: `${h.rotate}deg`,
-              ["--sway"]: `${h.sway}px`,
+              '--drift': `${h.drift}px`,
+'--rot': `${h.rotate}deg`,
+'--sway': `${h.sway}px`,
             }}
           >
             <svg viewBox="0 0 32 29.6" width="100%" height="100%">
