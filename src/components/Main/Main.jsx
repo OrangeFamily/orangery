@@ -9,6 +9,7 @@ import { List } from 'components/comp/List/List';
 import { Modal } from 'components/comp/Modal/Modal';
 import { menuData } from 'components/Menu/data/data';
 import s from './Main.module.scss';
+import ValentineHearts from 'components/comp/ValentineHearts';
 // import karaoke from './sorted_songs_by_artist.txt';
 
 const AnimatedAccordionContent = ({ children, isOpen }) => (
@@ -55,6 +56,7 @@ const Main = () => {
 
   return (
     <div className={s.main}>
+      <ValentineHearts count={10} />
       <Accordion type="multiple" collapsible className={s.accordion}>
         {menuData.map((category, categoryIndex) => (
           <AccordionItem

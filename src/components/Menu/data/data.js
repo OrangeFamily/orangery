@@ -3039,6 +3039,16 @@ Ease Foam`,
         subcategory: 'Авторські коктейлі',
         items: [
           {
+            id: 11,
+            title: 'What is love 150мл',
+            price: '200 грн',
+            text: `Лікер амарето ,просеко , персиковий сироп, яблучний сік`,
+            src: require('../img/Whatislove.jpg'),
+            description: ``,
+            isNew: true,
+            zvd: `orangery`,
+          },
+          {
             id: 1,
             title: 'Solar kiss 300мл',
             price: '265 грн',
