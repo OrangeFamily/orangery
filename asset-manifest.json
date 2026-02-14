@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orangery/static/css/main.53afcd7d.css",
-    "main.js": "/orangery/static/js/main.537048c7.js",
+    "main.js": "/orangery/static/js/main.e7981aec.js",
     "static/media/ribneFile.jpg": "/orangery/static/media/ribneFile.52a352801b16ceb2c18c.jpg",
     "static/media/grebenci.jpg": "/orangery/static/media/grebenci.a4f87375e4de608117d5.jpg",
     "static/media/saladZVosem.jpg": "/orangery/static/media/saladZVosem.cf29ee5a2603ce9013cd.jpg",
@@ -18,6 +18,7 @@
     "static/media/boulTunec.jpg": "/orangery/static/media/boulTunec.499c9593b4efe940cd0a.jpg",
     "static/media/filakrevetkaiapelsin.png": "/orangery/static/media/filakrevetkaiapelsin.65d3f02eede47efff2e8.png",
     "static/media/suocibulya.jpg": "/orangery/static/media/suocibulya.8f02f64a55de922deda4.jpg",
+    "static/media/sneckBord.jpg": "/orangery/static/media/sneckBord.9368d8f1d033d0998887.jpg",
     "static/media/bruskTomat.jpg": "/orangery/static/media/bruskTomat.df0c43740f5b42572d28.jpg",
     "static/media/setZapechen.jpg": "/orangery/static/media/setZapechen.64913da0c68078be5a74.jpg",
     "static/media/salatLosos.jpg": "/orangery/static/media/salatLosos.82425962959f15b1467d.jpg",
@@ -274,10 +275,10 @@
     "static/media/lemMalina.webp": "/orangery/static/media/lemMalina.057af86a3102fdcbe78a.webp",
     "index.html": "/orangery/index.html",
     "main.53afcd7d.css.map": "/orangery/static/css/main.53afcd7d.css.map",
-    "main.537048c7.js.map": "/orangery/static/js/main.537048c7.js.map"
+    "main.e7981aec.js.map": "/orangery/static/js/main.e7981aec.js.map"
   },
   "entrypoints": [
     "static/css/main.53afcd7d.css",
-    "static/js/main.537048c7.js"
+    "static/js/main.e7981aec.js"
   ]
 }
