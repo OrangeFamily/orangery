@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orangery/static/css/main.53afcd7d.css",
-    "main.js": "/orangery/static/js/main.e7981aec.js",
+    "main.js": "/orangery/static/js/main.2a47c167.js",
     "static/media/ribneFile.jpg": "/orangery/static/media/ribneFile.52a352801b16ceb2c18c.jpg",
     "static/media/grebenci.jpg": "/orangery/static/media/grebenci.a4f87375e4de608117d5.jpg",
     "static/media/saladZVosem.jpg": "/orangery/static/media/saladZVosem.cf29ee5a2603ce9013cd.jpg",
@@ -42,22 +42,16 @@
     "static/media/sunrise.jpg": "/orangery/static/media/sunrise.02e17c2b154c9427aba4.jpg",
     "static/media/meduza.jpg": "/orangery/static/media/meduza.b97901865494a88c759c.jpg",
     "static/media/mozg.jpg": "/orangery/static/media/mozg.e2721c2a1b44498972c1.jpg",
-    "static/media/Bellini.jpg": "/orangery/static/media/Bellini.c385fd381392e1b6516e.jpg",
     "static/media/AperolSpritz.jpg": "/orangery/static/media/AperolSpritz.eda0540b2a794f1dc321.jpg",
-    "static/media/StrawberryDaiquiri.jpg": "/orangery/static/media/StrawberryDaiquiri.4ac9b8550a28ca6ae87b.jpg",
     "static/media/saladFlou.png": "/orangery/static/media/saladFlou.c68b39f458be5793f4ef.png",
     "static/media/CucumberBoom.jpg": "/orangery/static/media/CucumberBoom.c76ce7cdd8d57c047f9b.jpg",
     "static/media/ChupaChups.jpg": "/orangery/static/media/ChupaChups.bbdabd9fa0f43ba6ed97.jpg",
     "static/media/orangereya.jpg": "/orangery/static/media/orangereya.f35785789cf485f5ed84.jpg",
     "static/media/Mojito.jpg": "/orangery/static/media/Mojito.23ca03d0861f6ece50f0.jpg",
     "static/media/Cucumberdeer.jpg": "/orangery/static/media/Cucumberdeer.c207ef33497102522e7b.jpg",
-    "static/media/Gingerpassion.jpg": "/orangery/static/media/Gingerpassion.626f42ea58df73ca30ec.jpg",
     "static/media/SpicyGinger.jpg": "/orangery/static/media/SpicyGinger.9e187d7679c46dd22245.jpg",
-    "static/media/StrawberryMargarita.jpg": "/orangery/static/media/StrawberryMargarita.47cbd38cc62491b7506a.jpg",
-    "static/media/PeachDaiquiri.jpg": "/orangery/static/media/PeachDaiquiri.d6300956d259c0c00d1d.jpg",
     "static/media/zapecheniyzlososem.jpg": "/orangery/static/media/zapecheniyzlososem.d52f45f03da502e3226a.jpg",
     "static/media/MaiTai.jpg": "/orangery/static/media/MaiTai.6ee738160db292fcc0b3.jpg",
-    "static/media/MartiniRoyal.jpg": "/orangery/static/media/MartiniRoyal.7305e8f0cdfb04323d78.jpg",
     "static/media/French75.jpg": "/orangery/static/media/French75.687294e2061ade31db82.jpg",
     "static/media/rolgreen.jpg": "/orangery/static/media/rolgreen.56e14104cc7f68c3da33.jpg",
     "static/media/CloverClub.jpg": "/orangery/static/media/CloverClub.69a73abbff0e3faec9f0.jpg",
@@ -70,7 +64,6 @@
     "static/media/Pryaniyrol.jpg": "/orangery/static/media/Pryaniyrol.f8d5ff0311fe15e0f515.jpg",
     "static/media/teksunr.jpg": "/orangery/static/media/teksunr.7f0f3c7428e28836ae36.jpg",
     "static/media/feya.jpg": "/orangery/static/media/feya.a482b76bcc0519e8eb1c.jpg",
-    "static/media/mimoza.jpg": "/orangery/static/media/mimoza.91841adfff5114ecbbae.jpg",
     "static/media/futlostemp.jpg": "/orangery/static/media/futlostemp.afa28b93c1d0c95221f0.jpg",
     "static/media/manstera.jpg": "/orangery/static/media/manstera.a406100be74f25c0bb1a.jpg",
     "static/media/orgazm.jpg": "/orangery/static/media/orgazm.a195a5882ad7f9c75863.jpg",
@@ -267,7 +260,6 @@
     "static/media/morshnon.webp": "/orangery/static/media/morshnon.1ee724932b9db95f8f00.webp",
     "static/media/saladLosos.webp": "/orangery/static/media/saladLosos.26e6cab16e90cb969560.webp",
     "static/media/gribniyKremSup.webp": "/orangery/static/media/gribniyKremSup.5d5ad8c3f29d277e2240.webp",
-    "static/media/lemImbMyata.webp": "/orangery/static/media/lemImbMyata.71114ba5c5e5a9f4cfd4.webp",
     "static/media/lenOgur.webp": "/orangery/static/media/lenOgur.71acdba2d571d84b6c81.webp",
     "static/media/lemCitr.webp": "/orangery/static/media/lemCitr.02b7c7c64d4264483989.webp",
     "static/media/lemPersik.webp": "/orangery/static/media/lemPersik.2e4583f0b7b794b75ba4.webp",
@@ -275,10 +267,10 @@
     "static/media/lemMalina.webp": "/orangery/static/media/lemMalina.057af86a3102fdcbe78a.webp",
     "index.html": "/orangery/index.html",
     "main.53afcd7d.css.map": "/orangery/static/css/main.53afcd7d.css.map",
-    "main.e7981aec.js.map": "/orangery/static/js/main.e7981aec.js.map"
+    "main.2a47c167.js.map": "/orangery/static/js/main.2a47c167.js.map"
   },
   "entrypoints": [
     "static/css/main.53afcd7d.css",
-    "static/js/main.e7981aec.js"
+    "static/js/main.2a47c167.js"
   ]
 }
