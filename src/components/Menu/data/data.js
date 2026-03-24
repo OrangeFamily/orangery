@@ -1989,20 +1989,20 @@ export const menuData = [
             src: require('../img/prossecoKeg.png'),
             text: '',
           },
-          {
-            id: 1,
-            title: 'Моет і Шандон Імперіаль (Франція) ігр.,брют біле 0,75л',
-            price: '2915 грн',
-            src: require('../img/moet.webp'),
-            text: ``,
-          },
-          {
-            id: 2,
-            title: 'Асті Мартіні (Італія) 0,75 л',
-            price: '950 грн',
-            src: require('../img/asti.webp'),
-            text: ``,
-          },
+          // {
+          //   id: 1,
+          //   title: 'Моет і Шандон Імперіаль (Франція) ігр.,брют біле 0,75л',
+          //   price: '2915 грн',
+          //   src: require('../img/moet.webp'),
+          //   text: ``,
+          // },
+          // {
+          //   id: 2,
+          //   title: 'Асті Мартіні (Італія) 0,75 л',
+          //   price: '950 грн',
+          //   src: require('../img/asti.webp'),
+          //   text: ``,
+          // },
           {
             id: 3,
             title:
@@ -2108,13 +2108,13 @@ export const menuData = [
             src: require('../img/setesollipino.webp'),
             text: '200мл - 176 грн',
           },
-          {
-            id: 7,
-            title: 'Сеттесолі Неро д’Авола (Італія)черв./сух. 0,75л',
-            price: '660 грн',
-            src: require('../img/setesollikr.webp'),
-            text: '200мл - 176 грн',
-          },
+          // {
+          //   id: 7,
+          //   title: 'Сеттесолі Неро д’Авола (Італія)черв./сух. 0,75л',
+          //   price: '660 грн',
+          //   src: require('../img/setesollikr.webp'),
+          //   text: '200мл - 176 грн',
+          // },
           {
             id: 8,
             title: 'Латініум Ріслінг (Німеччина) біл./напівсол. 0,75 л',
@@ -2151,13 +2151,13 @@ export const menuData = [
             src: require('../img/kampirosa.webp'),
             text: '200мл - 200 грн',
           },
-          {
-            id: 13,
-            title: 'бардоліно ессере Cesari (Італія) чер./сух. 0,75л',
-            price: '750 грн',
-            src: require('../img/bardolino.webp'),
-            text: '200мл - 200 грн',
-          },
+          // {
+          //   id: 13,
+          //   title: 'бардоліно ессере Cesari (Італія) чер./сух. 0,75л',
+          //   price: '750 грн',
+          //   src: require('../img/bardolino.webp'),
+          //   text: '200мл - 200 грн',
+          // },
           {
             id: 14,
             title: 'sant orsola (Італія) біл./напівсол. 0,75л',
